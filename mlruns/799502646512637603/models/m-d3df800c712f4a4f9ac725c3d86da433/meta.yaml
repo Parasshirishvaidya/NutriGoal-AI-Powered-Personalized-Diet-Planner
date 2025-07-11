@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/799502646512637603/models/m-d3df800c712f4a4f9ac725c3d86da433/artifacts
+creation_timestamp: 1752065312048
+experiment_id: '799502646512637603'
+last_updated_timestamp: 1752065316027
+model_id: m-d3df800c712f4a4f9ac725c3d86da433
+model_type: ''
+name: CatBoosting Regressor
+source_run_id: 7d352cd9c1ea43fab43ea714af4300dd
+status: 2
+status_message: null

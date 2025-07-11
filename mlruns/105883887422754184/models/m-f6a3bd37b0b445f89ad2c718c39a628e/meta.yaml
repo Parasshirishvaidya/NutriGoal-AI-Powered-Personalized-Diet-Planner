@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/105883887422754184/models/m-f6a3bd37b0b445f89ad2c718c39a628e/artifacts
+creation_timestamp: 1752234851905
+experiment_id: '105883887422754184'
+last_updated_timestamp: 1752234854774
+model_id: m-f6a3bd37b0b445f89ad2c718c39a628e
+model_type: ''
+name: K-Neighbors Regressor
+source_run_id: ebf32d11e7214afba45913f570580e6b
+status: 2
+status_message: null

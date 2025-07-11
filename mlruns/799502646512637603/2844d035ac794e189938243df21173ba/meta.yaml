@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/799502646512637603/2844d035ac794e189938243df21173ba/artifacts
+deleted_time: 1752234824838
+end_time: 1752065293166
+entry_point_name: ''
+experiment_id: '799502646512637603'
+lifecycle_stage: deleted
+run_id: 2844d035ac794e189938243df21173ba
+run_name: Ridge
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752065289600
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

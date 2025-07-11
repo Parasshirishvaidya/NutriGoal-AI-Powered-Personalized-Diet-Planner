@@ -1,0 +1,7 @@
+artifact_location: mlflow-artifacts:/925022800553919079
+creation_time: 1752064743668
+experiment_id: '925022800553919079'
+last_update_time: 1752064844436
+lifecycle_stage: deleted
+name: Diet_MatchScore_Regression_Models
+tags: {}

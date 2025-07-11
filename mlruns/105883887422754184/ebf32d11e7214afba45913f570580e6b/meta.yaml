@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/105883887422754184/ebf32d11e7214afba45913f570580e6b/artifacts
+end_time: 1752234854788
+entry_point_name: ''
+experiment_id: '105883887422754184'
+lifecycle_stage: active
+run_id: ebf32d11e7214afba45913f570580e6b
+run_name: traveling-kit-215
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752234851712
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

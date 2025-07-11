@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/105883887422754184/models/m-30446b6d38414f96a5f5d99f4f954da3/artifacts
+creation_timestamp: 1752065249176
+experiment_id: '105883887422754184'
+last_updated_timestamp: 1752065252333
+model_id: m-30446b6d38414f96a5f5d99f4f954da3
+model_type: ''
+name: AdaBoost Regressor
+source_run_id: 7e344603c6cc4368a19260f6e4690c5d
+status: 2
+status_message: null

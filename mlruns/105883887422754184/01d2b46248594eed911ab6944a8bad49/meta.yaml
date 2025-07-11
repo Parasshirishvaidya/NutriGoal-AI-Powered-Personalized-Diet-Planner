@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/105883887422754184/01d2b46248594eed911ab6944a8bad49/artifacts
+deleted_time: 1752234830189
+end_time: 1752064917028
+entry_point_name: ''
+experiment_id: '105883887422754184'
+lifecycle_stage: deleted
+run_id: 01d2b46248594eed911ab6944a8bad49
+run_name: CatBoosting Regressor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752064912315
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

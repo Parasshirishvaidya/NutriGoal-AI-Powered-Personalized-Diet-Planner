@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/105883887422754184/a10e177167804007bf4d5d40916e5f3a/artifacts
+end_time: 1752234872521
+entry_point_name: ''
+experiment_id: '105883887422754184'
+lifecycle_stage: active
+run_id: a10e177167804007bf4d5d40916e5f3a
+run_name: powerful-lamb-747
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752234867321
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

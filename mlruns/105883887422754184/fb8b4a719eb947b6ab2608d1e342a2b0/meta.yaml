@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/105883887422754184/fb8b4a719eb947b6ab2608d1e342a2b0/artifacts
+end_time: 1752234851653
+entry_point_name: ''
+experiment_id: '105883887422754184'
+lifecycle_stage: active
+run_id: fb8b4a719eb947b6ab2608d1e342a2b0
+run_name: adorable-gnat-752
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752234848650
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

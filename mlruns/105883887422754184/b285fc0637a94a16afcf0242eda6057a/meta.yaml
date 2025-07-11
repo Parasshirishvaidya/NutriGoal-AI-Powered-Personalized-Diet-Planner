@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/105883887422754184/b285fc0637a94a16afcf0242eda6057a/artifacts
+deleted_time: 1752065310778
+end_time: 1752065234036
+entry_point_name: ''
+experiment_id: '105883887422754184'
+lifecycle_stage: deleted
+run_id: b285fc0637a94a16afcf0242eda6057a
+run_name: gifted-yak-417
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752065230511
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

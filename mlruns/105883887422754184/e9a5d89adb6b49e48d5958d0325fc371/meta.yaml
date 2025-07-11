@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/105883887422754184/e9a5d89adb6b49e48d5958d0325fc371/artifacts
+deleted_time: 1752065310792
+end_time: 1752065226961
+entry_point_name: ''
+experiment_id: '105883887422754184'
+lifecycle_stage: deleted
+run_id: e9a5d89adb6b49e48d5958d0325fc371
+run_name: brawny-elk-504
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752065223238
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

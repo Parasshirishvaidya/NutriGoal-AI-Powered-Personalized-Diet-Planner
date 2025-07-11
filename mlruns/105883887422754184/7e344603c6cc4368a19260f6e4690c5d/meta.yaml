@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/105883887422754184/7e344603c6cc4368a19260f6e4690c5d/artifacts
+deleted_time: 1752065310774
+end_time: 1752065252350
+entry_point_name: ''
+experiment_id: '105883887422754184'
+lifecycle_stage: deleted
+run_id: 7e344603c6cc4368a19260f6e4690c5d
+run_name: glamorous-eel-871
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752065248866
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

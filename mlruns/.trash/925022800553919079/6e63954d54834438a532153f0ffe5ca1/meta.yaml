@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/925022800553919079/6e63954d54834438a532153f0ffe5ca1/artifacts
+deleted_time: 1752064844436
+end_time: 1752064776236
+entry_point_name: ''
+experiment_id: '925022800553919079'
+lifecycle_stage: deleted
+run_id: 6e63954d54834438a532153f0ffe5ca1
+run_name: Random Forest Regressor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752064771074
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

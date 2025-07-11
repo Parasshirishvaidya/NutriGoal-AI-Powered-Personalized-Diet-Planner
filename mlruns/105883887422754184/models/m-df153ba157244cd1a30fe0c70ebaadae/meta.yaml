@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/105883887422754184/models/m-df153ba157244cd1a30fe0c70ebaadae/artifacts
+creation_timestamp: 1752234855014
+experiment_id: '105883887422754184'
+last_updated_timestamp: 1752234857922
+model_id: m-df153ba157244cd1a30fe0c70ebaadae
+model_type: ''
+name: Decision Tree
+source_run_id: f7f26759f4ac4b0b8e766425f5253919
+status: 2
+status_message: null

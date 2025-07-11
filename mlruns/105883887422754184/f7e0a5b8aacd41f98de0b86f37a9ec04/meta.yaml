@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/105883887422754184/f7e0a5b8aacd41f98de0b86f37a9ec04/artifacts
+end_time: 1752234845490
+entry_point_name: ''
+experiment_id: '105883887422754184'
+lifecycle_stage: active
+run_id: f7e0a5b8aacd41f98de0b86f37a9ec04
+run_name: gentle-cow-107
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752234840261
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

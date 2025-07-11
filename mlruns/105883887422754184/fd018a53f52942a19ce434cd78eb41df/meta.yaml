@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/105883887422754184/fd018a53f52942a19ce434cd78eb41df/artifacts
+deleted_time: 1752065310797
+end_time: 1752065230449
+entry_point_name: ''
+experiment_id: '105883887422754184'
+lifecycle_stage: deleted
+run_id: fd018a53f52942a19ce434cd78eb41df
+run_name: enchanting-asp-964
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752065226988
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

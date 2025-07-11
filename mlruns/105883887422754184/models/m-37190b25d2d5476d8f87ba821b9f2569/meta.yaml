@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/105883887422754184/models/m-37190b25d2d5476d8f87ba821b9f2569/artifacts
+creation_timestamp: 1752065219661
+experiment_id: '105883887422754184'
+last_updated_timestamp: 1752065223130
+model_id: m-37190b25d2d5476d8f87ba821b9f2569
+model_type: ''
+name: Lasso
+source_run_id: fe0a319afdd24233838557c176a757a0
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/105883887422754184/6148964d384b4d8d9c997c5fa47aff51/artifacts
+end_time: 1752234848592
+entry_point_name: ''
+experiment_id: '105883887422754184'
+lifecycle_stage: active
+run_id: 6148964d384b4d8d9c997c5fa47aff51
+run_name: clumsy-grub-237
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752234845549
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

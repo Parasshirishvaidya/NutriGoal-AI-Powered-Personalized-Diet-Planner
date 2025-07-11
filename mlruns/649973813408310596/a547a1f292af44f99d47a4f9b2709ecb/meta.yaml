@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/649973813408310596/a547a1f292af44f99d47a4f9b2709ecb/artifacts
+deleted_time: 1752234818756
+end_time: 1752220115507
+entry_point_name: ''
+experiment_id: '649973813408310596'
+lifecycle_stage: deleted
+run_id: a547a1f292af44f99d47a4f9b2709ecb
+run_name: KNeighborsRegressor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752220098090
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

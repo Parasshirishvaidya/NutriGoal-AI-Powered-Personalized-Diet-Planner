@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/925022800553919079/40d0a0944bff4b2e88f683c0d26e44e4/artifacts
+deleted_time: 1752064844436
+end_time: 1752064770997
+entry_point_name: ''
+experiment_id: '925022800553919079'
+lifecycle_stage: deleted
+run_id: 40d0a0944bff4b2e88f683c0d26e44e4
+run_name: Decision Tree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752064766744
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

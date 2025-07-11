@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/799502646512637603/9e3f9c81aae145c2a5b2eb5d9bfc0135/artifacts
+deleted_time: 1752234824846
+end_time: 1752065285864
+entry_point_name: ''
+experiment_id: '799502646512637603'
+lifecycle_stage: deleted
+run_id: 9e3f9c81aae145c2a5b2eb5d9bfc0135
+run_name: Linear Regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752065282512
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

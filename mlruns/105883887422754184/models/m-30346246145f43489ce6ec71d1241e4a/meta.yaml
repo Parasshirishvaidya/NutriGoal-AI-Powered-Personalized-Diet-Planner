@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/105883887422754184/models/m-30346246145f43489ce6ec71d1241e4a/artifacts
+creation_timestamp: 1752234862473
+experiment_id: '105883887422754184'
+last_updated_timestamp: 1752234867245
+model_id: m-30346246145f43489ce6ec71d1241e4a
+model_type: ''
+name: XGBRegressor
+source_run_id: 9bcec8a2446f4d7393672b566413e392
+status: 2
+status_message: null

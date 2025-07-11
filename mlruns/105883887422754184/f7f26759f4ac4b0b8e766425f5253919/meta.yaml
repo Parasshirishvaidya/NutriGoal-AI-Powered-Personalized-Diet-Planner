@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/105883887422754184/f7f26759f4ac4b0b8e766425f5253919/artifacts
+end_time: 1752234857936
+entry_point_name: ''
+experiment_id: '105883887422754184'
+lifecycle_stage: active
+run_id: f7f26759f4ac4b0b8e766425f5253919
+run_name: painted-stoat-239
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752234854844
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

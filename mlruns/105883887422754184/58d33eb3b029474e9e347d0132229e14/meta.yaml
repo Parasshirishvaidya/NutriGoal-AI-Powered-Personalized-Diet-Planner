@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/105883887422754184/58d33eb3b029474e9e347d0132229e14/artifacts
+deleted_time: 1752065310777
+end_time: 1752065243365
+entry_point_name: ''
+experiment_id: '105883887422754184'
+lifecycle_stage: deleted
+run_id: 58d33eb3b029474e9e347d0132229e14
+run_name: zealous-midge-55
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752065238543
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

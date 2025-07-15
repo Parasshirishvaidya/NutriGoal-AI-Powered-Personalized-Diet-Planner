@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/105883887422754184/91f2e113f1364a5e84bcb087f42c420e/artifacts
+deleted_time: 1752238445083
 end_time: 1752234876060
 entry_point_name: ''
 experiment_id: '105883887422754184'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 91f2e113f1364a5e84bcb087f42c420e
 run_name: hilarious-gnat-730
 source_name: ''

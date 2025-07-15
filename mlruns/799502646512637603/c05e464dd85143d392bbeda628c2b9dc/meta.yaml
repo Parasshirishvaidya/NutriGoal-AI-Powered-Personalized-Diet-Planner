@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/799502646512637603/c05e464dd85143d392bbeda628c2b9dc/artifacts
+deleted_time: 1752238439132
 end_time: 1752234888969
 entry_point_name: ''
 experiment_id: '799502646512637603'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c05e464dd85143d392bbeda628c2b9dc
 run_name: K-Neighbors Regressor
 source_name: ''

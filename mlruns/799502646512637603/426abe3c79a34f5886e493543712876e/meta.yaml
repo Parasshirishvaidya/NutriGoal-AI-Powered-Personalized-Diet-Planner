@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/799502646512637603/426abe3c79a34f5886e493543712876e/artifacts
+end_time: 1752238530188
+entry_point_name: ''
+experiment_id: '799502646512637603'
+lifecycle_stage: active
+run_id: 426abe3c79a34f5886e493543712876e
+run_name: AdaBoost Regressor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752238526617
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

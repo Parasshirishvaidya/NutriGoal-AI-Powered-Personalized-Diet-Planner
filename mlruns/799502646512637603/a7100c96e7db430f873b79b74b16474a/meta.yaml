@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/799502646512637603/a7100c96e7db430f873b79b74b16474a/artifacts
+end_time: 1752238521718
+entry_point_name: ''
+experiment_id: '799502646512637603'
+lifecycle_stage: active
+run_id: a7100c96e7db430f873b79b74b16474a
+run_name: XGBRegressor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752238517668
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

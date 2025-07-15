@@ -313,9 +313,9 @@
 311,barfi or burfi,"barfi or burfi, indian dessert",40.46,5.41,11.34,0.4,285.54,general,veg
 312,trifle,trifle,23.24,3.53,7.1,0.4,170.98,general,veg
 313,tiramisu,tiramisu,29.59,5.9,24.29,0.4,360.57,general,veg
-314,custard pudding,"custard pudding, flavor other than chocolate, baby food, ns as to strained or junior",16.79,1.68,1.49,0.1,87.28999999999999,weight_loss,non_veg
+314,custard pudding,"custard pudding, flavor other than chocolate, baby food, ns as to strained or junior",16.79,1.68,1.49,0.1,87.28999999999999,weight_loss,veg
 315,custard pudding,"custard pudding, baby food, flavor other than chocolate, strained",16.0,1.6,2.0,0.0,88.4,weight_loss,veg
-316,custard pudding,"custard pudding, baby food, flavor other than chocolate, junior",17.58,1.76,0.98,0.2,86.18,weight_loss,non_veg
+316,custard pudding,"custard pudding, baby food, flavor other than chocolate, junior",17.58,1.76,0.98,0.2,86.18,weight_loss,veg
 317,white sauce or gravy,white sauce or gravy,9.19,3.81,9.96,0.2,141.64000000000001,general,veg
 318,cheese,"cheese, nfs",5.0,20.42,29.62,0.0,368.26,gain,veg
 319,cheese,"cheese, blue or roquefort",2.34,21.4,28.74,0.0,353.61999999999995,gain,veg
@@ -329,7 +329,7 @@
 327,cheese,"cheese, colby jack",1.62,24.12,31.2,0.0,383.76,gain,veg
 328,cheese,"cheese, feta",3.88,14.21,21.49,0.0,265.77,general,veg
 329,cheese,"cheese, fontina",1.55,25.6,31.14,0.0,388.86,gain,veg
-330,cheese,"cheese, goat",0.12,21.58,29.84,0.0,355.36,gain,non_veg
+330,cheese,"cheese, goat",0.12,21.58,29.84,0.0,355.36,gain,veg
 331,cheese,"cheese, gouda or edam",2.22,24.94,27.44,0.0,355.6,gain,veg
 332,cheese,"cheese, gruyere",0.36,29.81,32.34,0.0,411.74000000000007,gain,veg
 333,cheese,"cheese, limburger",0.49,20.05,27.25,0.0,327.40999999999997,gain,veg
@@ -474,9 +474,9 @@
 472,meat,"meat, baby food, ns as to type, ns as to strained or junior",1.26,12.86,5.21,0.0,103.37,general,non_veg
 473,meat sticks,"meat sticks, baby food, ns as to type of meat",1.1,13.4,14.6,0.2,189.4,maintenance,non_veg
 474,ground meat,"ground meat, nfs",0.0,25.54,16.82,0.0,253.54,gain,non_veg
-475,steak,"steak, ns as to type of meat, cooked, ns as to fat eaten",0.0,29.23,6.75,0.0,177.67000000000002,general,non_veg
-476,steak,"steak, ns as to type of meat, cooked, lean and fat eaten",0.0,27.06,13.44,0.0,229.2,general,non_veg
-477,steak,"steak, ns as to type of meat, cooked, lean only eaten",0.0,29.23,6.75,0.0,177.67000000000002,general,non_veg
+475,steak,"steak, ns as to type of meat, cooked, ns as to fat eaten",0.0,29.23,6.75,0.0,177.67000000000002,general,veg
+476,steak,"steak, ns as to type of meat, cooked, lean and fat eaten",0.0,27.06,13.44,0.0,229.2,general,veg
+477,steak,"steak, ns as to type of meat, cooked, lean only eaten",0.0,29.23,6.75,0.0,177.67000000000002,general,veg
 478,pork,"pork, ns as to cut, cooked, ns as to fat eaten",0.0,27.69,10.5,0.0,205.26,general,non_veg
 479,pork,"pork, ns as to cut, cooked, lean and fat eaten",0.0,27.69,10.5,0.0,205.26,general,non_veg
 480,pork,"pork, ns as to cut, cooked, lean only eaten",0.09,29.13,4.55,0.0,157.82999999999998,general,non_veg
@@ -569,8 +569,8 @@
 567,pork roast,"pork roast, smoked or cured, cooked, lean only eaten",0.0,25.05,5.5,0.0,149.7,general,non_veg
 568,pork roll,"pork roll, cured, fried",4.49,13.07,28.39,0.0,325.75,general,non_veg
 569,canadian bacon,"canadian bacon, cooked",1.8,28.31,2.78,0.0,145.46,lean_protein,non_veg
-570,bacon,"bacon, ns as to type of meat, cooked",1.7,33.92,35.09,0.0,458.2900000000001,gain,non_veg
-571,bacon,"bacon, ns as to type of meat, reduced sodium, cooked",4.8,13.33,20.0,0.0,252.51999999999998,general,non_veg
+570,bacon,"bacon, ns as to type of meat, cooked",1.7,33.92,35.09,0.0,458.2900000000001,gain,veg
+571,bacon,"bacon, ns as to type of meat, reduced sodium, cooked",4.8,13.33,20.0,0.0,252.51999999999998,general,veg
 572,pork bacon,"pork bacon, ns as to fresh, smoked or cured, cooked",1.7,33.92,35.09,0.0,458.2900000000001,gain,non_veg
 573,pork bacon,"pork bacon, ns as to fresh, smoked or cured, reduced sodium, cooked",1.43,37.04,41.78,0.0,529.9,gain,non_veg
 574,pork bacon,"pork bacon, smoked or cured, cooked",1.7,33.92,35.09,0.0,458.2900000000001,gain,non_veg
@@ -909,7 +909,7 @@
 907,turkey stick,"turkey stick, baby food",1.4,13.7,14.2,0.2,188.2,maintenance,non_veg
 908,chicken liver,"chicken liver, braised",0.86,24.26,6.46,0.0,158.62,lean_protein,non_veg
 909,chicken liver,"chicken liver, fried",6.41,19.98,8.66,0.2,183.5,maintenance,non_veg
-910,liver paste or pate,"liver paste or pate, chicken",6.55,13.45,13.1,0.0,197.89999999999998,maintenance,non_veg
+910,liver paste or pate,"liver paste or pate, chicken",6.55,13.45,13.1,0.0,197.89999999999998,maintenance,veg
 911,heart,"heart, cooked",0.15,28.24,4.69,0.0,155.76999999999998,general,veg
 912,kidney,"kidney, cooked",0.0,27.04,4.61,0.0,149.65,lean_protein,non_veg
 913,sweetbreads,"sweetbreads, cooked",0.0,22.48,3.08,0.0,117.64,lean_protein,veg
@@ -933,15 +933,15 @@
 931,bratwurst,bratwurst,2.85,13.72,29.18,0.0,328.9,general,veg
 932,bratwurst,"bratwurst, with cheese",2.94,14.16,29.44,0.0,333.36,general,veg
 933,bologna,"bologna, nfs",6.31,10.34,23.77,0.0,280.53,general,veg
-934,bologna,"bologna, made from any kind of meat, reduced fat",5.2,11.8,14.8,0.0,201.20000000000002,maintenance,non_veg
-935,bologna,"bologna, made from any kind of meat, reduced sodium",6.31,10.34,23.77,0.0,280.53,general,non_veg
-936,bologna,"bologna, made from any kind of meat, reduced fat and reduced sodium",5.2,11.8,14.8,0.0,201.20000000000002,maintenance,non_veg
+934,bologna,"bologna, made from any kind of meat, reduced fat",5.2,11.8,14.8,0.0,201.20000000000002,maintenance,veg
+935,bologna,"bologna, made from any kind of meat, reduced sodium",6.31,10.34,23.77,0.0,280.53,general,veg
+936,bologna,"bologna, made from any kind of meat, reduced fat and reduced sodium",5.2,11.8,14.8,0.0,201.20000000000002,maintenance,veg
 937,chorizo,chorizo,2.63,19.3,28.1,0.0,340.62,gain,veg
 938,head cheese,head cheese,0.0,13.83,10.9,0.0,153.42000000000002,maintenance,veg
 939,knockwurst,knockwurst,3.2,11.1,27.7,0.0,306.5,general,veg
 940,mortadella,mortadella,3.05,16.37,25.39,0.0,306.19,gain,veg
 941,pastrami,"pastrami, nfs",0.36,21.8,5.82,0.0,141.02,general,veg
-942,pastrami,"pastrami, made from any kind of meat, reduced fat",0.64,18.62,3.69,0.0,110.25,lean_protein,non_veg
+942,pastrami,"pastrami, made from any kind of meat, reduced fat",0.64,18.62,3.69,0.0,110.25,lean_protein,veg
 943,pepperoni,"pepperoni, nfs",1.18,19.25,46.28,0.0,498.24,gain,veg
 944,pepperoni,"pepperoni, reduced fat",0.72,21.07,31.65,0.0,372.01,gain,veg
 945,pepperoni,"pepperoni, reduced sodium",1.18,19.25,46.28,0.0,498.24,gain,veg
@@ -953,8 +953,8 @@
 951,pork sausage,"pork sausage, reduced sodium",13.25,19.93,11.13,0.0,232.89,maintenance,non_veg
 952,pork sausage rice links,pork sausage rice links,0.15,20.94,20.32,0.0,267.24,gain,non_veg
 953,salami,"salami, nfs",0.72,21.07,31.65,0.0,372.01,gain,veg
-954,salami,"salami, made from any type of meat, reduced fat",1.55,19.2,9.21,0.1,165.89000000000001,maintenance,non_veg
-955,salami,"salami, made from any type of meat, reduced sodium",0.72,21.07,31.65,0.0,372.01,gain,non_veg
+954,salami,"salami, made from any type of meat, reduced fat",1.55,19.2,9.21,0.1,165.89000000000001,maintenance,veg
+955,salami,"salami, made from any type of meat, reduced sodium",0.72,21.07,31.65,0.0,372.01,gain,veg
 956,scrapple,"scrapple, cooked",14.96,8.57,14.76,0.3,226.96,maintenance,veg
 957,thuringer,thuringer,3.33,17.45,30.43,0.0,356.99,gain,veg
 958,turkey or chicken sausage,turkey or chicken sausage,1.09,19.65,12.24,0.0,193.12,maintenance,non_veg
@@ -1324,7 +1324,7 @@
 1322,octopus,"octopus, dried, boiled",4.38,29.69,2.07,0.0,154.91,general,non_veg
 1323,octopus,"octopus, smoked",4.4,29.82,2.08,0.0,155.6,general,non_veg
 1324,roe,"roe, shad, cooked",1.93,27.29,11.62,0.0,221.45999999999998,general,veg
-1325,roe,"roe, herring",1.5,22.32,6.42,0.0,153.06,general,non_veg
+1325,roe,"roe, herring",1.5,22.32,6.42,0.0,153.06,general,veg
 1326,roe,"roe, sturgeon",4.0,24.6,17.9,0.0,275.5,gain,veg
 1327,squid,"squid, raw",3.08,15.58,1.38,0.0,87.06,lean_protein,non_veg
 1328,squid,"squid, baked or broiled, fat added",3.76,18.57,5.33,0.0,137.29,general,non_veg
@@ -1437,7 +1437,7 @@
 1435,frankfurters or hot dogs with tomato-based sauce,frankfurters or hot dogs with tomato-based sauce,3.71,8.94,20.64,0.4,236.35999999999999,general,veg
 1436,pork with chili and tomatoes,pork with chili and tomatoes,2.68,11.64,3.99,0.9,93.19,weight_loss,non_veg
 1437,stewed pork,"stewed pork, puerto rican style",2.77,17.92,12.69,0.7,196.97,maintenance,non_veg
-1438,chili con carne with beans,"chili con carne with beans, made with pork",7.2,8.07,5.12,2.4,107.16,general,non_veg
+1438,chili con carne with beans,"chili con carne with beans, made with pork",7.2,8.07,5.12,2.4,107.16,general,veg
 1439,lamb or mutton with gravy,lamb or mutton with gravy,1.58,17.29,15.37,0.0,213.80999999999997,general,veg
 1440,lamb or mutton goulash,lamb or mutton goulash,3.1,13.07,6.38,0.4,122.10000000000001,general,veg
 1441,stewed goat,"stewed goat, puerto rican style",1.99,22.31,18.08,0.5,259.91999999999996,gain,non_veg
@@ -1603,7 +1603,7 @@
 1601,stewed salmon,"stewed salmon, puerto rican style",8.47,12.02,7.02,1.3,145.14,general,non_veg
 1602,meat loaf,"meat loaf, ns as to type of meat",7.19,17.5,10.98,0.4,197.58,maintenance,non_veg
 1603,meatballs,"meatballs, with breading, ns as to type of meat, with gravy",6.28,12.22,7.5,0.4,141.5,general,non_veg
-1604,hash,"hash, ns as to type of meat",9.27,8.73,10.24,1.1,164.16,maintenance,non_veg
+1604,hash,"hash, ns as to type of meat",9.27,8.73,10.24,1.1,164.16,maintenance,veg
 1605,vienna sausages stewed with potatoes,"vienna sausages stewed with potatoes, puerto rican style",13.07,5.08,16.36,1.7,219.84,general,veg
 1606,liver dumpling,liver dumpling,12.78,23.11,15.48,0.7,282.88,gain,veg
 1607,breaded brains,"breaded brains, puerto rican style",17.35,10.14,14.72,0.5,242.44000000000003,maintenance,veg
@@ -1716,10 +1716,10 @@
 1714,stew,"stew, nfs",8.24,5.23,3.98,1.2,89.7,weight_loss,veg
 1715,goulash,"goulash, nfs",8.7,15.31,7.4,0.9,162.64,maintenance,veg
 1716,meat pie,"meat pie, nfs",19.21,5.11,11.85,1.1,203.93,general,non_veg
-1717,chow mein or chop suey,"chow mein or chop suey, ns as to type of meat, with noodles",11.15,9.91,5.43,1.5,133.11,general,non_veg
+1717,chow mein or chop suey,"chow mein or chop suey, ns as to type of meat, with noodles",11.15,9.91,5.43,1.5,133.11,general,veg
 1718,paella,"paella, nfs",15.79,9.54,7.17,0.6,165.85,maintenance,veg
 1719,brunswick stew,brunswick stew,7.32,11.26,5.03,1.2,119.59,general,veg
-1720,chow mein or chop suey,"chow mein or chop suey, various types of meat, with noodles",11.16,10.36,5.57,1.5,136.21,general,non_veg
+1720,chow mein or chop suey,"chow mein or chop suey, various types of meat, with noodles",11.16,10.36,5.57,1.5,136.21,general,veg
 1721,stewed variety meats,"stewed variety meats, mostly liver, puerto rican style",5.74,15.78,2.49,1.0,108.49000000000001,lean_protein,non_veg
 1722,stewed tripe,"stewed tripe, with potatoes, puerto rican style",9.45,8.57,4.07,1.7,108.71000000000001,weight_loss,veg
 1723,gumbo with rice,gumbo with rice,6.54,8.16,3.43,0.9,89.67,weight_loss,veg
@@ -1852,11 +1852,11 @@
 1850,lobster with sauce,"lobster with sauce, puerto rican style",3.96,10.76,10.56,1.0,153.92000000000002,maintenance,non_veg
 1851,octopus salad,"octopus salad, puerto rican style",5.56,9.67,11.95,1.0,168.47,maintenance,non_veg
 1852,codfish salad,"codfish salad, puerto rican style, serenata",2.81,6.61,15.94,0.7,181.14000000000001,general,non_veg
-1853,chow mein or chop suey,"chow mein or chop suey, ns as to type of meat, no noodles",3.84,9.78,3.23,0.8,83.55,weight_loss,non_veg
+1853,chow mein or chop suey,"chow mein or chop suey, ns as to type of meat, no noodles",3.84,9.78,3.23,0.8,83.55,weight_loss,veg
 1854,lau lau,lau lau,0.0,15.25,8.32,0.0,135.88,general,veg
-1855,julienne salad,"julienne salad, meat, cheese, eggs, vegetables, no dressing",2.57,10.99,6.31,0.7,111.03,general,non_veg
+1855,julienne salad,"julienne salad, meat, cheese, eggs, vegetables, no dressing",2.57,10.99,6.31,0.7,111.03,general,veg
 1856,antipasto with ham,"antipasto with ham, fish, cheese, vegetables",3.88,11.62,10.69,1.1,158.20999999999998,maintenance,non_veg
-1857,livers,"livers, chicken, chopped, with eggs and onion",2.87,12.89,17.69,0.4,222.25,general,non_veg
+1857,livers,"livers, chicken, chopped, with eggs and onion",2.87,12.89,17.69,0.4,222.25,general,veg
 1858,stewed chitterlings,"stewed chitterlings, puerto rican style",3.82,8.4,18.51,1.0,215.47,general,veg
 1859,stewed gizzards,"stewed gizzards, puerto rican style",4.4,20.25,8.68,1.1,176.72,general,non_veg
 1860,gumbo,"gumbo, no rice",4.02,8.53,3.67,0.9,83.22999999999999,weight_loss,veg
@@ -2011,8 +2011,8 @@
 2009,luncheon meat sandwich,"luncheon meat sandwich, nfs, with spread",22.91,9.12,2.53,1.3,150.89000000000001,general,non_veg
 2010,bologna sandwich,"bologna sandwich, with spread",33.02,9.28,13.7,1.4,292.5,maintenance,veg
 2011,bologna and cheese sandwich,"bologna and cheese sandwich, with spread",27.18,10.93,15.96,1.1,296.08000000000004,general,veg
-2012,corn dog,"corn dog, frankfurter or hot dog with cornbread coating",26.96,8.57,12.02,1.0,250.3,maintenance,non_veg
-2013,pig in a blanket,"pig in a blanket, frankfurter or hot dog wrapped in dough",19.32,11.83,21.83,0.7,321.06999999999994,general,non_veg
+2012,corn dog,"corn dog, frankfurter or hot dog with cornbread coating",26.96,8.57,12.02,1.0,250.3,maintenance,veg
+2013,pig in a blanket,"pig in a blanket, frankfurter or hot dog wrapped in dough",19.32,11.83,21.83,0.7,321.06999999999994,general,veg
 2014,puerto rican sandwich,puerto rican sandwich,31.86,10.7,17.98,1.1,332.06,general,veg
 2015,pepperoni and salami submarine sandwich,"pepperoni and salami submarine sandwich, with lettuce, tomato and spread",19.34,7.39,13.34,1.1,226.98000000000002,general,veg
 2016,salami sandwich,"salami sandwich, with spread",31.36,12.67,16.15,1.5,321.47,general,veg
@@ -2240,7 +2240,7 @@
 2238,egg,"egg, whole, fried with margarine",0.72,11.72,13.11,0.0,167.75,maintenance,veg
 2239,egg,"egg, whole, fried with oil",0.67,11.7,15.39,0.0,187.98999999999998,general,veg
 2240,egg,"egg, whole, fried with butter",0.68,11.76,14.15,0.0,177.11,maintenance,veg
-2241,egg,"egg, whole, fried with animal fat or meat drippings",0.67,11.85,14.88,0.0,184.0,maintenance,non_veg
+2241,egg,"egg, whole, fried with animal fat or meat drippings",0.67,11.85,14.88,0.0,184.0,maintenance,veg
 2242,egg,"egg, whole, fried with cooking spray",0.92,12.4,10.16,0.0,144.72,general,veg
 2243,egg,"egg, whole, fried, ns as to fat type",0.68,11.72,14.56,0.0,180.64,maintenance,veg
 2244,egg,"egg, whole, fried, from fast food / restaurant",0.67,11.7,15.39,0.0,187.98999999999998,general,veg
@@ -2272,7 +2272,7 @@
 2270,egg salad,"egg salad, made with light italian dressing",2.19,10.16,12.38,0.0,160.82,maintenance,veg
 2271,egg salad,"egg salad, made with any type of fat free dressing",4.29,9.8,8.82,0.4,135.74,general,veg
 2272,huevos rancheros,huevos rancheros,8.76,6.82,6.54,1.6,121.18,general,veg
-2273,egg casserole with bread,"egg casserole with bread, cheese, milk and meat",10.18,11.47,9.6,0.4,173.0,maintenance,non_veg
+2273,egg casserole with bread,"egg casserole with bread, cheese, milk and meat",10.18,11.47,9.6,0.4,173.0,maintenance,veg
 2274,egg foo yung,"egg foo yung, nfs",5.09,11.76,5.97,0.3,121.13,general,veg
 2275,chicken egg foo yung,chicken egg foo yung,4.68,12.86,7.18,0.3,134.78,general,non_veg
 2276,pork egg foo yung,pork egg foo yung,4.68,13.36,8.06,0.3,144.7,general,non_veg
@@ -2284,7 +2284,7 @@
 2282,egg omelet or scrambled egg,"egg omelet or scrambled egg, made with margarine",0.72,11.72,13.11,0.0,167.75,maintenance,veg
 2283,egg omelet or scrambled egg,"egg omelet or scrambled egg, made with oil",0.67,11.7,15.39,0.0,187.98999999999998,general,veg
 2284,egg omelet or scrambled egg,"egg omelet or scrambled egg, made with butter",0.68,11.76,14.15,0.0,177.11,maintenance,veg
-2285,egg omelet or scrambled egg,"egg omelet or scrambled egg, made with animal fat or meat drippings",0.67,11.85,14.88,0.0,184.0,maintenance,non_veg
+2285,egg omelet or scrambled egg,"egg omelet or scrambled egg, made with animal fat or meat drippings",0.67,11.85,14.88,0.0,184.0,maintenance,veg
 2286,egg omelet or scrambled egg,"egg omelet or scrambled egg, made with cooking spray",0.92,12.4,10.16,0.0,144.72,general,veg
 2287,egg omelet or scrambled egg,"egg omelet or scrambled egg, ns as to fat type",0.68,11.72,14.56,0.0,180.64,maintenance,veg
 2288,egg omelet or scrambled egg,"egg omelet or scrambled egg, no added fat",0.72,12.52,9.48,0.0,138.28,general,veg
@@ -2292,25 +2292,25 @@
 2290,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, made with margarine",1.16,12.82,15.05,0.0,191.37,general,veg
 2291,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, made with oil",1.12,12.82,17.05,0.0,209.21000000000004,general,veg
 2292,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, made with butter",1.12,12.86,15.97,0.0,199.65000000000003,general,veg
-2293,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, made with animal fat or meat drippings",1.12,12.94,16.6,0.0,205.64,general,non_veg
+2293,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, made with animal fat or meat drippings",1.12,12.94,16.6,0.0,205.64,general,veg
 2294,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, made with cooking spray",1.35,13.48,12.58,0.0,172.54,maintenance,veg
 2295,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, no added fat",1.19,13.59,12.01,0.0,167.21,maintenance,veg
-2296,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, ns as to fat",0.8,12.84,14.97,0.0,189.29000000000002,maintenance,non_veg
-2297,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, made with margarine",0.83,12.83,13.69,0.0,177.85,maintenance,non_veg
-2298,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, made with oil",0.79,12.82,15.69,0.0,195.65,general,non_veg
-2299,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, made with butter",0.79,12.87,14.61,0.0,186.13,maintenance,non_veg
-2300,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, made with animal fat or meat drippings",0.79,12.95,15.24,0.0,192.12,general,non_veg
-2301,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, made with cooking spray",1.0,13.49,11.16,0.0,158.4,maintenance,non_veg
-2302,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, ns as to fat type",0.8,12.84,14.97,0.0,189.29000000000002,maintenance,non_veg
-2303,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, no added fat",0.83,13.6,10.57,0.0,152.85,maintenance,non_veg
-2304,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, ns as to fat",1.16,13.44,16.44,0.0,206.36,general,non_veg
-2305,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, made with margarine",1.2,13.43,15.26,0.0,195.86,general,non_veg
-2306,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, made with oil",1.16,13.42,17.11,0.0,212.31,general,non_veg
-2307,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, made with butter",1.16,13.46,16.11,0.0,203.47000000000003,general,non_veg
-2308,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, made with animal fat or meat drippings",1.16,13.54,16.7,0.0,209.09999999999997,general,non_veg
-2309,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, made with cooking spray",1.37,14.06,13.0,0.0,178.72,maintenance,non_veg
-2310,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, ns as to fat type",1.16,13.44,16.44,0.0,206.36,general,non_veg
-2311,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, no added fat",1.22,14.17,12.48,0.0,173.88,maintenance,non_veg
+2296,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, ns as to fat",0.8,12.84,14.97,0.0,189.29000000000002,maintenance,veg
+2297,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, made with margarine",0.83,12.83,13.69,0.0,177.85,maintenance,veg
+2298,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, made with oil",0.79,12.82,15.69,0.0,195.65,general,veg
+2299,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, made with butter",0.79,12.87,14.61,0.0,186.13,maintenance,veg
+2300,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, made with animal fat or meat drippings",0.79,12.95,15.24,0.0,192.12,general,veg
+2301,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, made with cooking spray",1.0,13.49,11.16,0.0,158.4,maintenance,veg
+2302,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, ns as to fat type",0.8,12.84,14.97,0.0,189.29000000000002,maintenance,veg
+2303,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, no added fat",0.83,13.6,10.57,0.0,152.85,maintenance,veg
+2304,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, ns as to fat",1.16,13.44,16.44,0.0,206.36,general,veg
+2305,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, made with margarine",1.2,13.43,15.26,0.0,195.86,general,veg
+2306,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, made with oil",1.16,13.42,17.11,0.0,212.31,general,veg
+2307,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, made with butter",1.16,13.46,16.11,0.0,203.47000000000003,general,veg
+2308,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, made with animal fat or meat drippings",1.16,13.54,16.7,0.0,209.09999999999997,general,veg
+2309,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, made with cooking spray",1.37,14.06,13.0,0.0,178.72,maintenance,veg
+2310,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, ns as to fat type",1.16,13.44,16.44,0.0,206.36,general,veg
+2311,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and meat, no added fat",1.22,14.17,12.48,0.0,173.88,maintenance,veg
 2312,egg omelet or scrambled egg,"egg omelet or scrambled egg, with tomatoes, fat added",1.27,10.42,12.8,0.2,161.96,maintenance,veg
 2313,egg omelet or scrambled egg,"egg omelet or scrambled egg, with tomatoes, no added fat",1.34,11.04,8.28,0.2,124.03999999999999,general,veg
 2314,egg omelet or scrambled egg,"egg omelet or scrambled egg, with tomatoes, ns as to fat",1.27,10.42,12.8,0.2,161.96,maintenance,veg
@@ -2335,37 +2335,37 @@
 2333,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and vegetables other than dark green and/or tomatoes, fat added",1.53,11.81,14.58,0.1,184.57999999999998,maintenance,veg
 2334,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and vegetables other than dark green and/or tomatoes, no added fat",1.6,12.43,10.67,0.2,152.15,maintenance,veg
 2335,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese and vegetables other than dark green and/or tomatoes, ns as to fat",1.53,11.81,14.58,0.1,184.57999999999998,maintenance,veg
-2336,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and tomatoes, fat added",1.3,11.21,13.19,0.2,168.75,maintenance,non_veg
-2337,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and tomatoes, no added fat",1.36,11.82,9.04,0.2,134.07999999999998,general,non_veg
-2338,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and tomatoes, ns as to fat",1.3,11.21,13.19,0.2,168.75,maintenance,non_veg
-2339,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and dark-green vegetables, fat added",1.28,11.42,13.2,0.3,169.6,maintenance,non_veg
-2340,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and dark-green vegetables, no added fat",1.35,12.04,9.06,0.3,135.1,general,non_veg
-2341,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and dark-green vegetables, ns as to fat",1.28,11.42,13.2,0.3,169.6,maintenance,non_veg
-2342,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, tomatoes, and dark-green vegetables, fat added",1.33,11.59,13.27,0.2,171.10999999999999,maintenance,non_veg
-2343,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, tomatoes, and dark-green vegetables, no added fat",1.39,12.19,9.32,0.2,138.2,general,non_veg
-2344,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, tomatoes, and dark-green vegetables, ns as to fat",1.33,11.59,13.27,0.2,171.10999999999999,maintenance,non_veg
-2345,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and vegetables other than dark-green and/or tomatoes, fat added",1.22,11.47,13.2,0.2,169.56,maintenance,non_veg
-2346,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and vegetables other than dark-green and/or tomatoes, no added fat",1.28,12.1,9.06,0.2,135.06,general,non_veg
-2347,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and vegetables other than dark-green and/or tomatoes, ns as to fat",1.22,11.47,13.2,0.2,169.56,maintenance,non_veg
-2348,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and tomatoes, fat added",1.41,12.73,15.52,0.1,196.24,general,non_veg
-2349,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and tomatoes, no added fat",1.48,13.39,11.74,0.1,165.14,maintenance,non_veg
-2350,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and tomatoes, ns as to fat",1.41,12.73,15.52,0.1,196.24,general,non_veg
-2351,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and dark-green vegetables, fat added",1.4,12.84,15.52,0.1,196.64000000000001,general,non_veg
-2352,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and dark-green vegetables, no added fat",1.47,13.5,11.75,0.2,165.63,maintenance,non_veg
-2353,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and dark-green vegetables, ns as to fat",1.4,12.84,15.52,0.1,196.64000000000001,general,non_veg
-2354,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, tomatoes, and dark-green vegetables, fat added",1.62,12.21,14.7,0.2,187.62,maintenance,non_veg
-2355,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, tomatoes, and dark-green vegetables, no added fat",1.7,12.8,11.1,0.2,157.89999999999998,maintenance,non_veg
-2356,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, tomatoes, and dark-green vegetables, ns as to fat",1.62,12.21,14.7,0.2,187.62,maintenance,non_veg
-2357,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and vegetables other than dark-green and/or tomatoes, fat added",1.37,12.87,15.52,0.1,196.64,general,non_veg
-2358,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and vegetables other than dark-green and/or tomatoes, no added fat",1.44,13.53,11.75,0.1,165.63,maintenance,non_veg
-2359,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and vegetables other than dark-green and/or tomatoes, ns as to fat",1.37,12.87,15.52,0.1,196.64,general,non_veg
+2336,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and tomatoes, fat added",1.3,11.21,13.19,0.2,168.75,maintenance,veg
+2337,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and tomatoes, no added fat",1.36,11.82,9.04,0.2,134.07999999999998,general,veg
+2338,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and tomatoes, ns as to fat",1.3,11.21,13.19,0.2,168.75,maintenance,veg
+2339,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and dark-green vegetables, fat added",1.28,11.42,13.2,0.3,169.6,maintenance,veg
+2340,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and dark-green vegetables, no added fat",1.35,12.04,9.06,0.3,135.1,general,veg
+2341,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and dark-green vegetables, ns as to fat",1.28,11.42,13.2,0.3,169.6,maintenance,veg
+2342,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, tomatoes, and dark-green vegetables, fat added",1.33,11.59,13.27,0.2,171.10999999999999,maintenance,veg
+2343,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, tomatoes, and dark-green vegetables, no added fat",1.39,12.19,9.32,0.2,138.2,general,veg
+2344,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat, tomatoes, and dark-green vegetables, ns as to fat",1.33,11.59,13.27,0.2,171.10999999999999,maintenance,veg
+2345,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and vegetables other than dark-green and/or tomatoes, fat added",1.22,11.47,13.2,0.2,169.56,maintenance,veg
+2346,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and vegetables other than dark-green and/or tomatoes, no added fat",1.28,12.1,9.06,0.2,135.06,general,veg
+2347,egg omelet or scrambled egg,"egg omelet or scrambled egg, with meat and vegetables other than dark-green and/or tomatoes, ns as to fat",1.22,11.47,13.2,0.2,169.56,maintenance,veg
+2348,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and tomatoes, fat added",1.41,12.73,15.52,0.1,196.24,general,veg
+2349,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and tomatoes, no added fat",1.48,13.39,11.74,0.1,165.14,maintenance,veg
+2350,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and tomatoes, ns as to fat",1.41,12.73,15.52,0.1,196.24,general,veg
+2351,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and dark-green vegetables, fat added",1.4,12.84,15.52,0.1,196.64000000000001,general,veg
+2352,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and dark-green vegetables, no added fat",1.47,13.5,11.75,0.2,165.63,maintenance,veg
+2353,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and dark-green vegetables, ns as to fat",1.4,12.84,15.52,0.1,196.64000000000001,general,veg
+2354,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, tomatoes, and dark-green vegetables, fat added",1.62,12.21,14.7,0.2,187.62,maintenance,veg
+2355,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, tomatoes, and dark-green vegetables, no added fat",1.7,12.8,11.1,0.2,157.89999999999998,maintenance,veg
+2356,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, tomatoes, and dark-green vegetables, ns as to fat",1.62,12.21,14.7,0.2,187.62,maintenance,veg
+2357,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and vegetables other than dark-green and/or tomatoes, fat added",1.37,12.87,15.52,0.1,196.64,general,veg
+2358,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and vegetables other than dark-green and/or tomatoes, no added fat",1.44,13.53,11.75,0.1,165.63,maintenance,veg
+2359,egg omelet or scrambled egg,"egg omelet or scrambled egg, with cheese, meat, and vegetables other than dark-green and/or tomatoes, ns as to fat",1.37,12.87,15.52,0.1,196.64,general,veg
 2360,egg omelet or scrambled egg,"egg omelet or scrambled egg, with potatoes and/or onions, fat added",2.78,10.54,12.79,0.3,168.39,maintenance,veg
 2361,egg omelet or scrambled egg,"egg omelet or scrambled egg, with potatoes and/or onions, no added fat",2.94,11.17,8.26,0.3,130.78,general,veg
 2362,egg omelet or scrambled egg,"egg omelet or scrambled egg, with potatoes and/or onions, ns as to fat",2.78,10.54,12.79,0.3,168.39,maintenance,veg
-2363,egg,"egg, cheese, ham, and bacon on bun",17.25,14.48,13.23,0.6,245.99,maintenance,non_veg
-2364,egg,"egg, cheese, and ham on english muffin",21.67,13.64,9.66,0.4,228.18,maintenance,non_veg
-2365,egg,"egg, cheese, and ham on biscuit",14.77,12.1,16.37,0.4,254.81,general,non_veg
-2366,egg,"egg, cheese and ham on bagel",18.2,12.6,12.7,0.5,237.5,maintenance,non_veg
+2363,egg,"egg, cheese, ham, and bacon on bun",17.25,14.48,13.23,0.6,245.99,maintenance,veg
+2364,egg,"egg, cheese, and ham on english muffin",21.67,13.64,9.66,0.4,228.18,maintenance,veg
+2365,egg,"egg, cheese, and ham on biscuit",14.77,12.1,16.37,0.4,254.81,general,veg
+2366,egg,"egg, cheese and ham on bagel",18.2,12.6,12.7,0.5,237.5,maintenance,veg
 2367,egg,"egg, cheese, and sausage on english muffin",17.44,13.38,18.1,0.2,286.18,general,veg
 2368,egg,"egg, cheese, and sausage on bun",17.35,13.14,15.38,0.6,260.38,general,veg
 2369,egg,"egg, cheese, and steak on bagel",22.99,15.95,14.07,0.2,282.39,gain,veg
@@ -2393,22 +2393,22 @@
 2391,egg white omelet,"egg white omelet, scrambled, or fried, ns as to fat type",0.69,10.18,5.86,0.0,96.22,general,veg
 2392,egg white omelet,"egg white omelet, scrambled, or fried, no added fat",0.73,10.87,0.17,0.0,47.93,weight_loss,veg
 2393,egg white,"egg white, omelet, scrambled, or fried, with cheese",1.14,11.48,8.69,0.0,128.69,general,veg
-2394,egg white,"egg white, omelet, scrambled, or fried, with meat",0.8,11.48,7.33,0.0,115.09,general,non_veg
+2394,egg white,"egg white, omelet, scrambled, or fried, with meat",0.8,11.48,7.33,0.0,115.09,general,veg
 2395,egg white,"egg white, omelet, scrambled, or fried, with vegetables",1.27,9.29,5.19,0.3,88.94999999999999,general,veg
-2396,egg white,"egg white, omelet, scrambled, or fried, with cheese and meat",1.17,12.18,9.38,0.0,137.82,general,non_veg
+2396,egg white,"egg white, omelet, scrambled, or fried, with cheese and meat",1.17,12.18,9.38,0.0,137.82,general,veg
 2397,egg white,"egg white, omelet, scrambled, or fried, with cheese and vegetables",1.6,10.55,7.78,0.3,118.62,general,veg
-2398,egg white,"egg white, omelet, scrambled, or fried, with meat and vegetables",1.29,10.16,6.14,0.3,101.06,general,non_veg
-2399,egg white,"egg white, omelet, scrambled, or fried, with cheese, meat, and vegetables",1.41,11.66,8.87,0.1,132.11,general,non_veg
+2398,egg white,"egg white, omelet, scrambled, or fried, with meat and vegetables",1.29,10.16,6.14,0.3,101.06,general,veg
+2399,egg white,"egg white, omelet, scrambled, or fried, with cheese, meat, and vegetables",1.41,11.66,8.87,0.1,132.11,general,veg
 2400,meringues,meringues,74.24,7.31,0.16,0.0,327.64,general,veg
 2401,egg substitute,"egg substitute, omelet, scrambled, or fried, fat added",1.88,9.34,5.7,0.0,96.18,general,veg
 2402,egg substitute,"egg substitute, omelet, scrambled, or fried, no added fat",1.99,9.97,0.0,0.0,47.84,weight_loss,veg
 2403,egg substitute,"egg substitute, omelet, scrambled, or fried, with cheese",2.17,10.74,8.55,0.0,128.59,general,veg
-2404,egg substitute,"egg substitute, omelet, scrambled, or fried, with meat",1.84,10.75,7.19,0.0,115.07000000000001,general,non_veg
+2404,egg substitute,"egg substitute, omelet, scrambled, or fried, with meat",1.84,10.75,7.19,0.0,115.07000000000001,general,veg
 2405,egg substitute,"egg substitute, omelet, scrambled, or fried, with vegetables",2.31,8.56,5.05,0.3,88.93,general,veg
-2406,egg substitute,"egg substitute, omelet, scrambled, or fried, with cheese and meat",2.13,11.5,9.25,0.0,137.76999999999998,general,non_veg
+2406,egg substitute,"egg substitute, omelet, scrambled, or fried, with cheese and meat",2.13,11.5,9.25,0.0,137.76999999999998,general,veg
 2407,egg substitute,"egg substitute, omelet, scrambled, or fried, with cheese and vegetables",2.52,9.89,7.66,0.3,118.58,general,veg
-2408,egg substitute,"egg substitute, omelet, scrambled, or fried, with meat and vegetables",2.25,9.48,6.02,0.3,101.1,general,non_veg
-2409,egg substitute,"egg substitute, omelet, scrambled, or fried, with cheese, meat, and vegetables",2.32,11.01,8.75,0.1,132.07,general,non_veg
+2408,egg substitute,"egg substitute, omelet, scrambled, or fried, with meat and vegetables",2.25,9.48,6.02,0.3,101.1,general,veg
+2409,egg substitute,"egg substitute, omelet, scrambled, or fried, with cheese, meat, and vegetables",2.32,11.01,8.75,0.1,132.07,general,veg
 2410,beans,"beans, nfs",23.78,8.34,7.08,8.3,192.20000000000002,maintenance,veg
 2411,beans,"beans, from dried, ns as to type, fat added",23.78,8.34,7.08,8.3,192.20000000000002,maintenance,veg
 2412,beans,"beans, from dried, ns as to type, no added fat",25.44,8.92,0.62,8.9,143.02,general,veg
@@ -2473,7 +2473,7 @@
 2471,falafel,falafel,29.01,8.24,41.16,4.8,519.4399999999999,general,veg
 2472,bean cake,bean cake,49.58,5.63,21.26,3.0,412.18,general,veg
 2473,baked beans,"baked beans, reduced sodium",20.35,4.77,0.4,5.5,104.08,weight_loss,veg
-2474,chili with beans,"chili with beans, without meat",8.19,2.39,0.33,2.7,45.29,weight_loss,non_veg
+2474,chili with beans,"chili with beans, without meat",8.19,2.39,0.33,2.7,45.29,weight_loss,veg
 2475,blackeyed peas,"blackeyed peas, nfs",19.29,7.18,7.0,6.0,168.88,general,veg
 2476,blackeyed peas,"blackeyed peas, from dried",19.29,7.18,7.0,6.0,168.88,general,veg
 2477,chickpeas,"chickpeas, nfs",25.48,8.23,8.91,7.1,215.03,maintenance,veg
@@ -2534,24 +2534,24 @@
 2532,split pea soup,"split pea soup, canned, reduced sodium, prepared with water or ready-to-serve",11.83,3.85,0.92,1.9,71.0,weight_loss,veg
 2533,split pea and ham soup,"split pea and ham soup, canned, reduced sodium, prepared with water or ready-to-serve",11.4,4.0,0.7,1.9,67.9,weight_loss,non_veg
 2534,lentil soup,"lentil soup, home recipe, canned, or ready-to-serve",8.82,3.89,1.71,3.2,66.23,weight_loss,veg
-2535,bacon strip,"bacon strip, meatless",5.31,11.69,29.52,2.6,333.68,general,non_veg
+2535,bacon strip,"bacon strip, meatless",5.31,11.69,29.52,2.6,333.68,general,veg
 2536,bacon bits,bacon bits,28.6,32.0,25.9,10.2,475.5,gain,veg
-2537,breakfast link,"breakfast link, pattie, or slice, meatless",8.09,20.28,18.16,2.8,276.92,gain,non_veg
+2537,breakfast link,"breakfast link, pattie, or slice, meatless",8.09,20.28,18.16,2.8,276.92,gain,veg
 2538,chicken,"chicken, meatless, nfs",3.64,23.64,12.73,3.6,223.69,general,non_veg
 2539,chicken,"chicken, meatless, breaded, fried",8.51,21.28,12.77,4.3,234.08999999999997,general,non_veg
 2540,frankfurter or hot dog,"frankfurter or hot dog, meatless",7.7,19.61,13.73,3.9,232.81,maintenance,non_veg
 2541,meatball,"meatball, meatless",8.0,21.0,9.0,4.6,197.0,general,non_veg
-2542,vegetarian burger or patty,"vegetarian burger or patty, meatless, no bun",14.27,15.7,6.3,4.9,176.57999999999998,maintenance,non_veg
-2543,swiss steak,"swiss steak, with gravy, meatless",14.1,12.67,8.07,4.0,179.70999999999998,maintenance,non_veg
-2544,sandwich spread,"sandwich spread, meat substitute type",9.0,8.0,9.0,3.3,149.0,general,non_veg
+2542,vegetarian burger or patty,"vegetarian burger or patty, meatless, no bun",14.27,15.7,6.3,4.9,176.57999999999998,maintenance,veg
+2543,swiss steak,"swiss steak, with gravy, meatless",14.1,12.67,8.07,4.0,179.70999999999998,maintenance,veg
+2544,sandwich spread,"sandwich spread, meat substitute type",9.0,8.0,9.0,3.3,149.0,general,veg
 2545,vegetarian pot pie,vegetarian pot pie,17.13,7.69,13.98,2.2,225.10000000000002,general,veg
-2546,vegetarian chili,"vegetarian chili, made with meat substitute",13.89,7.44,2.93,4.4,111.69000000000001,weight_loss,non_veg
+2546,vegetarian chili,"vegetarian chili, made with meat substitute",13.89,7.44,2.93,4.4,111.69000000000001,weight_loss,veg
 2547,tofu and vegetables including carrots,"tofu and vegetables including carrots, broccoli, and/or dark-green leafy; no potatoes, with soy-based sauce",4.81,4.14,6.71,1.2,96.19,general,veg
 2548,tofu and vegetables excluding carrots,"tofu and vegetables excluding carrots, broccoli, and dark-green leafy; no potatoes, with soy-based sauce",4.45,4.12,6.94,0.9,96.74000000000001,general,veg
 2549,vegetarian,"vegetarian, fillet",9.0,23.0,18.0,6.1,290.0,gain,veg
 2550,vegetarian stew,vegetarian stew,3.07,0.7,2.13,1.1,34.25,weight_loss,veg
 2551,vegetarian stroganoff,vegetarian stroganoff,11.56,7.54,10.3,2.6,169.10000000000002,general,veg
-2552,soyburger,"soyburger, meatless, with cheese on bun",24.76,12.29,6.6,3.1,207.6,maintenance,non_veg
+2552,soyburger,"soyburger, meatless, with cheese on bun",24.76,12.29,6.6,3.1,207.6,maintenance,veg
 2553,nuts,"nuts, nfs",21.04,19.59,53.62,7.6,645.0999999999999,gain,veg
 2554,almonds,"almonds, nfs",21.01,20.96,52.54,10.9,640.74,gain,veg
 2555,almonds,"almonds, unroasted",21.55,21.15,49.93,12.5,620.1700000000001,gain,veg
@@ -2733,7 +2733,7 @@
 2731,roll,"roll, white, soft",50.12,9.77,3.91,1.8,274.75,general,veg
 2732,roll,"roll, white, hard",52.7,9.9,4.3,2.3,289.1,general,veg
 2733,roll,"roll, white, hot dog bun",50.12,9.77,3.91,1.8,274.75,general,veg
-2734,roll,"roll, white, hamburger bun",50.12,9.77,3.91,1.8,274.75,general,non_veg
+2734,roll,"roll, white, hamburger bun",50.12,9.77,3.91,1.8,274.75,general,veg
 2735,roll,"roll, diet",51.88,10.75,2.42,2.2,272.3,general,veg
 2736,roll,"roll, egg bread",47.8,9.5,6.0,2.3,283.2,maintenance,veg
 2737,roll,"roll, cheese",49.56,11.48,7.85,1.9,314.81,general,veg
@@ -2827,13 +2827,13 @@
 2825,breadsticks,"breadsticks, hard, whole wheat",68.14,13.23,10.88,7.2,423.40000000000003,general,veg
 2826,roll,"roll, wheat or cracked wheat",46.0,8.6,6.3,3.8,275.1,maintenance,veg
 2827,roll,"roll, wheat or cracked wheat, hot dog bun",47.31,11.69,3.61,4.2,268.49,general,veg
-2828,roll,"roll, wheat or cracked wheat, hamburger bun",47.31,11.69,3.61,4.2,268.49,general,non_veg
+2828,roll,"roll, wheat or cracked wheat, hamburger bun",47.31,11.69,3.61,4.2,268.49,general,veg
 2829,roll,"roll, whole wheat",46.0,8.6,6.3,3.8,275.1,maintenance,veg
 2830,roll,"roll, whole wheat, hot dog bun",44.93,12.38,4.38,6.1,268.66,general,veg
-2831,roll,"roll, whole wheat, hamburger bun",44.93,12.38,4.38,6.1,268.66,general,non_veg
+2831,roll,"roll, whole wheat, hamburger bun",44.93,12.38,4.38,6.1,268.66,general,veg
 2832,roll,"roll, whole grain white",46.5,9.3,3.49,2.3,254.60999999999999,general,veg
 2833,roll,"roll, whole grain white, hot dog bun",46.5,9.3,3.49,2.3,254.60999999999999,general,veg
-2834,roll,"roll, whole grain white, hamburger bun",46.5,9.3,3.49,2.3,254.60999999999999,general,non_veg
+2834,roll,"roll, whole grain white, hamburger bun",46.5,9.3,3.49,2.3,254.60999999999999,general,veg
 2835,bread,"bread, rye",48.3,8.5,3.3,5.8,256.9,general,veg
 2836,bread,"bread, rye, toasted",53.08,9.34,3.63,6.4,282.35,general,veg
 2837,bread,"bread, marble rye and pumpernickel",48.3,8.5,3.3,5.8,256.9,general,veg
@@ -2863,7 +2863,7 @@
 2861,bread,"bread, multigrain, reduced calorie and/or high fiber, toasted",49.35,9.79,2.8,11.8,261.76,general,veg
 2862,roll,"roll, multigrain",44.6,9.6,6.0,3.8,270.8,maintenance,veg
 2863,roll,"roll, multigrain, hot dog bun",44.6,9.6,6.0,3.8,270.8,maintenance,veg
-2864,roll,"roll, multigrain, hamburger bun",44.6,9.6,6.0,3.8,270.8,maintenance,non_veg
+2864,roll,"roll, multigrain, hamburger bun",44.6,9.6,6.0,3.8,270.8,maintenance,veg
 2865,bagel,"bagel, multigrain",48.89,10.2,1.53,4.1,250.13000000000002,general,veg
 2866,bagel,"bagel, multigrain, with raisins",51.93,9.51,1.4,4.1,258.36,general,veg
 2867,muffin,"muffin, english, multigrain",44.8,8.7,2.0,4.6,232.0,general,veg
@@ -3034,8 +3034,8 @@
 3032,cookie,"cookie, chocolate, sandwich, with extra filling",68.2,4.33,24.52,2.7,510.8,general,veg
 3033,cookie,"cookie, chocolate and vanilla sandwich",71.0,5.21,19.14,2.9,477.09999999999997,general,veg
 3034,cookie,"cookie, chocolate wafer",72.7,6.6,14.2,3.4,445.0,general,veg
-3035,cookie,"cookie, graham cracker with chocolate and marshmallow",68.97,6.36,18.57,2.8,468.45,general,non_veg
-3036,cookie bar,"cookie bar, with chocolate, nuts, and graham crackers",65.36,5.1,24.72,2.0,504.31999999999994,general,non_veg
+3035,cookie,"cookie, graham cracker with chocolate and marshmallow",68.97,6.36,18.57,2.8,468.45,general,veg
+3036,cookie bar,"cookie bar, with chocolate, nuts, and graham crackers",65.36,5.1,24.72,2.0,504.31999999999994,general,veg
 3037,cookie,"cookie, coconut",61.22,3.02,22.55,5.1,459.90999999999997,general,veg
 3038,cookie,"cookie, fruit-filled bar",70.9,3.7,7.3,4.6,364.1,general,veg
 3039,cookie,"cookie, fruit-filled bar, fat free",70.9,3.7,7.3,4.6,364.1,general,veg
@@ -3185,7 +3185,7 @@
 3183,pie,"pie, shoo-fly",60.6,3.93,11.1,0.9,358.02,general,veg
 3184,pie,"pie, tofu with fruit",22.06,4.78,12.13,0.8,216.53,general,veg
 3185,pie shell,pie shell,56.24,6.5,28.59,3.3,508.27,general,veg
-3186,pie shell,"pie shell, graham cracker",64.3,5.1,24.83,1.9,501.06999999999994,general,non_veg
+3186,pie shell,"pie shell, graham cracker",64.3,5.1,24.83,1.9,501.06999999999994,general,veg
 3187,pie shell,"pie shell, chocolate wafer",64.48,6.08,22.42,2.7,484.02000000000004,general,veg
 3188,vanilla wafer dessert base,vanilla wafer dessert base,50.2,3.7,36.2,0.1,541.4000000000001,general,veg
 3189,blintz,"blintz, cheese-filled",20.09,9.06,7.65,0.4,185.45,maintenance,veg
@@ -3341,7 +3341,7 @@
 3339,crackers,"crackers, butter, reduced fat",71.52,9.34,13.37,3.4,443.77,general,veg
 3340,crackers,"crackers, cheese",59.42,10.93,22.74,2.3,486.05999999999995,general,veg
 3341,crackers,"crackers, cheese (cheez-it)",59.42,10.93,22.74,2.3,486.05999999999995,general,veg
-3342,crackers,"crackers, cheese (goldfish)",59.42,10.93,22.74,2.3,486.05999999999995,general,non_veg
+3342,crackers,"crackers, cheese (goldfish)",59.42,10.93,22.74,2.3,486.05999999999995,general,veg
 3343,crackers,"crackers, cheese, reduced fat",68.19,10.0,11.67,3.3,417.78999999999996,general,veg
 3344,crackers,"crackers, cheese, reduced sodium",58.2,10.1,25.3,2.4,500.9,general,veg
 3345,crackers,"crackers, cheese, whole grain",57.29,9.62,16.03,6.4,411.90999999999997,general,veg
@@ -3349,7 +3349,7 @@
 3347,crackers,"crackers, flatbread",75.23,9.85,8.25,10.2,414.57,general,veg
 3348,crackers,"crackers, matzo",83.7,10.0,1.4,3.0,387.40000000000003,general,veg
 3349,crackers,"crackers, milk",71.73,7.6,13.77,3.4,441.25,general,veg
-3350,crackers,"crackers, oyster",74.05,9.46,8.64,2.8,411.79999999999995,general,non_veg
+3350,crackers,"crackers, oyster",74.05,9.46,8.64,2.8,411.79999999999995,general,veg
 3351,chips,"chips, rice",81.5,8.2,2.8,4.2,384.0,general,veg
 3352,rice cake,rice cake,81.1,7.1,4.3,4.2,391.49999999999994,general,veg
 3353,crackers,"crackers, rice",82.64,10.0,5.0,0.0,415.56,general,veg
@@ -3473,14 +3473,14 @@
 3471,pretzels,"pretzels, soft, ready-to-eat, unsalted, no butter",71.04,8.2,3.1,1.7,344.86,general,veg
 3472,pretzels,"pretzels, soft, ready-to-eat, cinnamon sugar coated",73.99,6.22,6.14,2.1,376.09999999999997,general,veg
 3473,pretzels,"pretzels, soft, ready-to-eat, coated or flavored",66.02,7.89,7.75,1.6,365.39,general,veg
-3474,pretzels,"pretzels, soft, ready-to-eat, topped with meat",53.36,11.48,9.93,1.3,348.73,general,non_veg
+3474,pretzels,"pretzels, soft, ready-to-eat, topped with meat",53.36,11.48,9.93,1.3,348.73,general,veg
 3475,pretzels,"pretzels, soft, ready-to-eat, topped with cheese",62.35,10.22,5.36,1.5,338.52000000000004,general,veg
 3476,pretzels,"pretzels, soft, from frozen, nfs",69.38,8.01,4.0,1.7,345.56,general,veg
 3477,pretzels,"pretzels, soft, from frozen, salted",70.06,8.09,3.06,1.7,340.14000000000004,general,veg
 3478,pretzels,"pretzels, soft, from frozen, unsalted",71.04,8.2,3.1,1.7,344.86,general,veg
 3479,pretzels,"pretzels, soft, from frozen, cinnamon sugar coated",73.99,6.22,6.14,2.1,376.09999999999997,general,veg
 3480,pretzels,"pretzels, soft, from frozen, coated or flavored",66.02,7.89,7.75,1.6,365.39,general,veg
-3481,pretzels,"pretzels, soft, from frozen, topped with meat",53.36,11.48,9.93,1.3,348.73,general,non_veg
+3481,pretzels,"pretzels, soft, from frozen, topped with meat",53.36,11.48,9.93,1.3,348.73,general,veg
 3482,pretzels,"pretzels, soft, from frozen, topped with cheese",62.35,10.22,5.36,1.5,338.52000000000004,general,veg
 3483,pretzels,"pretzels, soft, filled with cheese",62.35,10.22,5.36,1.5,338.52000000000004,general,veg
 3484,pretzels,"pretzels, soft, from school lunch",70.73,8.55,3.16,3.7,345.56,general,veg
@@ -3895,11 +3895,11 @@
 3893,gerber graduates finger snacks cereal,"gerber graduates finger snacks cereal, baby food",76.68,6.4,9.9,2.3,421.4200000000001,general,veg
 3894,burrito,"burrito, taco, or quesadilla with egg",19.15,10.52,12.52,1.4,231.35999999999999,maintenance,veg
 3895,burrito,"burrito, taco, or quesadilla with egg and potato",20.7,9.26,13.24,1.6,239.0,maintenance,veg
-3896,burrito,"burrito, taco, or quesadilla with egg and breakfast meat",16.76,11.6,14.51,1.2,244.03,maintenance,non_veg
-3897,burrito,"burrito, taco, or quesadilla with egg and breakfast meat, from fast food",22.97,11.1,15.63,1.2,276.95000000000005,general,non_veg
-3898,burrito,"burrito, taco, or quesadilla with egg, potato, and breakfast meat",18.46,10.33,14.87,1.4,248.98999999999998,maintenance,non_veg
-3899,burrito,"burrito, taco, or quesadilla with egg, potato, and breakfast meat, from fast food",17.74,11.15,13.94,1.3,241.01999999999998,maintenance,non_veg
-3900,burrito,"burrito, taco, or quesadilla with egg, beans, and breakfast meat",16.18,10.41,12.26,1.7,216.7,maintenance,non_veg
+3896,burrito,"burrito, taco, or quesadilla with egg and breakfast meat",16.76,11.6,14.51,1.2,244.03,maintenance,veg
+3897,burrito,"burrito, taco, or quesadilla with egg and breakfast meat, from fast food",22.97,11.1,15.63,1.2,276.95000000000005,general,veg
+3898,burrito,"burrito, taco, or quesadilla with egg, potato, and breakfast meat",18.46,10.33,14.87,1.4,248.98999999999998,maintenance,veg
+3899,burrito,"burrito, taco, or quesadilla with egg, potato, and breakfast meat, from fast food",17.74,11.15,13.94,1.3,241.01999999999998,maintenance,veg
+3900,burrito,"burrito, taco, or quesadilla with egg, beans, and breakfast meat",16.18,10.41,12.26,1.7,216.7,maintenance,veg
 3901,burrito with meat,burrito with meat,14.45,13.02,14.48,1.2,240.2,maintenance,non_veg
 3902,burrito with meat and beans,burrito with meat and beans,16.85,11.06,11.56,2.0,215.68,maintenance,non_veg
 3903,burrito with meat and beans,"burrito with meat and beans, from fast food",23.37,7.03,6.8,3.7,182.8,general,non_veg
@@ -3914,10 +3914,10 @@
 3912,burrito with chicken,"burrito with chicken, beans, and sour cream",16.01,11.08,11.59,1.8,212.67000000000002,maintenance,non_veg
 3913,burrito with chicken,"burrito with chicken, beans, and rice",18.72,11.88,9.52,2.0,208.07999999999998,maintenance,non_veg
 3914,burrito with chicken,"burrito with chicken, beans, rice, and sour cream",16.75,10.57,10.9,1.7,207.38,maintenance,non_veg
-3915,burrito with beans and rice,"burrito with beans and rice, meatless",19.68,8.8,8.29,2.6,188.52999999999997,maintenance,non_veg
-3916,burrito with beans,"burrito with beans, meatless",19.1,9.22,8.83,2.7,192.75,maintenance,non_veg
-3917,burrito with beans,"burrito with beans, meatless, from fast food",31.23,7.35,6.05,4.2,208.76999999999998,general,non_veg
-3918,burrito with beans,"burrito with beans, rice, and sour cream, meatless",17.76,7.99,9.69,2.2,190.20999999999998,general,non_veg
+3915,burrito with beans and rice,"burrito with beans and rice, meatless",19.68,8.8,8.29,2.6,188.52999999999997,maintenance,veg
+3916,burrito with beans,"burrito with beans, meatless",19.1,9.22,8.83,2.7,192.75,maintenance,veg
+3917,burrito with beans,"burrito with beans, meatless, from fast food",31.23,7.35,6.05,4.2,208.76999999999998,general,veg
+3918,burrito with beans,"burrito with beans, rice, and sour cream, meatless",17.76,7.99,9.69,2.2,190.20999999999998,general,veg
 3919,chilaquiles,"chilaquiles, tortilla casserole with salsa, cheese, and egg",24.15,8.63,17.41,2.9,287.81,general,veg
 3920,chilaquiles,"chilaquiles, tortilla casserole with salsa and cheese, no egg",28.34,7.71,17.29,3.5,299.80999999999995,general,veg
 3921,enchilada,"enchilada, no sauce",10.59,9.15,7.24,2.4,144.12,general,veg
@@ -3929,10 +3929,10 @@
 3927,enchilada with chicken and beans,"enchilada with chicken and beans, green-chile or enchilada sauce",13.66,6.56,6.9,2.6,142.98,general,non_veg
 3928,enchilada with chicken,"enchilada with chicken, red-chile or enchilada sauce",10.58,8.4,5.91,2.4,129.11,general,non_veg
 3929,enchilada with chicken,"enchilada with chicken, green-chile or enchilada sauce",12.09,8.93,7.75,2.1,153.82999999999998,maintenance,non_veg
-3930,enchilada with beans,"enchilada with beans, meatless, red-chile or enchilada sauce",13.53,4.34,4.68,3.2,113.6,weight_loss,non_veg
+3930,enchilada with beans,"enchilada with beans, meatless, red-chile or enchilada sauce",13.53,4.34,4.68,3.2,113.6,weight_loss,veg
 3931,enchilada with beans,"enchilada with beans, green-chile or enchilada sauce",15.0,4.54,6.17,3.1,133.69,general,veg
-3932,enchilada,"enchilada, just cheese, meatless, no beans, red-chile or enchilada sauce",11.15,7.27,10.21,2.4,165.57000000000002,general,non_veg
-3933,enchilada,"enchilada, just cheese, meatless, no beans, green-chile or enchilada sauce",12.75,7.73,12.44,2.2,193.88,general,non_veg
+3932,enchilada,"enchilada, just cheese, meatless, no beans, red-chile or enchilada sauce",11.15,7.27,10.21,2.4,165.57000000000002,general,veg
+3933,enchilada,"enchilada, just cheese, meatless, no beans, green-chile or enchilada sauce",12.75,7.73,12.44,2.2,193.88,general,veg
 3934,taco or tostada with meat,taco or tostada with meat,19.23,10.47,14.42,2.7,248.58,maintenance,non_veg
 3935,taco or tostada with meat,"taco or tostada with meat, from fast food",19.85,8.86,12.7,3.9,229.14,maintenance,non_veg
 3936,taco or tostada with meat and sour cream,taco or tostada with meat and sour cream,17.33,9.42,15.38,2.3,245.42000000000002,general,non_veg
@@ -3962,14 +3962,14 @@
 3960,taco or tostada with chicken,"taco or tostada with chicken, beans, and sour cream",18.42,7.67,11.25,2.8,205.61,general,non_veg
 3961,taco or tostada salad with meat,taco or tostada salad with meat,16.4,7.49,9.34,2.9,179.62,general,non_veg
 3962,taco or tostada salad with chicken,taco or tostada salad with chicken,16.21,7.86,8.04,2.8,168.64,general,non_veg
-3963,taco or tostada salad,"taco or tostada salad, meatless",19.21,5.31,7.37,3.7,164.41,general,non_veg
+3963,taco or tostada salad,"taco or tostada salad, meatless",19.21,5.31,7.37,3.7,164.41,general,veg
 3964,taco or tostada salad with meat and sour cream,taco or tostada salad with meat and sour cream,14.93,6.86,10.59,2.5,182.47,general,non_veg
 3965,taco or tostada salad with chicken and sour cream,taco or tostada salad with chicken and sour cream,14.78,7.19,9.44,2.5,172.83999999999997,general,non_veg
-3966,taco or tostada salad,"taco or tostada salad, meatless with sour cream",17.37,4.95,8.89,3.3,169.29000000000002,general,non_veg
+3966,taco or tostada salad,"taco or tostada salad, meatless with sour cream",17.37,4.95,8.89,3.3,169.29000000000002,general,veg
 3967,tamale with meat,tamale with meat,14.8,8.63,13.69,1.2,216.93,maintenance,non_veg
 3968,tamale with chicken,tamale with chicken,14.8,8.63,13.69,1.2,216.93,maintenance,non_veg
-3969,tamale,"tamale, meatless, with sauce, puerto rican or caribbean style",9.45,1.5,44.37,1.4,443.13,general,non_veg
-3970,tamale,"tamale, plain, meatless, no sauce, mexican style",26.68,3.48,7.21,3.2,185.53,general,non_veg
+3969,tamale,"tamale, meatless, with sauce, puerto rican or caribbean style",9.45,1.5,44.37,1.4,443.13,general,veg
+3970,tamale,"tamale, plain, meatless, no sauce, mexican style",26.68,3.48,7.21,3.2,185.53,general,veg
 3971,tamale casserole with meat,tamale casserole with meat,15.47,6.33,7.97,1.7,158.93,general,non_veg
 3972,nachos with cheese and sour cream,nachos with cheese and sour cream,21.75,8.43,12.0,3.9,228.72,maintenance,veg
 3973,nachos with cheese,nachos with cheese,34.91,4.32,21.5,3.2,350.41999999999996,general,veg
@@ -3980,17 +3980,17 @@
 3978,nachos with chicken,"nachos with chicken, cheese, and sour cream",16.2,13.11,10.56,2.9,212.28,maintenance,non_veg
 3979,gordita,"gordita, sope, or chalupa with beans",23.62,6.03,7.7,3.4,187.9,general,veg
 3980,gordita,"gordita, sope, or chalupa with beans and sour cream",21.88,5.7,8.77,3.1,189.25,general,veg
-3981,gordita,"gordita, sope, or chalupa with meat and sour cream",21.93,9.0,14.0,2.5,249.72,maintenance,non_veg
-3982,gordita,"gordita, sope, or chalupa with meat",23.84,9.71,13.14,2.7,252.45999999999998,maintenance,non_veg
-3983,gordita,"gordita, sope, or chalupa with chicken and sour cream",21.99,9.83,13.08,2.3,245.0,maintenance,non_veg
-3984,gordita,"gordita, sope, or chalupa with chicken",24.36,10.84,12.22,2.6,250.78000000000003,maintenance,non_veg
+3981,gordita,"gordita, sope, or chalupa with meat and sour cream",21.93,9.0,14.0,2.5,249.72,maintenance,veg
+3982,gordita,"gordita, sope, or chalupa with meat",23.84,9.71,13.14,2.7,252.45999999999998,maintenance,veg
+3983,gordita,"gordita, sope, or chalupa with chicken and sour cream",21.99,9.83,13.08,2.3,245.0,maintenance,veg
+3984,gordita,"gordita, sope, or chalupa with chicken",24.36,10.84,12.22,2.6,250.78000000000003,maintenance,veg
 3985,chimichanga with meat,chimichanga with meat,26.66,8.82,11.55,2.9,245.87,maintenance,non_veg
-3986,chimichanga,"chimichanga, meatless",24.92,6.58,8.33,3.1,200.97,general,non_veg
+3986,chimichanga,"chimichanga, meatless",24.92,6.58,8.33,3.1,200.97,general,veg
 3987,chimichanga with chicken,chimichanga with chicken,28.28,9.74,11.56,3.0,256.12,maintenance,non_veg
 3988,chimichanga with meat and sour cream,chimichanga with meat and sour cream,27.12,8.95,15.35,2.3,282.43,general,non_veg
-3989,chimichanga,"chimichanga, meatless, with sour cream",23.02,6.19,9.36,2.8,201.07999999999998,general,non_veg
+3989,chimichanga,"chimichanga, meatless, with sour cream",23.02,6.19,9.36,2.8,201.07999999999998,general,veg
 3990,chimichanga with chicken and sour cream,chimichanga with chicken and sour cream,25.79,8.98,12.61,2.7,252.57,maintenance,non_veg
-3991,quesadilla,"quesadilla, just cheese, meatless",32.48,12.74,18.02,2.3,343.06,general,non_veg
+3991,quesadilla,"quesadilla, just cheese, meatless",32.48,12.74,18.02,2.3,343.06,general,veg
 3992,quesadilla,"quesadilla, just cheese, from fast food",29.74,13.4,19.23,2.1,345.63,general,veg
 3993,quesadilla with meat,quesadilla with meat,29.02,14.49,16.82,2.0,325.41999999999996,general,non_veg
 3994,quesadilla with chicken,quesadilla with chicken,29.0,14.24,16.77,2.0,323.89,general,non_veg
@@ -4010,7 +4010,7 @@
 4008,fajita with vegetables,fajita with vegetables,15.84,5.44,8.71,1.8,163.51000000000002,general,veg
 4009,pupusa,"pupusa, cheese-filled",22.39,11.72,13.25,2.9,255.69,maintenance,veg
 4010,pupusa,"pupusa, bean-filled",28.44,5.55,3.82,3.0,170.34,general,veg
-4011,pupusa,"pupusa, meat-filled",23.02,11.51,10.43,2.6,231.99,maintenance,non_veg
+4011,pupusa,"pupusa, meat-filled",23.02,11.51,10.43,2.6,231.99,maintenance,veg
 4012,pizza,"pizza, cheese, from frozen, thin crust",28.8,11.91,11.07,3.0,262.47,maintenance,veg
 4013,pizza,"pizza, cheese, from frozen, thick crust",32.91,12.37,8.78,2.5,260.14,maintenance,veg
 4014,pizza,"pizza, cheese, from restaurant or fast food, ns as to type of crust",33.33,11.39,9.69,2.3,266.09,maintenance,veg
@@ -4052,10 +4052,10 @@
 4050,pizza with meat other than pepperoni,"pizza with meat other than pepperoni, from restaurant or fast food, thin crust",27.0,13.36,17.71,2.5,320.83000000000004,general,non_veg
 4051,pizza with meat other than pepperoni,"pizza with meat other than pepperoni, from restaurant or fast food, medium crust",30.62,11.5,12.35,2.3,279.63,maintenance,non_veg
 4052,pizza with meat other than pepperoni,"pizza with meat other than pepperoni, from restaurant or fast food, thick crust",30.36,11.06,12.94,2.3,282.14,maintenance,non_veg
-4053,pizza,"pizza, with meat other than pepperoni, stuffed crust",27.28,12.81,13.05,1.5,277.81,maintenance,non_veg
-4054,pizza,"pizza, with meat other than pepperoni, from school lunch, medium crust",31.41,12.94,8.45,4.0,253.45,maintenance,non_veg
-4055,pizza,"pizza, with meat other than pepperoni, from school lunch, thin crust",32.24,12.63,7.83,3.9,249.95000000000002,maintenance,non_veg
-4056,pizza,"pizza, with meat other than pepperoni, from school lunch, thick crust",30.58,13.26,9.07,4.0,256.99,maintenance,non_veg
+4053,pizza,"pizza, with meat other than pepperoni, stuffed crust",27.28,12.81,13.05,1.5,277.81,maintenance,veg
+4054,pizza,"pizza, with meat other than pepperoni, from school lunch, medium crust",31.41,12.94,8.45,4.0,253.45,maintenance,veg
+4055,pizza,"pizza, with meat other than pepperoni, from school lunch, thin crust",32.24,12.63,7.83,3.9,249.95000000000002,maintenance,veg
+4056,pizza,"pizza, with meat other than pepperoni, from school lunch, thick crust",30.58,13.26,9.07,4.0,256.99,maintenance,veg
 4057,pizza with extra meat,"pizza with extra meat, thin crust",22.71,15.77,16.43,1.8,301.79,gain,non_veg
 4058,pizza with extra meat,"pizza with extra meat, medium crust",26.62,13.85,12.4,1.8,273.48,maintenance,non_veg
 4059,pizza with extra meat,"pizza with extra meat, thick crust",26.64,13.33,13.02,1.8,277.06,maintenance,non_veg
@@ -4079,42 +4079,42 @@
 4077,white pizza,"white pizza, cheese, thick crust",31.86,11.8,11.41,1.3,277.33,maintenance,veg
 4078,white pizza,"white pizza, cheese, with vegetables, thin crust",23.63,10.13,11.69,1.2,240.25,maintenance,veg
 4079,white pizza,"white pizza, cheese, with vegetables, thick crust",27.85,10.02,10.14,1.3,242.74,maintenance,veg
-4080,white pizza,"white pizza, cheese, with meat, thin crust",22.81,13.55,17.36,0.9,301.68,general,non_veg
-4081,white pizza,"white pizza, cheese, with meat, thick crust",27.24,12.84,14.81,1.1,293.61,maintenance,non_veg
-4082,white pizza,"white pizza, cheese, with meat and vegetables, thin crust",21.1,12.07,15.32,1.0,270.56,general,non_veg
-4083,white pizza,"white pizza, cheese, with meat and vegetables, thick crust",25.34,11.66,13.34,1.1,268.06,maintenance,non_veg
-4084,calzone,"calzone, with cheese, meatless",29.15,17.41,22.33,1.3,387.21,gain,non_veg
-4085,calzone,"calzone, with meat and cheese",30.93,14.64,17.49,1.4,339.69,general,non_veg
+4080,white pizza,"white pizza, cheese, with meat, thin crust",22.81,13.55,17.36,0.9,301.68,general,veg
+4081,white pizza,"white pizza, cheese, with meat, thick crust",27.24,12.84,14.81,1.1,293.61,maintenance,veg
+4082,white pizza,"white pizza, cheese, with meat and vegetables, thin crust",21.1,12.07,15.32,1.0,270.56,general,veg
+4083,white pizza,"white pizza, cheese, with meat and vegetables, thick crust",25.34,11.66,13.34,1.1,268.06,maintenance,veg
+4084,calzone,"calzone, with cheese, meatless",29.15,17.41,22.33,1.3,387.21,gain,veg
+4085,calzone,"calzone, with meat and cheese",30.93,14.64,17.49,1.4,339.69,general,veg
 4086,pizza rolls,pizza rolls,53.39,9.19,10.5,1.3,344.82,general,veg
 4087,pizza,"pizza, cheese, whole wheat thin crust",28.62,11.77,12.38,3.5,272.98,maintenance,veg
 4088,pizza,"pizza, cheese, whole wheat thick crust",32.96,11.4,10.4,3.9,271.04,maintenance,veg
-4089,pizza,"pizza, with meat, whole wheat thin crust",23.58,13.05,16.35,2.9,293.66999999999996,general,non_veg
-4090,pizza,"pizza, with meat, whole wheat thick crust",28.13,12.51,13.98,3.3,288.38,maintenance,non_veg
+4089,pizza,"pizza, with meat, whole wheat thin crust",23.58,13.05,16.35,2.9,293.66999999999996,general,veg
+4090,pizza,"pizza, with meat, whole wheat thick crust",28.13,12.51,13.98,3.3,288.38,maintenance,veg
 4091,pizza,"pizza, cheese and vegetables, whole wheat thin crust",24.39,9.61,10.64,3.1,231.76,maintenance,veg
 4092,pizza,"pizza, cheese and vegetables, whole wheat thick crust",28.74,9.67,9.29,3.5,237.24999999999997,maintenance,veg
 4093,pizza,"pizza, cheese, gluten-free thin crust",26.53,8.73,13.62,2.5,263.62,maintenance,veg
 4094,pizza,"pizza, cheese, gluten-free thick crust",30.54,7.81,11.88,2.9,260.32,general,veg
-4095,pizza,"pizza, with meat, gluten-free thin crust",21.88,10.58,17.36,2.1,286.08000000000004,general,non_veg
-4096,pizza,"pizza, with meat, gluten-free thick crust",26.09,9.48,15.23,2.5,279.35,general,non_veg
+4095,pizza,"pizza, with meat, gluten-free thin crust",21.88,10.58,17.36,2.1,286.08000000000004,general,veg
+4096,pizza,"pizza, with meat, gluten-free thick crust",26.09,9.48,15.23,2.5,279.35,general,veg
 4097,pizza,"pizza, cheese and vegetables, gluten-free thin crust",22.72,7.18,11.64,2.3,224.36,general,veg
 4098,pizza,"pizza, cheese and vegetables, gluten-free thick crust",26.72,6.68,10.52,2.7,228.27999999999997,general,veg
 4099,breakfast pizza with egg,breakfast pizza with egg,25.6,14.05,14.44,1.1,288.56000000000006,maintenance,veg
-4100,egg roll,"egg roll, meatless",30.02,5.62,14.14,2.3,269.82,general,non_veg
-4101,egg roll,"egg roll, with shrimp",30.02,5.62,14.14,2.3,269.82,general,non_veg
-4102,egg roll,"egg roll, with chicken or turkey",26.96,9.86,11.82,2.3,253.66,maintenance,non_veg
+4100,egg roll,"egg roll, meatless",30.02,5.62,14.14,2.3,269.82,general,veg
+4101,egg roll,"egg roll, with shrimp",30.02,5.62,14.14,2.3,269.82,general,veg
+4102,egg roll,"egg roll, with chicken or turkey",26.96,9.86,11.82,2.3,253.66,maintenance,veg
 4103,roll with meat and/or shrimp,"roll with meat and/or shrimp, vegetables and rice paper, not fried",17.12,5.53,2.63,2.1,114.27000000000001,weight_loss,non_veg
-4104,wonton,"wonton, fried, filled with meat, poultry, or seafood,",14.05,8.76,11.13,1.5,191.41000000000003,maintenance,non_veg
-4105,wonton,"wonton, fried, meatless",14.05,8.76,11.13,1.5,191.41000000000003,maintenance,non_veg
-4106,wonton,"wonton, fried, filled with meat, poultry, or seafood, and vegetable",14.05,8.76,11.13,1.5,191.41000000000003,maintenance,non_veg
-4107,puffs,"puffs, fried, crab meat and cream cheese filled",35.05,9.32,15.22,1.2,314.46000000000004,general,non_veg
-4108,dumpling,"dumpling, steamed, filled with meat, poultry, or seafood",11.07,6.9,4.6,1.2,113.28,weight_loss,non_veg
+4104,wonton,"wonton, fried, filled with meat, poultry, or seafood,",14.05,8.76,11.13,1.5,191.41000000000003,maintenance,veg
+4105,wonton,"wonton, fried, meatless",14.05,8.76,11.13,1.5,191.41000000000003,maintenance,veg
+4106,wonton,"wonton, fried, filled with meat, poultry, or seafood, and vegetable",14.05,8.76,11.13,1.5,191.41000000000003,maintenance,veg
+4107,puffs,"puffs, fried, crab meat and cream cheese filled",35.05,9.32,15.22,1.2,314.46000000000004,general,veg
+4108,dumpling,"dumpling, steamed, filled with meat, poultry, or seafood",11.07,6.9,4.6,1.2,113.28,weight_loss,veg
 4109,tamale casserole,"tamale casserole, puerto rican style",10.83,6.91,9.78,1.5,158.98000000000002,general,veg
 4110,tamal in a leaf,"tamal in a leaf, puerto rican style",11.46,9.41,8.24,1.5,157.64,maintenance,veg
 4111,taco with crab meat,"taco with crab meat, puerto rican style",16.54,12.06,11.53,1.2,218.17000000000002,maintenance,non_veg
 4112,meat turnover,"meat turnover, puerto rican style",21.62,11.89,13.37,1.1,254.37,maintenance,non_veg
 4113,empanada,"empanada, mexican turnover, filled with cheese and vegetables",34.67,8.61,16.53,1.6,321.89,general,veg
-4114,empanada,"empanada, mexican turnover, filled with meat and vegetables",31.19,11.31,18.37,2.0,335.33000000000004,general,non_veg
-4115,empanada,"empanada, mexican turnover, filled with chicken and vegetables",33.49,9.64,12.72,1.6,287.0,maintenance,non_veg
+4114,empanada,"empanada, mexican turnover, filled with meat and vegetables",31.19,11.31,18.37,2.0,335.33000000000004,general,veg
+4115,empanada,"empanada, mexican turnover, filled with chicken and vegetables",33.49,9.64,12.72,1.6,287.0,maintenance,veg
 4116,meat pie,"meat pie, puerto rican style",25.54,15.81,33.2,1.1,464.20000000000005,gain,non_veg
 4117,cheese turnover,"cheese turnover, puerto rican style",36.92,9.84,25.23,1.3,414.11,general,veg
 4118,cornmeal fritter,"cornmeal fritter, puerto rican style",20.76,6.76,17.46,1.0,267.22,general,veg
@@ -4123,9 +4123,9 @@
 4121,codfish fritter,"codfish fritter, puerto rican style",35.98,15.3,7.62,1.3,273.7,gain,non_veg
 4122,hayacas,"hayacas, puerto rican style",9.36,5.83,10.83,1.1,158.23,general,veg
 4123,cornmeal coconut dessert,"cornmeal coconut dessert, puerto rican style",27.66,2.82,20.54,2.3,306.78,general,veg
-4124,crepe,"crepe, filled with meat, poultry, or seafood, with sauce",7.67,12.85,9.95,0.3,171.63,maintenance,non_veg
-4125,crepe,"crepe, filled with meat, poultry, or seafood, no sauce",11.12,13.78,11.06,0.8,199.14,maintenance,non_veg
-4126,dumpling,"dumpling, meat-filled",25.26,12.49,22.7,0.9,355.29999999999995,general,non_veg
+4124,crepe,"crepe, filled with meat, poultry, or seafood, with sauce",7.67,12.85,9.95,0.3,171.63,maintenance,veg
+4125,crepe,"crepe, filled with meat, poultry, or seafood, no sauce",11.12,13.78,11.06,0.8,199.14,maintenance,veg
+4126,dumpling,"dumpling, meat-filled",25.26,12.49,22.7,0.9,355.29999999999995,general,veg
 4127,dumpling,"dumpling, potato- or cheese-filled",29.64,5.26,6.14,0.9,194.85999999999999,general,veg
 4128,dumpling,"dumpling, vegetable",26.75,5.15,3.83,1.5,162.07,general,veg
 4129,gnocchi,"gnocchi, cheese",9.27,8.48,11.86,0.2,177.74,maintenance,veg
@@ -4133,35 +4133,35 @@
 4131,kishke,"kishke, stuffed derma",35.1,4.72,33.02,1.6,456.46000000000004,general,veg
 4132,knish,"knish, potato",33.81,7.59,20.32,1.5,348.48,general,veg
 4133,knish,"knish, cheese",31.11,10.16,19.46,1.1,340.22,general,veg
-4134,knish,"knish, meat",25.65,13.12,21.28,1.1,346.6,general,non_veg
-4135,sweet bread dough,"sweet bread dough, filled with meat, steamed",39.38,10.94,7.38,1.2,267.7,maintenance,non_veg
-4136,sweet bread dough,"sweet bread dough, filled with bean paste, meatless, steamed",53.98,6.56,2.79,3.4,267.27,general,non_veg
+4134,knish,"knish, meat",25.65,13.12,21.28,1.1,346.6,general,veg
+4135,sweet bread dough,"sweet bread dough, filled with meat, steamed",39.38,10.94,7.38,1.2,267.7,maintenance,veg
+4136,sweet bread dough,"sweet bread dough, filled with bean paste, meatless, steamed",53.98,6.56,2.79,3.4,267.27,general,veg
 4137,pastry,"pastry, cheese-filled",14.93,8.28,19.82,0.4,271.22,general,veg
 4138,pastry,"pastry, egg and cheese filled",43.37,8.1,15.19,1.6,342.59000000000003,general,veg
-4139,pastry,"pastry, meat / poultry-filled",30.63,11.27,18.86,1.1,337.34000000000003,general,non_veg
+4139,pastry,"pastry, meat / poultry-filled",30.63,11.27,18.86,1.1,337.34000000000003,general,veg
 4140,spanakopitta,spanakopitta,10.5,7.51,15.26,1.3,209.38,general,veg
 4141,pastry,"pastry, filled with potatoes and peas, fried",30.84,4.66,18.16,1.8,305.44,general,veg
 4142,quiche with meat,"quiche with meat, poultry or fish",11.76,15.8,30.7,0.7,386.54,gain,non_veg
-4143,spinach quiche,"spinach quiche, meatless",11.61,10.55,23.53,1.2,300.41,general,non_veg
-4144,cheese quiche,"cheese quiche, meatless",13.33,12.26,29.32,0.8,366.24,general,non_veg
-4145,turnover,"turnover, meat-filled, no gravy",26.07,12.83,23.5,1.0,367.1,general,non_veg
-4146,turnover,"turnover, meat-filled, with gravy",17.81,9.3,15.29,0.7,246.04999999999998,general,non_veg
-4147,turnover,"turnover, meat- and cheese-filled, no gravy",30.55,9.16,9.14,1.5,241.10000000000002,maintenance,non_veg
-4148,turnover,"turnover, meat- and bean-filled, no gravy",25.83,12.45,21.17,1.6,343.65000000000003,general,non_veg
-4149,turnover,"turnover, meat- and cheese-filled, tomato-based sauce",30.68,9.32,10.23,2.2,252.07,maintenance,non_veg
+4143,spinach quiche,"spinach quiche, meatless",11.61,10.55,23.53,1.2,300.41,general,veg
+4144,cheese quiche,"cheese quiche, meatless",13.33,12.26,29.32,0.8,366.24,general,veg
+4145,turnover,"turnover, meat-filled, no gravy",26.07,12.83,23.5,1.0,367.1,general,veg
+4146,turnover,"turnover, meat-filled, with gravy",17.81,9.3,15.29,0.7,246.04999999999998,general,veg
+4147,turnover,"turnover, meat- and cheese-filled, no gravy",30.55,9.16,9.14,1.5,241.10000000000002,maintenance,veg
+4148,turnover,"turnover, meat- and bean-filled, no gravy",25.83,12.45,21.17,1.6,343.65000000000003,general,veg
+4149,turnover,"turnover, meat- and cheese-filled, tomato-based sauce",30.68,9.32,10.23,2.2,252.07,maintenance,veg
 4150,turnover,"turnover, cheese-filled, tomato-based sauce",31.37,11.77,10.86,1.8,270.3,maintenance,veg
 4151,turnover filled with meat and vegetable,"turnover filled with meat and vegetable, no potatoes, no gravy",22.85,10.66,18.77,1.3,302.97,general,non_veg
-4152,turnover,"turnover, meat-, potato-, and vegetable-filled, no gravy",22.81,9.96,17.68,1.2,290.2,general,non_veg
-4153,turnover,"turnover, chicken- or turkey-, and cheese-filled, no gravy",30.4,8.9,8.6,1.1,234.59999999999997,maintenance,non_veg
-4154,turnover,"turnover, chicken- or turkey-, and vegetable-filled, lower in fat",21.74,7.87,5.51,3.1,168.03,general,non_veg
-4155,turnover,"turnover, meat- and cheese-filled, lower in fat",32.52,10.28,6.53,1.7,229.97000000000003,maintenance,non_veg
-4156,turnover,"turnover, meat- and cheese-filled, tomato-based sauce, lower in fat",31.89,9.45,5.51,0.8,214.95000000000002,maintenance,non_veg
-4157,turnover,"turnover, filled with egg, meat and cheese",20.67,7.87,12.6,0.8,227.56,general,non_veg
-4158,turnover,"turnover, filled with egg, meat, and cheese, lower in fat",32.52,10.28,6.53,1.7,229.97000000000003,maintenance,non_veg
+4152,turnover,"turnover, meat-, potato-, and vegetable-filled, no gravy",22.81,9.96,17.68,1.2,290.2,general,veg
+4153,turnover,"turnover, chicken- or turkey-, and cheese-filled, no gravy",30.4,8.9,8.6,1.1,234.59999999999997,maintenance,veg
+4154,turnover,"turnover, chicken- or turkey-, and vegetable-filled, lower in fat",21.74,7.87,5.51,3.1,168.03,general,veg
+4155,turnover,"turnover, meat- and cheese-filled, lower in fat",32.52,10.28,6.53,1.7,229.97000000000003,maintenance,veg
+4156,turnover,"turnover, meat- and cheese-filled, tomato-based sauce, lower in fat",31.89,9.45,5.51,0.8,214.95000000000002,maintenance,veg
+4157,turnover,"turnover, filled with egg, meat and cheese",20.67,7.87,12.6,0.8,227.56,general,veg
+4158,turnover,"turnover, filled with egg, meat, and cheese, lower in fat",32.52,10.28,6.53,1.7,229.97000000000003,maintenance,veg
 4159,vegetables in pastry,vegetables in pastry,21.1,6.55,22.94,3.1,317.06,general,veg
 4160,vegetables and cheese in pastry,vegetables and cheese in pastry,19.61,7.89,23.83,2.8,324.46999999999997,general,veg
 4161,croissant sandwich,"croissant sandwich, filled with broccoli and cheese",25.92,7.1,15.32,1.2,269.96000000000004,general,veg
-4162,croissant sandwich,"croissant sandwich, filled with ham and cheese",23.44,11.64,17.07,0.7,293.95,general,non_veg
+4162,croissant sandwich,"croissant sandwich, filled with ham and cheese",23.44,11.64,17.07,0.7,293.95,general,veg
 4163,croissant sandwich with sausage and egg,croissant sandwich with sausage and egg,21.29,12.66,21.44,1.2,328.76,general,veg
 4164,croissant sandwich with bacon and egg,croissant sandwich with bacon and egg,22.09,13.46,20.47,1.2,326.42999999999995,general,veg
 4165,croissant sandwich with ham,"croissant sandwich with ham, egg, and cheese",18.98,12.45,14.95,0.9,260.27,maintenance,non_veg
@@ -4182,54 +4182,54 @@
 4180,lasagna with meat,"lasagna with meat, frozen",14.39,6.63,4.42,1.4,123.86,general,non_veg
 4181,lasagna with meat and spinach,lasagna with meat and spinach,13.8,13.33,10.77,1.1,205.45,maintenance,non_veg
 4182,lasagna with chicken or turkey,lasagna with chicken or turkey,14.02,13.74,10.36,1.0,204.27999999999997,maintenance,non_veg
-4183,lasagna,"lasagna, with chicken or turkey, and spinach",13.8,13.51,10.13,1.1,200.41000000000003,maintenance,non_veg
-4184,lasagna,"lasagna, meatless",13.84,6.54,5.33,1.7,129.49,general,non_veg
-4185,lasagna,"lasagna, meatless, with vegetables",14.56,11.17,9.36,1.2,187.16,maintenance,non_veg
+4183,lasagna,"lasagna, with chicken or turkey, and spinach",13.8,13.51,10.13,1.1,200.41000000000003,maintenance,veg
+4184,lasagna,"lasagna, meatless",13.84,6.54,5.33,1.7,129.49,general,veg
+4185,lasagna,"lasagna, meatless, with vegetables",14.56,11.17,9.36,1.2,187.16,maintenance,veg
 4186,ravioli,"ravioli, ns as to filling, no sauce",19.66,10.18,6.76,0.7,180.2,maintenance,veg
 4187,ravioli,"ravioli, ns as to filling, with tomato sauce",14.47,6.85,5.76,0.9,137.12,general,veg
 4188,ravioli,"ravioli, ns as to filling, with cream sauce",15.04,8.04,8.19,0.5,166.02999999999997,maintenance,veg
-4189,ravioli,"ravioli, meat-filled, no sauce",17.44,12.49,7.23,0.6,184.79000000000002,maintenance,non_veg
-4190,ravioli,"ravioli, meat-filled, with tomato sauce or meat sauce",14.29,8.68,6.13,1.0,147.05,general,non_veg
-4191,ravioli,"ravioli, meat-filled, with tomato sauce or meat sauce, canned",13.26,3.24,3.41,1.5,96.69,weight_loss,non_veg
-4192,ravioli,"ravioli, meat-filled, with cream sauce",13.52,10.08,8.63,0.4,172.07,maintenance,non_veg
+4189,ravioli,"ravioli, meat-filled, no sauce",17.44,12.49,7.23,0.6,184.79000000000002,maintenance,veg
+4190,ravioli,"ravioli, meat-filled, with tomato sauce or meat sauce",14.29,8.68,6.13,1.0,147.05,general,veg
+4191,ravioli,"ravioli, meat-filled, with tomato sauce or meat sauce, canned",13.26,3.24,3.41,1.5,96.69,weight_loss,veg
+4192,ravioli,"ravioli, meat-filled, with cream sauce",13.52,10.08,8.63,0.4,172.07,maintenance,veg
 4193,ravioli,"ravioli, cheese-filled, no sauce",21.55,7.26,6.01,0.7,169.33,general,veg
 4194,ravioli,"ravioli, cheese-filled, with tomato sauce",15.22,3.98,2.3,1.2,97.5,weight_loss,veg
 4195,ravioli,"ravioli, cheese-filled, with tomato sauce, canned",13.64,2.48,1.45,1.3,77.53,weight_loss,veg
-4196,ravioli,"ravioli, cheese-filled, with meat sauce",14.21,6.29,6.0,0.8,136.0,general,non_veg
+4196,ravioli,"ravioli, cheese-filled, with meat sauce",14.21,6.29,6.0,0.8,136.0,general,veg
 4197,ravioli,"ravioli, cheese-filled, with cream sauce",16.1,5.97,7.7,0.5,157.57999999999998,general,veg
 4198,ravioli,"ravioli, cheese and spinach-filled, no sauce",20.85,6.48,4.23,1.1,147.39000000000001,general,veg
 4199,ravioli,"ravioli, cheese and spinach-filled, with cream sauce",15.7,5.46,6.5,0.8,143.14,general,veg
 4200,ravioli,"ravioli, cheese and spinach filled, with tomato sauce",16.84,5.09,3.16,1.3,116.16,weight_loss,veg
 4201,manicotti,"manicotti, cheese-filled, no sauce",20.17,10.3,9.13,0.6,204.05,maintenance,veg
-4202,manicotti,"manicotti, cheese-filled, with tomato sauce, meatless",16.03,7.56,6.47,0.9,152.59,general,non_veg
-4203,manicotti,"manicotti, cheese-filled, with meat sauce",14.96,8.76,7.16,0.8,159.32,maintenance,non_veg
-4204,manicotti,"manicotti, vegetable- and cheese-filled, with tomato sauce, meatless",15.82,6.35,5.04,1.1,134.04000000000002,general,non_veg
+4202,manicotti,"manicotti, cheese-filled, with tomato sauce, meatless",16.03,7.56,6.47,0.9,152.59,general,veg
+4203,manicotti,"manicotti, cheese-filled, with meat sauce",14.96,8.76,7.16,0.8,159.32,maintenance,veg
+4204,manicotti,"manicotti, vegetable- and cheese-filled, with tomato sauce, meatless",15.82,6.35,5.04,1.1,134.04000000000002,general,veg
 4205,stuffed shells,"stuffed shells, cheese-filled, no sauce",21.94,9.82,8.32,0.7,201.92000000000002,maintenance,veg
-4206,stuffed shells,"stuffed shells, cheese-filled, with tomato sauce, meatless",16.7,6.93,5.63,0.9,145.19,general,non_veg
-4207,stuffed shells,"stuffed shells, cheese-filled, with meat sauce",16.47,8.39,6.42,1.0,157.22,maintenance,non_veg
+4206,stuffed shells,"stuffed shells, cheese-filled, with tomato sauce, meatless",16.7,6.93,5.63,0.9,145.19,general,veg
+4207,stuffed shells,"stuffed shells, cheese-filled, with meat sauce",16.47,8.39,6.42,1.0,157.22,maintenance,veg
 4208,stuffed shells,"stuffed shells, cheese- and spinach- filled, no sauce",22.29,9.43,6.39,1.1,184.39,maintenance,veg
-4209,stuffed shells,"stuffed shells, with chicken, with tomato sauce",16.12,10.68,3.23,1.1,136.27,general,non_veg
-4210,stuffed shells,"stuffed shells, with fish and/or shellfish, with tomato sauce",16.0,8.72,1.81,1.1,115.16999999999999,weight_loss,non_veg
-4211,tortellini,"tortellini, meat-filled, with tomato sauce",15.83,6.43,4.98,1.0,133.86,general,non_veg
-4212,tortellini,"tortellini, meat-filled, with tomato sauce, canned",15.82,3.24,1.63,1.4,90.91000000000001,weight_loss,non_veg
-4213,tortellini,"tortellini, cheese-filled, meatless, with tomato sauce",23.0,6.18,3.65,1.6,149.57,general,non_veg
-4214,tortellini,"tortellini, cheese-filled, meatless, with tomato sauce, canned",15.98,3.48,1.5,0.8,91.34,weight_loss,non_veg
-4215,tortellini,"tortellini, cheese-filled, meatless, with vinaigrette dressing",18.6,6.12,10.25,0.6,191.13,general,non_veg
-4216,tortellini,"tortellini, meat-filled, no sauce",17.78,12.02,7.53,0.6,186.97,maintenance,non_veg
+4209,stuffed shells,"stuffed shells, with chicken, with tomato sauce",16.12,10.68,3.23,1.1,136.27,general,veg
+4210,stuffed shells,"stuffed shells, with fish and/or shellfish, with tomato sauce",16.0,8.72,1.81,1.1,115.16999999999999,weight_loss,veg
+4211,tortellini,"tortellini, meat-filled, with tomato sauce",15.83,6.43,4.98,1.0,133.86,general,veg
+4212,tortellini,"tortellini, meat-filled, with tomato sauce, canned",15.82,3.24,1.63,1.4,90.91000000000001,weight_loss,veg
+4213,tortellini,"tortellini, cheese-filled, meatless, with tomato sauce",23.0,6.18,3.65,1.6,149.57,general,veg
+4214,tortellini,"tortellini, cheese-filled, meatless, with tomato sauce, canned",15.98,3.48,1.5,0.8,91.34,weight_loss,veg
+4215,tortellini,"tortellini, cheese-filled, meatless, with vinaigrette dressing",18.6,6.12,10.25,0.6,191.13,general,veg
+4216,tortellini,"tortellini, meat-filled, no sauce",17.78,12.02,7.53,0.6,186.97,maintenance,veg
 4217,tortellini,"tortellini, cheese-filled, with cream sauce",16.54,5.73,6.76,0.5,149.92,general,veg
 4218,tortellini,"tortellini, cheese-filled, no sauce",36.15,10.38,5.56,1.5,236.16,maintenance,veg
 4219,tortellini,"tortellini, spinach-filled, with tomato sauce",16.21,4.49,4.34,1.2,121.86000000000001,general,veg
 4220,tortellini,"tortellini, spinach-filled, no sauce",21.19,8.82,7.16,0.9,184.48000000000002,maintenance,veg
 4221,cannelloni,"cannelloni, cheese- and spinach-filled, no sauce",18.42,6.2,6.34,1.2,155.54000000000002,general,veg
 4222,chow fun noodles with meat and vegetables,chow fun noodles with meat and vegetables,11.51,7.09,2.74,0.9,99.06,weight_loss,non_veg
-4223,chow fun noodles with vegetables,"chow fun noodles with vegetables, meatless",14.46,1.56,0.97,1.1,72.81,weight_loss,non_veg
+4223,chow fun noodles with vegetables,"chow fun noodles with vegetables, meatless",14.46,1.56,0.97,1.1,72.81,weight_loss,veg
 4224,lo mein,"lo mein, nfs",20.16,4.77,2.35,1.3,120.87,general,veg
-4225,lo mein,"lo mein, meatless",20.16,4.77,2.35,1.3,120.87,general,non_veg
-4226,lo mein,"lo mein, with shrimp",16.24,8.56,2.21,1.0,119.08999999999999,weight_loss,non_veg
-4227,lo mein,"lo mein, with pork",16.18,9.48,3.79,1.0,136.75,general,non_veg
-4228,lo mein,"lo mein, with chicken",16.15,9.15,3.15,1.0,129.54999999999998,general,non_veg
+4225,lo mein,"lo mein, meatless",20.16,4.77,2.35,1.3,120.87,general,veg
+4226,lo mein,"lo mein, with shrimp",16.24,8.56,2.21,1.0,119.08999999999999,weight_loss,veg
+4227,lo mein,"lo mein, with pork",16.18,9.48,3.79,1.0,136.75,general,veg
+4228,lo mein,"lo mein, with chicken",16.15,9.15,3.15,1.0,129.54999999999998,general,veg
 4229,pad thai,"pad thai, nfs",14.37,8.14,7.47,1.2,157.26999999999998,maintenance,veg
-4230,pad thai,"pad thai, meatless",16.36,5.8,9.17,1.8,171.17000000000002,general,non_veg
+4230,pad thai,"pad thai, meatless",16.36,5.8,9.17,1.8,171.17000000000002,general,veg
 4231,pad thai with chicken,pad thai with chicken,14.37,8.14,7.47,1.2,157.26999999999998,maintenance,non_veg
 4232,pad thai with seafood,pad thai with seafood,15.06,6.84,6.78,1.2,148.62,general,veg
 4233,pad thai with meat,pad thai with meat,14.74,8.19,7.89,1.2,162.73,maintenance,non_veg
@@ -4249,11 +4249,11 @@
 4247,macaroni or noodles with cheese and egg,macaroni or noodles with cheese and egg,18.96,5.94,9.39,0.8,184.11,general,veg
 4248,macaroni or noodles with cheese and chicken or turkey,macaroni or noodles with cheese and chicken or turkey,14.82,12.53,7.56,0.7,177.44,maintenance,non_veg
 4249,macaroni or noodles with cheese,"macaroni or noodles with cheese, whole grain",22.7,8.77,10.79,2.2,222.98999999999998,maintenance,veg
-4250,pasta with tomato-based sauce,"pasta with tomato-based sauce, cheese and meat",13.25,7.54,6.97,0.8,145.89,general,non_veg
+4250,pasta with tomato-based sauce,"pasta with tomato-based sauce, cheese and meat",13.25,7.54,6.97,0.8,145.89,general,veg
 4251,pasta with tomato-based sauce and cheese,pasta with tomato-based sauce and cheese,14.98,3.74,4.83,1.7,118.35,weight_loss,veg
 4252,pasta with vegetables,"pasta with vegetables, no sauce or dressing",23.14,4.49,3.54,2.3,142.38,general,veg
 4253,pasta with sauce,"pasta with sauce, nfs",19.15,5.86,2.58,1.6,123.25999999999999,general,veg
-4254,pasta with sauce,"pasta with sauce, meatless, school lunch",19.44,3.78,1.6,2.9,107.28000000000002,weight_loss,non_veg
+4254,pasta with sauce,"pasta with sauce, meatless, school lunch",19.44,3.78,1.6,2.9,107.28000000000002,weight_loss,veg
 4255,pasta with tomato-based sauce,"pasta with tomato-based sauce, restaurant",18.41,3.41,7.97,1.7,159.01,general,veg
 4256,pasta with tomato-based sauce,"pasta with tomato-based sauce, home recipe",19.88,3.69,1.2,1.8,105.08,weight_loss,veg
 4257,pasta with tomato-based sauce,"pasta with tomato-based sauce, ready-to-heat",19.44,3.61,2.98,1.8,119.02000000000001,weight_loss,veg
@@ -4264,9 +4264,9 @@
 4262,pasta with tomato-based sauce and meat,"pasta with tomato-based sauce and meat, restaurant",17.74,5.43,9.25,1.5,175.93,general,non_veg
 4263,pasta with tomato-based sauce and meat,"pasta with tomato-based sauce and meat, home recipe",19.15,5.86,2.58,1.6,123.25999999999999,general,non_veg
 4264,pasta with tomato-based sauce and meat,"pasta with tomato-based sauce and meat, ready-to-heat",18.74,5.74,4.34,1.6,136.98,general,non_veg
-4265,pasta with tomato-based sauce,"pasta with tomato-based sauce, meat, and added vegetables, restaurant",17.51,5.44,9.15,1.5,174.15000000000003,general,non_veg
-4266,pasta with tomato-based sauce,"pasta with tomato-based sauce, meat, and added vegetables, home recipe",18.91,5.87,2.48,1.6,121.44,general,non_veg
-4267,pasta with tomato-based sauce,"pasta with tomato-based sauce, meat, and added vegetables, ready-to-heat",18.5,5.74,4.23,1.6,135.03000000000003,general,non_veg
+4265,pasta with tomato-based sauce,"pasta with tomato-based sauce, meat, and added vegetables, restaurant",17.51,5.44,9.15,1.5,174.15000000000003,general,veg
+4266,pasta with tomato-based sauce,"pasta with tomato-based sauce, meat, and added vegetables, home recipe",18.91,5.87,2.48,1.6,121.44,general,veg
+4267,pasta with tomato-based sauce,"pasta with tomato-based sauce, meat, and added vegetables, ready-to-heat",18.5,5.74,4.23,1.6,135.03000000000003,general,veg
 4268,pasta with tomato-based sauce and poultry,"pasta with tomato-based sauce and poultry, restaurant",17.74,5.6,8.42,1.5,169.14,general,veg
 4269,pasta with tomato-based sauce and poultry,"pasta with tomato-based sauce and poultry, home recipe",19.15,6.05,1.69,1.6,116.00999999999999,weight_loss,veg
 4270,pasta with tomato-based sauce and poultry,"pasta with tomato-based sauce and poultry, ready-to-heat",18.74,5.92,3.46,1.6,129.77999999999997,general,veg
@@ -4288,9 +4288,9 @@
 4286,pasta with cream sauce and meat,"pasta with cream sauce and meat, restaurant",15.3,5.76,14.14,0.9,211.5,general,non_veg
 4287,pasta with cream sauce and meat,"pasta with cream sauce and meat, home recipe",16.58,6.24,7.92,0.9,162.56,general,non_veg
 4288,pasta with cream sauce and meat,"pasta with cream sauce and meat, ready-to-heat",16.22,6.1,9.56,0.9,175.32,general,non_veg
-4289,pasta with cream sauce,"pasta with cream sauce, meat, and added vegetables, restaurant",15.61,5.73,12.89,1.0,201.37,general,non_veg
-4290,pasta with cream sauce,"pasta with cream sauce, meat, and added vegetables, home recipe",16.91,6.2,6.56,1.1,151.48,general,non_veg
-4291,pasta with cream sauce,"pasta with cream sauce, meat, and added vegetables, ready-to-heat",16.54,6.07,8.22,1.0,164.42000000000002,general,non_veg
+4289,pasta with cream sauce,"pasta with cream sauce, meat, and added vegetables, restaurant",15.61,5.73,12.89,1.0,201.37,general,veg
+4290,pasta with cream sauce,"pasta with cream sauce, meat, and added vegetables, home recipe",16.91,6.2,6.56,1.1,151.48,general,veg
+4291,pasta with cream sauce,"pasta with cream sauce, meat, and added vegetables, ready-to-heat",16.54,6.07,8.22,1.0,164.42000000000002,general,veg
 4292,pasta with cream sauce and poultry,"pasta with cream sauce and poultry, restaurant",15.3,5.93,13.32,0.9,204.8,general,veg
 4293,pasta with cream sauce and poultry,"pasta with cream sauce and poultry, home recipe",16.58,6.43,7.02,0.9,155.21999999999997,general,veg
 4294,pasta with cream sauce and poultry,"pasta with cream sauce and poultry, ready-to-heat",16.22,6.29,8.68,0.9,168.16,general,veg
@@ -4309,12 +4309,12 @@
 4307,pasta,"pasta, whole grain, with tomato-based sauce and added vegetables, restaurant",17.76,3.51,8.22,2.7,159.06,general,veg
 4308,pasta,"pasta, whole grain, with tomato-based sauce and added vegetables, home recipe",19.17,3.79,1.47,2.9,105.07000000000001,weight_loss,veg
 4309,pasta,"pasta, whole grain, with tomato-based sauce and added vegetables, ready-to-heat",18.75,3.71,3.25,2.8,119.09,weight_loss,veg
-4310,pasta,"pasta, whole grain, with tomato-based sauce and meat, restaurant",17.36,5.52,9.62,2.5,178.1,general,non_veg
-4311,pasta,"pasta, whole grain, with tomato-based sauce and meat, home recipe",18.74,5.96,2.98,2.7,125.62,general,non_veg
-4312,pasta,"pasta, whole grain, with tomato-based sauce and meat, ready-to-heat",18.33,5.83,4.73,2.7,139.20999999999998,general,non_veg
-4313,pasta,"pasta, whole grain, with tomato-based sauce, meat, and added vegetables, restaurant",17.13,5.53,9.53,2.5,176.41,general,non_veg
-4314,pasta,"pasta, whole grain, with tomato-based sauce, meat, and added vegetables, home recipe",18.5,5.97,2.88,2.7,123.8,general,non_veg
-4315,pasta,"pasta, whole grain, with tomato-based sauce, meat, and added vegetables, ready-to-heat",18.1,5.84,4.63,2.7,137.43,general,non_veg
+4310,pasta,"pasta, whole grain, with tomato-based sauce and meat, restaurant",17.36,5.52,9.62,2.5,178.1,general,veg
+4311,pasta,"pasta, whole grain, with tomato-based sauce and meat, home recipe",18.74,5.96,2.98,2.7,125.62,general,veg
+4312,pasta,"pasta, whole grain, with tomato-based sauce and meat, ready-to-heat",18.33,5.83,4.73,2.7,139.20999999999998,general,veg
+4313,pasta,"pasta, whole grain, with tomato-based sauce, meat, and added vegetables, restaurant",17.13,5.53,9.53,2.5,176.41,general,veg
+4314,pasta,"pasta, whole grain, with tomato-based sauce, meat, and added vegetables, home recipe",18.5,5.97,2.88,2.7,123.8,general,veg
+4315,pasta,"pasta, whole grain, with tomato-based sauce, meat, and added vegetables, ready-to-heat",18.1,5.84,4.63,2.7,137.43,general,veg
 4316,pasta,"pasta, whole grain, with tomato-based sauce and poultry, restaurant",17.36,5.7,8.8,2.5,171.44,general,veg
 4317,pasta,"pasta, whole grain, with tomato-based sauce and poultry, home recipe",18.74,6.15,2.09,2.7,118.37,weight_loss,veg
 4318,pasta,"pasta, whole grain, with tomato-based sauce and poultry, ready-to-heat",18.33,6.02,3.86,2.7,132.14,general,veg
@@ -4333,12 +4333,12 @@
 4331,pasta,"pasta, whole grain, with cream sauce, and added vegetables, restaurant",15.42,3.88,12.83,2.0,192.67000000000002,general,veg
 4332,pasta,"pasta, whole grain, with cream sauce, and added vegetables, home recipe",16.71,4.2,6.49,2.2,142.05,general,veg
 4333,pasta,"pasta, whole grain, with cream sauce, and added vegetables, ready-to-heat",16.34,4.11,8.16,2.1,155.24,general,veg
-4334,pasta,"pasta, whole grain, with cream sauce and meat, restaurant",14.93,5.85,14.52,1.9,213.8,general,non_veg
-4335,pasta,"pasta, whole grain, with cream sauce and meat, home recipe",16.17,6.34,8.32,2.0,164.92000000000002,general,non_veg
-4336,pasta,"pasta, whole grain, with cream sauce and meat, ready-to-heat",15.82,6.2,9.95,2.0,177.63,general,non_veg
-4337,pasta,"pasta, whole grain, with cream sauce, meat, and added vegetables, restaurant",15.23,5.82,13.26,2.0,203.54000000000002,general,non_veg
-4338,pasta,"pasta, whole grain, with cream sauce, meat, and added vegetables, home recipe",16.5,6.3,6.96,2.2,153.84,general,non_veg
-4339,pasta,"pasta, whole grain, with cream sauce, meat, and added vegetables, ready-to-heat",16.14,6.17,8.62,2.1,166.82,general,non_veg
+4334,pasta,"pasta, whole grain, with cream sauce and meat, restaurant",14.93,5.85,14.52,1.9,213.8,general,veg
+4335,pasta,"pasta, whole grain, with cream sauce and meat, home recipe",16.17,6.34,8.32,2.0,164.92000000000002,general,veg
+4336,pasta,"pasta, whole grain, with cream sauce and meat, ready-to-heat",15.82,6.2,9.95,2.0,177.63,general,veg
+4337,pasta,"pasta, whole grain, with cream sauce, meat, and added vegetables, restaurant",15.23,5.82,13.26,2.0,203.54000000000002,general,veg
+4338,pasta,"pasta, whole grain, with cream sauce, meat, and added vegetables, home recipe",16.5,6.3,6.96,2.2,153.84,general,veg
+4339,pasta,"pasta, whole grain, with cream sauce, meat, and added vegetables, ready-to-heat",16.14,6.17,8.62,2.1,166.82,general,veg
 4340,pasta,"pasta, whole grain, with cream sauce and poultry, restaurant",14.93,6.02,13.7,1.9,207.1,general,veg
 4341,pasta,"pasta, whole grain, with cream sauce and poultry, home recipe",16.17,6.52,7.43,2.0,157.63,general,veg
 4342,pasta,"pasta, whole grain, with cream sauce and poultry, ready-to-heat",15.82,6.38,9.08,2.0,170.51999999999998,general,veg
@@ -4353,7 +4353,7 @@
 4351,pasta,"pasta, whole grain, with cream sauce, seafood, and added vegetables, ready-to-heat",16.4,5.88,7.26,2.1,154.45999999999998,general,veg
 4352,pasta with tomato-based sauce and beans or lentils,pasta with tomato-based sauce and beans or lentils,20.94,5.23,2.28,3.0,125.2,general,veg
 4353,macaroni or noodles,"macaroni or noodles, creamed, with cheese",21.94,4.8,5.53,1.3,156.73000000000002,general,veg
-4354,macaroni or noodles,"macaroni or noodles, creamed, with cheese and tuna",17.28,7.91,4.55,1.0,141.71,general,non_veg
+4354,macaroni or noodles,"macaroni or noodles, creamed, with cheese and tuna",17.28,7.91,4.55,1.0,141.71,general,veg
 4355,flavored pasta,flavored pasta,14.45,2.47,2.21,0.4,87.57,weight_loss,veg
 4356,yat ga mein with meat,"yat ga mein with meat, fish, or poultry",11.16,10.36,5.57,1.5,136.21,general,non_veg
 4357,macaroni or pasta salad,"macaroni or pasta salad, made with mayonnaise",24.64,4.46,11.52,1.4,220.07999999999998,general,veg
@@ -4375,26 +4375,26 @@
 4373,macaroni or pasta salad with meat,macaroni or pasta salad with meat,20.82,7.66,10.59,1.2,209.23000000000002,general,non_veg
 4374,noodle pudding,noodle pudding,30.98,5.96,7.32,1.6,213.64,general,veg
 4375,bibimbap,"bibimbap, korean",8.61,5.47,2.88,1.1,82.24,weight_loss,veg
-4376,rice,"rice, fried, meatless",32.5,3.84,3.19,1.1,174.07000000000002,general,non_veg
+4376,rice,"rice, fried, meatless",32.5,3.84,3.19,1.1,174.07000000000002,general,veg
 4377,rice,"rice, fried, nfs",32.5,3.84,3.19,1.1,174.07000000000002,general,veg
-4378,rice,"rice, fried, with chicken",27.62,7.28,3.66,0.9,172.54,general,non_veg
-4379,rice,"rice, fried, with pork",27.62,7.56,4.16,0.9,178.16,general,non_veg
-4380,rice,"rice, fried, with shrimp",27.85,6.68,2.97,0.9,164.85,general,non_veg
+4378,rice,"rice, fried, with chicken",27.62,7.28,3.66,0.9,172.54,general,veg
+4379,rice,"rice, fried, with pork",27.62,7.56,4.16,0.9,178.16,general,veg
+4380,rice,"rice, fried, with shrimp",27.85,6.68,2.97,0.9,164.85,general,veg
 4381,dukboki or tteokbokki,"dukboki or tteokbokki, korean",19.91,3.92,4.07,1.0,131.95,general,veg
 4382,adobo,"adobo, with rice",8.88,17.68,7.94,0.2,177.70000000000002,maintenance,veg
 4383,sushi,"sushi, nfs",18.41,2.92,0.67,1.0,91.35,weight_loss,veg
 4384,sushi roll,"sushi roll, avocado",17.71,1.81,1.47,1.4,91.31,weight_loss,veg
 4385,sushi roll,"sushi roll, california",18.41,2.92,0.67,1.0,91.35,weight_loss,veg
-4386,sushi roll,"sushi roll, eel",15.3,7.1,3.71,0.7,122.99,general,non_veg
-4387,sushi roll,"sushi roll, salmon",15.3,6.88,1.28,0.7,100.24,weight_loss,non_veg
-4388,sushi roll,"sushi roll, shrimp",15.67,7.01,0.55,0.7,95.67,weight_loss,non_veg
+4386,sushi roll,"sushi roll, eel",15.3,7.1,3.71,0.7,122.99,general,veg
+4387,sushi roll,"sushi roll, salmon",15.3,6.88,1.28,0.7,100.24,weight_loss,veg
+4388,sushi roll,"sushi roll, shrimp",15.67,7.01,0.55,0.7,95.67,weight_loss,veg
 4389,sushi roll tuna,sushi roll tuna,15.3,7.4,0.26,0.7,93.14000000000001,weight_loss,non_veg
 4390,sushi roll,"sushi roll, vegetable",17.71,1.81,1.47,1.4,91.31,weight_loss,veg
-4391,sushi,"sushi, topped with crab",18.58,3.85,0.28,0.8,92.24,weight_loss,non_veg
-4392,sushi,"sushi, topped with eel",13.39,9.24,5.2,0.6,137.32000000000002,general,non_veg
-4393,sushi,"sushi, topped with salmon",13.39,8.92,1.74,0.6,104.9,weight_loss,non_veg
-4394,sushi,"sushi, topped with shrimp",13.91,9.1,0.7,0.6,98.33999999999999,weight_loss,non_veg
-4395,sushi,"sushi, topped with tuna",13.39,9.66,0.29,0.6,94.81,weight_loss,non_veg
+4391,sushi,"sushi, topped with crab",18.58,3.85,0.28,0.8,92.24,weight_loss,veg
+4392,sushi,"sushi, topped with eel",13.39,9.24,5.2,0.6,137.32000000000002,general,veg
+4393,sushi,"sushi, topped with salmon",13.39,8.92,1.74,0.6,104.9,weight_loss,veg
+4394,sushi,"sushi, topped with shrimp",13.91,9.1,0.7,0.6,98.33999999999999,weight_loss,veg
+4395,sushi,"sushi, topped with tuna",13.39,9.66,0.29,0.6,94.81,weight_loss,veg
 4396,sushi,"sushi, topped with egg",10.13,7.41,5.0,0.4,115.16,weight_loss,veg
 4397,rice with chicken,"rice with chicken, puerto rican style",31.43,10.13,14.14,0.8,293.5,maintenance,non_veg
 4398,paella with meat,"paella with meat, valenciana style",16.75,21.44,12.29,0.5,263.37,gain,non_veg
@@ -4409,8 +4409,8 @@
 4407,rice with spanish sausage,"rice with spanish sausage, puerto rican style",32.4,8.39,13.59,0.8,285.47,maintenance,veg
 4408,rice with onions,"rice with onions, puerto rican style",18.85,3.48,9.75,1.3,177.07,general,veg
 4409,rice with stewed beans,"rice with stewed beans, puerto rican style",23.02,3.66,3.23,1.5,135.79,general,veg
-4410,congee,"congee, with meat, poultry, and/or seafood",6.12,4.81,0.94,0.1,52.18,weight_loss,non_veg
-4411,congee,"congee, with meat, poultry, and/or seafood, and vegetables",6.1,4.62,0.92,0.3,51.16,weight_loss,non_veg
+4410,congee,"congee, with meat, poultry, and/or seafood",6.12,4.81,0.94,0.1,52.18,weight_loss,veg
+4411,congee,"congee, with meat, poultry, and/or seafood, and vegetables",6.1,4.62,0.92,0.3,51.16,weight_loss,veg
 4412,congee,"congee, with vegetables",7.7,0.76,0.1,0.3,34.74,weight_loss,veg
 4413,biryani with vegetables,biryani with vegetables,17.88,1.93,3.16,1.2,107.67999999999999,weight_loss,veg
 4414,beans and rice,"beans and rice, from fast food / restaurant",24.41,6.29,6.99,3.6,185.71,general,veg
@@ -4419,7 +4419,7 @@
 4417,pinto beans and rice,"pinto beans and rice, from fast food / restaurant",25.02,5.9,7.15,5.0,188.03000000000003,general,veg
 4418,beans and white rice,beans and white rice,25.19,6.5,4.21,3.7,164.65,general,veg
 4419,beans and rice,"beans and rice, with tomatoes",21.9,4.7,3.46,3.8,137.54,general,veg
-4420,beans and rice,"beans and rice, with meat",23.54,7.49,4.24,4.4,162.28,general,non_veg
+4420,beans and rice,"beans and rice, with meat",23.54,7.49,4.24,4.4,162.28,general,veg
 4421,kidney beans and white rice,kidney beans and white rice,23.91,5.9,4.29,4.3,157.85000000000002,general,non_veg
 4422,black beans and white rice,black beans and white rice,24.42,6.01,4.32,5.0,160.6,general,veg
 4423,pinto beans and white rice,pinto beans and white rice,25.82,6.09,4.38,5.2,167.06,general,veg
@@ -4499,11 +4499,11 @@
 4497,rice,"rice, brown, with other vegetables, no added fat",21.85,2.44,0.8,1.6,104.36000000000001,weight_loss,veg
 4498,rice,"rice, brown, with other vegetables, fat added",21.45,2.4,2.63,1.6,119.07,weight_loss,veg
 4499,rice croquette,rice croquette,19.97,3.41,6.53,0.9,152.29,general,veg
-4500,stuffed pepper,"stuffed pepper, with meat",4.13,9.29,15.9,1.1,196.77999999999997,general,non_veg
-4501,stuffed pepper,"stuffed pepper, with rice and meat",9.85,7.89,11.65,1.0,175.81,general,non_veg
-4502,stuffed pepper,"stuffed pepper, with rice, meatless",11.93,3.84,11.31,1.2,164.87,general,non_veg
-4503,stuffed tomato,"stuffed tomato, with rice and meat",9.86,4.75,4.54,1.0,99.3,weight_loss,non_veg
-4504,stuffed tomato,"stuffed tomato, with rice, meatless",13.04,1.6,2.16,1.2,78.0,weight_loss,non_veg
+4500,stuffed pepper,"stuffed pepper, with meat",4.13,9.29,15.9,1.1,196.77999999999997,general,veg
+4501,stuffed pepper,"stuffed pepper, with rice and meat",9.85,7.89,11.65,1.0,175.81,general,veg
+4502,stuffed pepper,"stuffed pepper, with rice, meatless",11.93,3.84,11.31,1.2,164.87,general,veg
+4503,stuffed tomato,"stuffed tomato, with rice and meat",9.86,4.75,4.54,1.0,99.3,weight_loss,veg
+4504,stuffed tomato,"stuffed tomato, with rice, meatless",13.04,1.6,2.16,1.2,78.0,weight_loss,veg
 4505,rice pilaf,rice pilaf,24.08,3.29,3.03,0.4,136.75,general,veg
 4506,dirty rice,dirty rice,17.28,5.13,2.25,0.6,109.89,weight_loss,veg
 4507,flavored rice mixture,flavored rice mixture,19.83,1.87,4.26,0.4,125.13999999999999,general,veg
@@ -4601,10 +4601,10 @@
 4599,instant soup,"instant soup, noodle",4.17,1.03,0.44,0.2,24.76,weight_loss,veg
 4600,soup,"soup, mostly noodles",9.17,1.55,2.68,0.4,67.0,weight_loss,veg
 4601,soup,"soup, mostly noodles, reduced sodium",10.79,1.66,0.38,0.4,53.22,weight_loss,veg
-4602,instant soup,"instant soup, noodle with egg, shrimp or chicken",9.17,1.55,2.68,0.4,67.0,weight_loss,non_veg
+4602,instant soup,"instant soup, noodle with egg, shrimp or chicken",9.17,1.55,2.68,0.4,67.0,weight_loss,veg
 4603,wonton soup,wonton soup,5.25,2.08,0.26,0.2,31.66,weight_loss,veg
 4604,noodle soup with vegetables,"noodle soup with vegetables, asian style",13.83,1.91,1.22,1.4,73.94,weight_loss,veg
-4605,noodle soup,"noodle soup, with fish ball, shrimp, and dark green leafy vegetable",10.23,4.46,1.7,0.7,74.06,weight_loss,non_veg
+4605,noodle soup,"noodle soup, with fish ball, shrimp, and dark green leafy vegetable",10.23,4.46,1.7,0.7,74.06,weight_loss,veg
 4606,sopa seca,"sopa seca, mexican style, nfs",18.26,2.66,6.41,1.1,141.37,general,veg
 4607,sopa seca de fideo,"sopa seca de fideo, mexican style, made with dry noodles, home recipe",16.58,3.12,6.88,1.3,140.72,general,veg
 4608,sopa de fideo aguada,"sopa de fideo aguada, mexican style noodle soup, home recipe",8.76,3.3,3.52,0.4,79.91999999999999,weight_loss,veg
@@ -4808,40 +4808,40 @@
 4806,fruit bar,"fruit bar, with added vitamin c, baby food, toddler",76.61,0.82,2.24,2.0,329.88,general,veg
 4807,tropical fruit medley,"tropical fruit medley, baby food, strained",12.22,0.31,0.14,1.3,51.38,weight_loss,veg
 4808,apples,"apples, baby food, toddler",11.56,0.19,0.36,1.9,50.24,weight_loss,veg
-4809,apple-raspberry,"apple-raspberry, baby food, ns as to strained or junior",15.98,0.2,0.2,2.0,66.52,weight_loss,non_veg
+4809,apple-raspberry,"apple-raspberry, baby food, ns as to strained or junior",15.98,0.2,0.2,2.0,66.52,weight_loss,veg
 4810,apple-raspberry,"apple-raspberry, baby food, strained",15.6,0.2,0.2,2.1,65.0,weight_loss,veg
-4811,apple-raspberry,"apple-raspberry, baby food, junior",16.0,0.2,0.2,2.0,66.6,weight_loss,non_veg
-4812,applesauce,"applesauce, baby food, ns as to strained or junior",10.55,0.1,0.1,1.7,43.5,weight_loss,non_veg
+4811,apple-raspberry,"apple-raspberry, baby food, junior",16.0,0.2,0.2,2.0,66.6,weight_loss,veg
+4812,applesauce,"applesauce, baby food, ns as to strained or junior",10.55,0.1,0.1,1.7,43.5,weight_loss,veg
 4813,applesauce,"applesauce, baby food, strained",10.8,0.2,0.2,1.7,45.8,weight_loss,veg
-4814,applesauce,"applesauce, baby food, junior",10.3,0.0,0.0,1.7,41.2,weight_loss,non_veg
-4815,applesauce and apricots,"applesauce and apricots, baby food, ns as to strained or junior",12.02,0.2,0.2,1.8,50.67999999999999,weight_loss,non_veg
+4814,applesauce,"applesauce, baby food, junior",10.3,0.0,0.0,1.7,41.2,weight_loss,veg
+4815,applesauce and apricots,"applesauce and apricots, baby food, ns as to strained or junior",12.02,0.2,0.2,1.8,50.67999999999999,weight_loss,veg
 4816,applesauce and apricots,"applesauce and apricots, baby food, strained",11.64,0.2,0.2,1.8,49.16,weight_loss,veg
-4817,applesauce and apricots,"applesauce and apricots, baby food, junior",12.4,0.2,0.2,1.8,52.199999999999996,weight_loss,non_veg
-4818,applesauce with bananas,"applesauce with bananas, baby food, ns as to strained or junior",16.16,0.37,0.1,1.6,67.02000000000001,weight_loss,non_veg
+4817,applesauce and apricots,"applesauce and apricots, baby food, junior",12.4,0.2,0.2,1.8,52.199999999999996,weight_loss,veg
+4818,applesauce with bananas,"applesauce with bananas, baby food, ns as to strained or junior",16.16,0.37,0.1,1.6,67.02000000000001,weight_loss,veg
 4819,applesauce with bananas,"applesauce with bananas, baby food, strained",16.16,0.37,0.1,1.6,67.02000000000001,weight_loss,veg
-4820,applesauce with bananas,"applesauce with bananas, baby food, junior",16.16,0.37,0.1,1.6,67.02000000000001,weight_loss,non_veg
+4820,applesauce with bananas,"applesauce with bananas, baby food, junior",16.16,0.37,0.1,1.6,67.02000000000001,weight_loss,veg
 4821,applesauce with cherries,"applesauce with cherries, baby food, strained",14.1,0.0,0.0,1.1,56.4,weight_loss,veg
-4822,applesauce with cherries,"applesauce with cherries, baby food, junior",14.1,0.0,0.0,1.1,56.4,weight_loss,non_veg
-4823,applesauce with cherries,"applesauce with cherries, baby food, ns as to strained or junior",14.1,0.0,0.0,1.1,56.4,weight_loss,non_veg
+4822,applesauce with cherries,"applesauce with cherries, baby food, junior",14.1,0.0,0.0,1.1,56.4,weight_loss,veg
+4823,applesauce with cherries,"applesauce with cherries, baby food, ns as to strained or junior",14.1,0.0,0.0,1.1,56.4,weight_loss,veg
 4824,bananas,"bananas, baby food, strained",21.34,1.0,0.2,1.6,91.16,weight_loss,veg
 4825,bananas with apples and pears,"bananas with apples and pears, baby food, strained",19.31,0.9,0.22,1.4,82.82,weight_loss,veg
 4826,bananas with orange,"bananas with orange, baby food, strained",20.41,1.06,0.0,2.1,85.88,weight_loss,veg
 4827,banana with mixed berries,"banana with mixed berries, baby food, strained",21.31,1.01,0.36,1.0,92.52,weight_loss,veg
-4828,peaches,"peaches, baby food, ns as to strained or junior",14.48,0.94,0.33,1.3,64.65,weight_loss,non_veg
+4828,peaches,"peaches, baby food, ns as to strained or junior",14.48,0.94,0.33,1.3,64.65,weight_loss,veg
 4829,peaches,"peaches, baby food, strained",14.48,0.94,0.33,1.3,64.65,weight_loss,veg
-4830,peaches,"peaches, baby food, junior",14.48,0.94,0.33,1.3,64.65,weight_loss,non_veg
+4830,peaches,"peaches, baby food, junior",14.48,0.94,0.33,1.3,64.65,weight_loss,veg
 4831,peaches,"peaches, baby food, toddler",11.8,0.5,0.2,0.8,51.0,weight_loss,veg
-4832,pears,"pears, baby food, ns as to strained or junior",11.2,0.3,0.15,2.8,47.35,weight_loss,non_veg
+4832,pears,"pears, baby food, ns as to strained or junior",11.2,0.3,0.15,2.8,47.35,weight_loss,veg
 4833,pears,"pears, baby food, strained",10.8,0.3,0.2,2.8,46.2,weight_loss,veg
-4834,pears,"pears, baby food, junior",11.6,0.3,0.1,2.8,48.5,weight_loss,non_veg
+4834,pears,"pears, baby food, junior",11.6,0.3,0.1,2.8,48.5,weight_loss,veg
 4835,pears,"pears, baby food, toddler",13.6,0.3,0.1,1.2,56.5,weight_loss,veg
 4836,prunes,"prunes, baby food, strained",23.52,1.0,0.2,2.7,99.88,weight_loss,veg
-4837,apples and pears,"apples and pears, baby food, ns as to strained or junior",10.88,0.2,0.12,2.2,45.4,weight_loss,non_veg
+4837,apples and pears,"apples and pears, baby food, ns as to strained or junior",10.88,0.2,0.12,2.2,45.4,weight_loss,veg
 4838,apples and pears,"apples and pears, baby food, strained",10.8,0.25,0.2,2.2,46.0,weight_loss,veg
-4839,apples and pears,"apples and pears, baby food, junior",10.95,0.15,0.05,2.2,44.85,weight_loss,non_veg
-4840,pears and pineapple,"pears and pineapple, baby food, ns as to strained or junior",11.15,0.3,0.15,2.6,47.150000000000006,weight_loss,non_veg
+4839,apples and pears,"apples and pears, baby food, junior",10.95,0.15,0.05,2.2,44.85,weight_loss,veg
+4840,pears and pineapple,"pears and pineapple, baby food, ns as to strained or junior",11.15,0.3,0.15,2.6,47.150000000000006,weight_loss,veg
 4841,pears and pineapple,"pears and pineapple, baby food, strained",10.9,0.3,0.1,2.6,45.7,weight_loss,veg
-4842,pears and pineapple,"pears and pineapple, baby food, junior",11.4,0.3,0.2,2.6,48.6,weight_loss,non_veg
+4842,pears and pineapple,"pears and pineapple, baby food, junior",11.4,0.3,0.2,2.6,48.6,weight_loss,veg
 4843,apple juice,"apple juice, baby food",11.7,0.0,0.1,0.1,47.699999999999996,weight_loss,veg
 4844,apple juice,"apple juice, with added calcium, baby food",11.1,0.06,0.1,0.4,45.54,weight_loss,veg
 4845,apple-fruit juice blend,"apple-fruit juice blend, baby food",18.1,0.2,0.1,0.1,74.10000000000001,weight_loss,veg
@@ -4861,44 +4861,44 @@
 4859,banana juice with lowfat yogurt,"banana juice with lowfat yogurt, baby food",17.54,2.5,0.8,0.4,87.36,weight_loss,veg
 4860,mixed fruit juice with lowfat yogurt,"mixed fruit juice with lowfat yogurt, baby food",14.68,2.4,0.8,0.4,75.52,weight_loss,veg
 4861,fruit juice and water drink,"fruit juice and water drink, with high vitamin c and added calcium, baby food",7.35,0.0,0.0,0.0,29.4,weight_loss,veg
-4862,plums,"plums, baby food, ns as to strained or junior",20.1,0.1,0.0,1.2,80.80000000000001,weight_loss,non_veg
+4862,plums,"plums, baby food, ns as to strained or junior",20.1,0.1,0.0,1.2,80.80000000000001,weight_loss,veg
 4863,plums,"plums, baby food, strained",19.7,0.1,0.0,1.2,79.2,weight_loss,veg
-4864,plums,"plums, baby food, junior",20.5,0.1,0.0,1.2,82.4,weight_loss,non_veg
+4864,plums,"plums, baby food, junior",20.5,0.1,0.0,1.2,82.4,weight_loss,veg
 4865,plums,"plums, bananas, and rice, baby food strained",12.7,1.1,0.3,1.3,57.9,weight_loss,veg
 4866,prunes with oatmeal,"prunes with oatmeal, baby food, strained",18.5,0.6,0.1,2.7,77.30000000000001,weight_loss,veg
-4867,apricots,"apricots, baby food, ns as to strained or junior",16.8,0.3,0.0,1.5,68.4,weight_loss,non_veg
+4867,apricots,"apricots, baby food, ns as to strained or junior",16.8,0.3,0.0,1.5,68.4,weight_loss,veg
 4868,apricots,"apricots, baby food, strained",16.3,0.3,0.0,1.5,66.4,weight_loss,veg
-4869,apricots,"apricots, baby food, junior",17.3,0.3,0.0,1.5,70.4,weight_loss,non_veg
-4870,bananas,"bananas, baby food, ns as to strained or junior",16.55,0.4,0.15,1.6,69.14999999999999,weight_loss,non_veg
-4871,bananas,"bananas, baby food, junior",17.8,0.4,0.2,1.6,74.6,weight_loss,non_veg
-4872,bananas and pineapple,"bananas and pineapple, baby food, ns as to strained or junior",18.1,0.2,0.05,1.6,73.65,weight_loss,non_veg
+4869,apricots,"apricots, baby food, junior",17.3,0.3,0.0,1.5,70.4,weight_loss,veg
+4870,bananas,"bananas, baby food, ns as to strained or junior",16.55,0.4,0.15,1.6,69.14999999999999,weight_loss,veg
+4871,bananas,"bananas, baby food, junior",17.8,0.4,0.2,1.6,74.6,weight_loss,veg
+4872,bananas and pineapple,"bananas and pineapple, baby food, ns as to strained or junior",18.1,0.2,0.05,1.6,73.65,weight_loss,veg
 4873,bananas and pineapple,"bananas and pineapple, baby food, strained",17.8,0.2,0.0,1.6,72.0,weight_loss,veg
-4874,bananas and pineapple,"bananas and pineapple, baby food, junior",18.4,0.2,0.1,1.6,75.3,weight_loss,non_veg
-4875,bananas and strawberry,"bananas and strawberry, baby food, junior",25.78,0.71,0.37,1.4,109.29,weight_loss,non_veg
-4876,fruit dessert,"fruit dessert, baby food, ns as to strained or junior",16.6,0.3,0.0,0.6,67.60000000000001,weight_loss,non_veg
+4874,bananas and pineapple,"bananas and pineapple, baby food, junior",18.4,0.2,0.1,1.6,75.3,weight_loss,veg
+4875,bananas and strawberry,"bananas and strawberry, baby food, junior",25.78,0.71,0.37,1.4,109.29,weight_loss,veg
+4876,fruit dessert,"fruit dessert, baby food, ns as to strained or junior",16.6,0.3,0.0,0.6,67.60000000000001,weight_loss,veg
 4877,fruit dessert,"fruit dessert, baby food, strained",16.0,0.3,0.0,0.6,65.2,weight_loss,veg
-4878,fruit dessert,"fruit dessert, baby food, junior",17.2,0.3,0.0,0.6,70.0,weight_loss,non_veg
+4878,fruit dessert,"fruit dessert, baby food, junior",17.2,0.3,0.0,0.6,70.0,weight_loss,veg
 4879,fruit supreme dessert,"fruit supreme dessert, baby food",17.18,0.5,0.2,2.0,72.52,weight_loss,veg
 4880,apple yogurt dessert,"apple yogurt dessert, baby food, strained",19.5,0.8,1.6,0.5,95.60000000000001,weight_loss,veg
 4881,banana apple dessert,"banana apple dessert, baby food, strained",16.3,0.3,0.2,1.0,68.2,weight_loss,veg
 4882,blueberry yogurt dessert,"blueberry yogurt dessert, baby food, strained",17.05,0.5,0.7,0.4,76.5,weight_loss,veg
 4883,mixed fruit yogurt dessert,"mixed fruit yogurt dessert, baby food, strained",16.23,0.8,0.8,0.4,75.32000000000001,weight_loss,veg
-4884,cherry cobbler,"cherry cobbler, baby food, junior",19.2,0.3,0.1,0.2,78.9,weight_loss,non_veg
-4885,peach cobbler,"peach cobbler, baby food, ns as to strained or junior",18.05,0.3,0.0,0.7,73.4,weight_loss,non_veg
+4884,cherry cobbler,"cherry cobbler, baby food, junior",19.2,0.3,0.1,0.2,78.9,weight_loss,veg
+4885,peach cobbler,"peach cobbler, baby food, ns as to strained or junior",18.05,0.3,0.0,0.7,73.4,weight_loss,veg
 4886,peach cobbler,"peach cobbler, baby food, strained",17.8,0.3,0.0,0.7,72.4,weight_loss,veg
-4887,peach cobbler,"peach cobbler, baby food, junior",18.3,0.3,0.0,0.7,74.4,weight_loss,non_veg
+4887,peach cobbler,"peach cobbler, baby food, junior",18.3,0.3,0.0,0.7,74.4,weight_loss,veg
 4888,banana pudding,"banana pudding, baby food, strained",14.14,1.0,0.8,0.8,67.76,weight_loss,veg
 4889,banana yogurt dessert,"banana yogurt dessert, baby food, strained",17.35,1.1,0.52,0.5,78.48000000000002,weight_loss,veg
 4890,cherry vanilla pudding,"cherry vanilla pudding, baby food, strained",18.1,0.2,0.25,0.3,75.45,weight_loss,veg
-4891,dutch apple dessert,"dutch apple dessert, baby food, ns as to strained or junior",19.46,0.2,0.28,1.4,81.16,weight_loss,non_veg
+4891,dutch apple dessert,"dutch apple dessert, baby food, ns as to strained or junior",19.46,0.2,0.28,1.4,81.16,weight_loss,veg
 4892,dutch apple dessert,"dutch apple dessert, baby food, strained",19.74,0.2,0.4,1.4,83.35999999999999,weight_loss,veg
-4893,dutch apple dessert,"dutch apple dessert, baby food, junior",19.18,0.2,0.16,1.4,78.96,weight_loss,non_veg
+4893,dutch apple dessert,"dutch apple dessert, baby food, junior",19.18,0.2,0.16,1.4,78.96,weight_loss,veg
 4894,peach yogurt dessert,"peach yogurt dessert, baby food, strained",17.6,0.9,0.18,0.4,75.62,weight_loss,veg
 4895,pineapple dessert,"pineapple dessert, baby food, strained",20.3,1.3,0.3,0.7,89.10000000000001,weight_loss,veg
 4896,mango dessert,"mango dessert, baby food",19.0,0.3,0.2,1.1,79.0,weight_loss,veg
-4897,tutti-fruitti pudding,"tutti-fruitti pudding, baby food, ns as to strained or junior",15.74,0.4,0.35,0.5,67.71000000000001,weight_loss,non_veg
+4897,tutti-fruitti pudding,"tutti-fruitti pudding, baby food, ns as to strained or junior",15.74,0.4,0.35,0.5,67.71000000000001,weight_loss,veg
 4898,tutti-fruitti pudding,"tutti-fruitti pudding, baby food, strained",15.48,0.4,0.3,0.6,66.22,weight_loss,veg
-4899,tutti-fruitti pudding,"tutti-fruitti pudding, baby food, junior",16.0,0.4,0.4,0.4,69.19999999999999,weight_loss,non_veg
+4899,tutti-fruitti pudding,"tutti-fruitti pudding, baby food, junior",16.0,0.4,0.4,0.4,69.19999999999999,weight_loss,veg
 4900,fruit flavored snack,"fruit flavored snack, baby food",86.68,0.0,0.02,0.0,346.90000000000003,general,veg
 4901,yogurt and fruit snack,"yogurt and fruit snack, baby food",71.82,14.29,4.0,2.3,380.43999999999994,general,veg
 4902,apples and chicken,"apples and chicken, baby food, strained",10.88,2.16,1.38,1.8,64.58,weight_loss,non_veg
@@ -4906,37 +4906,37 @@
 4904,apples and sweet potatoes,"apples and sweet potatoes, baby food, strained",15.3,0.3,0.22,1.4,64.38000000000001,weight_loss,veg
 4905,potato,"potato, nfs",20.45,1.87,4.24,1.4,127.44,general,veg
 4906,potato,"potato, baked, nfs",21.45,1.95,0.1,1.5,94.5,weight_loss,veg
-4907,potato,"potato, baked, peel not eaten",21.45,1.95,0.1,1.5,94.5,weight_loss,non_veg
+4907,potato,"potato, baked, peel not eaten",21.45,1.95,0.1,1.5,94.5,weight_loss,veg
 4908,potato,"potato, boiled, nfs",20.45,1.87,4.24,1.4,127.44,general,veg
 4909,potato,"potato, boiled, ready-to-heat",20.45,1.87,4.24,1.4,127.44,general,veg
-4910,potato,"potato, boiled, from fresh, peel not eaten, ns as to fat",20.45,1.87,4.24,1.4,127.44,general,non_veg
-4911,potato,"potato, boiled, from fresh, peel not eaten, no added fat",21.46,1.95,0.1,1.5,94.54,weight_loss,non_veg
-4912,potato,"potato, boiled, from fresh, peel not eaten, fat added, ns as to fat type",20.45,1.87,4.24,1.4,127.44,general,non_veg
-4913,potato,"potato, boiled, from fresh, peel not eaten, made with oil",20.45,1.86,4.84,1.4,132.8,general,non_veg
-4914,potato,"potato, boiled, from fresh, peel not eaten, made with butter",20.45,1.9,3.94,1.4,124.85999999999999,general,non_veg
-4915,potato,"potato, boiled, from fresh, peel not eaten, made with margarine",20.48,1.87,3.18,1.4,118.02000000000001,weight_loss,non_veg
-4916,potato,"potato, boiled, from fresh, peel eaten, ns as to fat",20.08,2.39,4.27,2.1,128.31,general,non_veg
-4917,potato,"potato, boiled, from fresh, peel eaten, fat added, ns as to fat type",20.08,2.39,4.27,2.1,128.31,general,non_veg
-4918,potato,"potato, boiled, from fresh,  peel eaten, no addded fat",21.07,2.49,0.13,2.2,95.41000000000001,weight_loss,non_veg
-4919,potato,"potato, boiled, from fresh, peel eaten, made with oil",20.07,2.37,4.87,2.1,133.59,general,non_veg
-4920,potato,"potato, boiled, from fresh, peel eaten, made with butter",20.07,2.41,3.97,2.1,125.65,general,non_veg
-4921,potato,"potato, boiled, from fresh, peel eaten, made with margarine",20.1,2.38,3.21,2.1,118.81,weight_loss,non_veg
+4910,potato,"potato, boiled, from fresh, peel not eaten, ns as to fat",20.45,1.87,4.24,1.4,127.44,general,veg
+4911,potato,"potato, boiled, from fresh, peel not eaten, no added fat",21.46,1.95,0.1,1.5,94.54,weight_loss,veg
+4912,potato,"potato, boiled, from fresh, peel not eaten, fat added, ns as to fat type",20.45,1.87,4.24,1.4,127.44,general,veg
+4913,potato,"potato, boiled, from fresh, peel not eaten, made with oil",20.45,1.86,4.84,1.4,132.8,general,veg
+4914,potato,"potato, boiled, from fresh, peel not eaten, made with butter",20.45,1.9,3.94,1.4,124.85999999999999,general,veg
+4915,potato,"potato, boiled, from fresh, peel not eaten, made with margarine",20.48,1.87,3.18,1.4,118.02000000000001,weight_loss,veg
+4916,potato,"potato, boiled, from fresh, peel eaten, ns as to fat",20.08,2.39,4.27,2.1,128.31,general,veg
+4917,potato,"potato, boiled, from fresh, peel eaten, fat added, ns as to fat type",20.08,2.39,4.27,2.1,128.31,general,veg
+4918,potato,"potato, boiled, from fresh,  peel eaten, no addded fat",21.07,2.49,0.13,2.2,95.41000000000001,weight_loss,veg
+4919,potato,"potato, boiled, from fresh, peel eaten, made with oil",20.07,2.37,4.87,2.1,133.59,general,veg
+4920,potato,"potato, boiled, from fresh, peel eaten, made with butter",20.07,2.41,3.97,2.1,125.65,general,veg
+4921,potato,"potato, boiled, from fresh, peel eaten, made with margarine",20.1,2.38,3.21,2.1,118.81,weight_loss,veg
 4922,potato,"potato, canned, ns as to fat",12.91,1.34,4.33,2.3,95.97,weight_loss,veg
 4923,potato,"potato, canned, fat added, ns as to fat type",12.91,1.34,4.33,2.3,95.97,weight_loss,veg
 4924,potato,"potato, canned, no added fat",13.55,1.39,0.2,2.4,61.56,weight_loss,veg
 4925,potato,"potato, roasted, nfs",20.45,1.87,4.24,1.4,127.44,general,veg
-4926,potato,"potato, roasted, from fresh, peel eaten, ns as to fat",20.08,2.39,4.27,2.1,128.31,general,non_veg
-4927,potato,"potato, roasted, from fresh, peel eaten, no added fat",21.07,2.49,0.13,2.2,95.41000000000001,weight_loss,non_veg
-4928,potato,"potato, roasted, from fresh, peel eaten, fat added, ns as to fat type",20.08,2.39,4.27,2.1,128.31,general,non_veg
-4929,potato,"potato, roasted, from fresh, peel eaten, made with oil",20.07,2.37,4.87,2.1,133.59,general,non_veg
-4930,potato,"potato, roasted, from fresh, peel eaten, made with butter",20.07,2.41,3.97,2.1,125.65,general,non_veg
-4931,potato,"potato, roasted, from fresh, peel eaten, made with margarine",20.1,2.38,3.21,2.1,118.81,weight_loss,non_veg
-4932,potato,"potato, roasted, from fresh, peel not eaten, ns as to fat",20.45,1.87,4.24,1.4,127.44,general,non_veg
-4933,potato,"potato, roasted, from fresh, peel not eaten, fat added, ns as to fat type",20.45,1.87,4.24,1.4,127.44,general,non_veg
-4934,potato,"potato, roasted, from fresh, peel not eaten, no added fat",21.46,1.95,0.1,1.5,94.54,weight_loss,non_veg
-4935,potato,"potato, roasted, from fresh, peel not eaten, made with oil",20.45,1.86,4.84,1.4,132.8,general,non_veg
-4936,potato,"potato, roasted, from fresh, peel not eaten, made with butter",20.45,1.9,3.94,1.4,124.85999999999999,general,non_veg
-4937,potato,"potato, roasted, from fresh, peel not eaten, made with margarine",20.48,1.87,3.18,1.4,118.02000000000001,weight_loss,non_veg
+4926,potato,"potato, roasted, from fresh, peel eaten, ns as to fat",20.08,2.39,4.27,2.1,128.31,general,veg
+4927,potato,"potato, roasted, from fresh, peel eaten, no added fat",21.07,2.49,0.13,2.2,95.41000000000001,weight_loss,veg
+4928,potato,"potato, roasted, from fresh, peel eaten, fat added, ns as to fat type",20.08,2.39,4.27,2.1,128.31,general,veg
+4929,potato,"potato, roasted, from fresh, peel eaten, made with oil",20.07,2.37,4.87,2.1,133.59,general,veg
+4930,potato,"potato, roasted, from fresh, peel eaten, made with butter",20.07,2.41,3.97,2.1,125.65,general,veg
+4931,potato,"potato, roasted, from fresh, peel eaten, made with margarine",20.1,2.38,3.21,2.1,118.81,weight_loss,veg
+4932,potato,"potato, roasted, from fresh, peel not eaten, ns as to fat",20.45,1.87,4.24,1.4,127.44,general,veg
+4933,potato,"potato, roasted, from fresh, peel not eaten, fat added, ns as to fat type",20.45,1.87,4.24,1.4,127.44,general,veg
+4934,potato,"potato, roasted, from fresh, peel not eaten, no added fat",21.46,1.95,0.1,1.5,94.54,weight_loss,veg
+4935,potato,"potato, roasted, from fresh, peel not eaten, made with oil",20.45,1.86,4.84,1.4,132.8,general,veg
+4936,potato,"potato, roasted, from fresh, peel not eaten, made with butter",20.45,1.9,3.94,1.4,124.85999999999999,general,veg
+4937,potato,"potato, roasted, from fresh, peel not eaten, made with margarine",20.48,1.87,3.18,1.4,118.02000000000001,weight_loss,veg
 4938,potato,"potato, roasted, ready-to-heat",20.45,1.87,4.24,1.4,127.44,general,veg
 4939,stewed potatoes,"stewed potatoes, puerto rican style",18.76,2.1,3.72,1.9,116.92000000000002,weight_loss,veg
 4940,potato only from puerto rican mixed dishes,"potato only from puerto rican mixed dishes, gravy and other components reported separately",19.89,1.7,0.1,1.8,87.26,weight_loss,veg
@@ -4972,14 +4972,14 @@
 4970,potato sticks,"potato sticks, flavored",52.77,6.63,34.06,3.4,544.1400000000001,general,veg
 4971,potato sticks,"potato sticks, fry shaped",52.77,6.63,34.06,3.4,544.1400000000001,general,veg
 4972,vegetable chips,vegetable chips,59.2,4.72,26.56,7.8,494.72,general,veg
-4973,potato,"potato, scalloped, nfs",13.5,7.12,9.57,0.8,168.61,general,non_veg
-4974,potato,"potato, scalloped, from fast food or restaurant",12.97,6.65,14.29,0.7,207.08999999999997,general,non_veg
-4975,potato,"potato, scalloped, from fresh",13.5,7.12,9.57,0.8,168.61,general,non_veg
-4976,potato,"potato, scalloped, from fresh, with meat",12.87,7.44,10.29,0.7,173.84999999999997,general,non_veg
-4977,potato,"potato, scalloped, from dry mix",13.53,6.9,9.72,0.8,169.2,general,non_veg
-4978,potato,"potato, scalloped, from dry mix, with meat",13.1,7.29,9.53,0.7,167.32999999999998,general,non_veg
-4979,potato,"potato, scalloped, ready-to-heat",13.3,6.79,10.9,0.7,178.46,general,non_veg
-4980,potato,"potato, scalloped, ready-to-heat, with meat",12.72,7.09,11.5,0.7,182.74,general,non_veg
+4973,potato,"potato, scalloped, nfs",13.5,7.12,9.57,0.8,168.61,general,veg
+4974,potato,"potato, scalloped, from fast food or restaurant",12.97,6.65,14.29,0.7,207.08999999999997,general,veg
+4975,potato,"potato, scalloped, from fresh",13.5,7.12,9.57,0.8,168.61,general,veg
+4976,potato,"potato, scalloped, from fresh, with meat",12.87,7.44,10.29,0.7,173.84999999999997,general,veg
+4977,potato,"potato, scalloped, from dry mix",13.53,6.9,9.72,0.8,169.2,general,veg
+4978,potato,"potato, scalloped, from dry mix, with meat",13.1,7.29,9.53,0.7,167.32999999999998,general,veg
+4979,potato,"potato, scalloped, ready-to-heat",13.3,6.79,10.9,0.7,178.46,general,veg
+4980,potato,"potato, scalloped, ready-to-heat, with meat",12.72,7.09,11.5,0.7,182.74,general,veg
 4981,potato,"potato, french fries, nfs",23.23,2.5,14.07,1.8,229.55,general,veg
 4982,potato,"potato, french fries, ns as to fresh or frozen",23.23,2.5,14.07,1.8,229.55,general,veg
 4983,potato,"potato, french fries, from fresh, fried",18.5,1.93,13.1,1.6,199.62,general,veg
@@ -5042,19 +5042,19 @@
 5040,potato tots,"potato tots, frozen, baked",26.1,2.03,9.17,2.4,195.05,general,veg
 5041,potato tots,"potato tots, frozen, fried",24.4,1.9,15.46,2.3,244.34,general,veg
 5042,potato tots,"potato tots, frozen, ns as to fried or baked",24.4,1.9,15.46,2.3,244.34,general,veg
-5043,potato,"potato, baked, peel not eaten, with butter",20.39,1.9,4.13,1.4,126.33,general,non_veg
-5044,potato,"potato, baked, peel not eaten, with sour cream",18.96,1.95,5.51,1.3,133.23,general,non_veg
-5045,potato,"potato, baked, peel not eaten, with cheese",17.67,3.61,7.73,1.2,154.69,general,non_veg
-5046,potato,"potato, baked, peel not eaten, with meat",17.32,4.27,8.33,1.2,161.32999999999998,general,non_veg
-5047,potato,"potato, baked, peel not eaten, with chili",17.97,4.04,6.18,1.6,143.66,general,non_veg
-5048,potato,"potato, baked, peel not eaten, with vegetables",18.09,3.68,6.3,1.4,143.78,general,non_veg
-5049,potato,"potato, baked, peel eaten",21.05,2.49,0.13,2.2,95.33,weight_loss,non_veg
-5050,potato,"potato, baked, peel eaten, with butter",20.01,2.41,4.16,2.1,127.12,general,non_veg
-5051,potato,"potato, baked, peel eaten, with sour cream",18.62,2.41,5.54,1.9,133.98000000000002,general,non_veg
-5052,potato,"potato, baked, peel eaten, with cheese",17.36,4.04,7.76,1.7,155.44,general,non_veg
-5053,potato,"potato, baked, peel eaten, with meat",17.02,4.69,8.35,1.7,161.99,general,non_veg
-5054,potato,"potato, baked, peel eaten, with chili",17.68,4.43,6.2,2.1,144.24,general,non_veg
-5055,potato,"potato, baked, peel eaten, with vegetables",17.76,4.12,6.32,2.0,144.4,general,non_veg
+5043,potato,"potato, baked, peel not eaten, with butter",20.39,1.9,4.13,1.4,126.33,general,veg
+5044,potato,"potato, baked, peel not eaten, with sour cream",18.96,1.95,5.51,1.3,133.23,general,veg
+5045,potato,"potato, baked, peel not eaten, with cheese",17.67,3.61,7.73,1.2,154.69,general,veg
+5046,potato,"potato, baked, peel not eaten, with meat",17.32,4.27,8.33,1.2,161.32999999999998,general,veg
+5047,potato,"potato, baked, peel not eaten, with chili",17.97,4.04,6.18,1.6,143.66,general,veg
+5048,potato,"potato, baked, peel not eaten, with vegetables",18.09,3.68,6.3,1.4,143.78,general,veg
+5049,potato,"potato, baked, peel eaten",21.05,2.49,0.13,2.2,95.33,weight_loss,veg
+5050,potato,"potato, baked, peel eaten, with butter",20.01,2.41,4.16,2.1,127.12,general,veg
+5051,potato,"potato, baked, peel eaten, with sour cream",18.62,2.41,5.54,1.9,133.98000000000002,general,veg
+5052,potato,"potato, baked, peel eaten, with cheese",17.36,4.04,7.76,1.7,155.44,general,veg
+5053,potato,"potato, baked, peel eaten, with meat",17.02,4.69,8.35,1.7,161.99,general,veg
+5054,potato,"potato, baked, peel eaten, with chili",17.68,4.43,6.2,2.1,144.24,general,veg
+5055,potato,"potato, baked, peel eaten, with vegetables",17.76,4.12,6.32,2.0,144.4,general,veg
 5056,potato salad with egg,"potato salad with egg, from restaurant",15.36,3.04,11.35,1.1,175.75,general,veg
 5057,potato salad with egg,"potato salad with egg, made with mayonnaise",16.18,1.96,9.4,1.3,157.16000000000003,general,veg
 5058,potato salad with egg,"potato salad with egg, made with light mayonnaise",15.12,2.72,4.46,1.3,111.5,weight_loss,veg
@@ -5216,7 +5216,7 @@
 5214,watercress broth with shrimp,watercress broth with shrimp,1.38,6.25,1.86,0.1,47.260000000000005,weight_loss,non_veg
 5215,spinach soup,spinach soup,2.88,2.92,0.98,0.8,32.019999999999996,weight_loss,veg
 5216,dark-green leafy vegetable soup with meat,"dark-green leafy vegetable soup with meat, asian style",5.56,6.46,3.32,1.0,77.96,weight_loss,non_veg
-5217,dark-green leafy vegetable soup,"dark-green leafy vegetable soup, meatless, asian style",6.56,1.57,1.98,1.2,50.339999999999996,weight_loss,non_veg
+5217,dark-green leafy vegetable soup,"dark-green leafy vegetable soup, meatless, asian style",6.56,1.57,1.98,1.2,50.339999999999996,weight_loss,veg
 5218,carrots,"carrots, raw",9.58,0.93,0.24,2.8,44.2,weight_loss,veg
 5219,carrots,"carrots, raw, salad",17.19,1.25,15.67,2.4,214.79000000000002,general,veg
 5220,carrots,"carrots, raw, salad with apples",8.16,0.84,15.95,2.1,179.54999999999998,general,veg
@@ -5258,18 +5258,18 @@
 5256,squash fritter or cake,squash fritter or cake,35.66,6.96,21.28,2.8,362.0,general,veg
 5257,squash,"squash, winter, souffle",12.07,3.41,2.15,2.1,81.27,weight_loss,veg
 5258,sweet potato,"sweet potato, nfs",16.82,1.31,4.28,2.4,111.03999999999999,weight_loss,veg
-5259,sweet potato,"sweet potato, baked, peel eaten, ns as to fat",20.85,2.03,4.1,3.3,128.42000000000002,general,non_veg
-5260,sweet potato,"sweet potato, baked, peel eaten, no added fat",21.83,2.11,0.15,3.5,97.10999999999999,weight_loss,non_veg
-5261,sweet potato,"sweet potato, baked, peel eaten, fat added, ns as to fat type",20.85,2.03,4.1,3.3,128.42000000000002,general,non_veg
-5262,sweet potato,"sweet potato, baked, peel eaten, made with oil",20.84,2.02,4.67,3.3,133.47,general,non_veg
-5263,sweet potato,"sweet potato, baked, peel eaten, made with butter",20.85,2.05,3.81,3.3,125.89000000000001,general,non_veg
-5264,sweet potato,"sweet potato, baked, peel eaten, made with margarine",20.88,2.02,3.09,3.3,119.41,weight_loss,non_veg
-5265,sweet potato,"sweet potato, baked, peel not eaten, ns as to fat",19.66,1.92,4.29,3.1,124.92999999999999,general,non_veg
-5266,sweet potato,"sweet potato, baked, peel not eaten, no added fat",20.63,2.0,0.15,3.3,91.86999999999999,weight_loss,non_veg
-5267,sweet potato,"sweet potato, baked, peel not eaten, fat added, ns as to fat type",19.66,1.92,4.29,3.1,124.92999999999999,general,non_veg
-5268,sweet potato,"sweet potato, baked, peel not eaten, made with oil",19.65,1.91,4.89,3.1,130.25,general,non_veg
-5269,sweet potato,"sweet potato, baked, peel not eaten, made with butter",19.65,1.95,3.99,3.1,122.31,general,non_veg
-5270,sweet potato,"sweet potato, baked, peel not eaten, made with margarine",19.69,1.92,3.23,3.1,115.50999999999999,weight_loss,non_veg
+5259,sweet potato,"sweet potato, baked, peel eaten, ns as to fat",20.85,2.03,4.1,3.3,128.42000000000002,general,veg
+5260,sweet potato,"sweet potato, baked, peel eaten, no added fat",21.83,2.11,0.15,3.5,97.10999999999999,weight_loss,veg
+5261,sweet potato,"sweet potato, baked, peel eaten, fat added, ns as to fat type",20.85,2.03,4.1,3.3,128.42000000000002,general,veg
+5262,sweet potato,"sweet potato, baked, peel eaten, made with oil",20.84,2.02,4.67,3.3,133.47,general,veg
+5263,sweet potato,"sweet potato, baked, peel eaten, made with butter",20.85,2.05,3.81,3.3,125.89000000000001,general,veg
+5264,sweet potato,"sweet potato, baked, peel eaten, made with margarine",20.88,2.02,3.09,3.3,119.41,weight_loss,veg
+5265,sweet potato,"sweet potato, baked, peel not eaten, ns as to fat",19.66,1.92,4.29,3.1,124.92999999999999,general,veg
+5266,sweet potato,"sweet potato, baked, peel not eaten, no added fat",20.63,2.0,0.15,3.3,91.86999999999999,weight_loss,veg
+5267,sweet potato,"sweet potato, baked, peel not eaten, fat added, ns as to fat type",19.66,1.92,4.29,3.1,124.92999999999999,general,veg
+5268,sweet potato,"sweet potato, baked, peel not eaten, made with oil",19.65,1.91,4.89,3.1,130.25,general,veg
+5269,sweet potato,"sweet potato, baked, peel not eaten, made with butter",19.65,1.95,3.99,3.1,122.31,general,veg
+5270,sweet potato,"sweet potato, baked, peel not eaten, made with margarine",19.69,1.92,3.23,3.1,115.50999999999999,weight_loss,veg
 5271,sweet potato,"sweet potato, boiled, ns as to fat",16.82,1.31,4.28,2.4,111.03999999999999,weight_loss,veg
 5272,sweet potato,"sweet potato, boiled, no added fat",17.65,1.36,0.14,2.5,77.3,weight_loss,veg
 5273,sweet potato,"sweet potato, boiled, fat added, ns as to fat type",16.82,1.31,4.28,2.4,111.03999999999999,weight_loss,veg
@@ -5304,7 +5304,7 @@
 5302,tomatoes,"tomatoes, ns as to form, cooked",4.71,1.08,3.41,1.5,53.85,weight_loss,veg
 5303,tomatoes,"tomatoes, fresh, cooked",4.71,1.08,3.41,1.5,53.85,weight_loss,veg
 5304,tomatoes,"tomatoes, canned, cooked",3.37,0.78,2.79,1.8,41.71,weight_loss,veg
-5305,tomatoes,"tomatoes, scalloped",14.1,2.7,4.92,1.9,111.48,weight_loss,non_veg
+5305,tomatoes,"tomatoes, scalloped",14.1,2.7,4.92,1.9,111.48,weight_loss,veg
 5306,tomatoes,"tomatoes, canned, reduced sodium, cooked",3.37,0.78,2.79,1.8,41.71,weight_loss,veg
 5307,fried green tomatoes,fried green tomatoes,21.56,3.56,12.72,1.3,214.95999999999998,general,veg
 5308,tomato,"tomato, green, pickled",9.09,1.0,0.18,0.9,41.98,weight_loss,veg
@@ -5654,9 +5654,9 @@
 5652,green beans,"green beans, cooked, szechuan-style",8.15,2.41,6.92,2.7,104.52000000000001,general,veg
 5653,fried cauliflower,fried cauliflower,21.68,3.9,12.74,1.6,216.98,general,veg
 5654,chiles rellenos,"chiles rellenos, cheese-filled",6.35,10.88,16.86,1.1,220.66000000000003,general,veg
-5655,chiles rellenos,"chiles rellenos, filled with meat and cheese",7.19,11.04,14.82,1.2,206.3,maintenance,non_veg
+5655,chiles rellenos,"chiles rellenos, filled with meat and cheese",7.19,11.04,14.82,1.2,206.3,maintenance,veg
 5656,stuffed jalapeno pepper,stuffed jalapeno pepper,16.35,8.98,15.65,2.5,242.17000000000002,general,veg
-5657,corn,"corn, scalloped or pudding",14.95,4.57,5.01,1.5,123.16999999999999,general,non_veg
+5657,corn,"corn, scalloped or pudding",14.95,4.57,5.01,1.5,123.16999999999999,general,veg
 5658,corn fritter,corn fritter,40.77,8.25,22.51,2.2,398.67,general,veg
 5659,fried eggplant,fried eggplant,22.11,3.54,12.7,2.0,216.89999999999998,general,veg
 5660,eggplant dip,eggplant dip,9.63,4.25,13.25,4.0,174.77,general,veg
@@ -5675,12 +5675,12 @@
 5673,squash,"squash, summer, souffle",6.8,4.66,8.7,0.7,124.14,general,veg
 5674,creamed christophine,"creamed christophine, puerto rican style",24.99,2.24,4.12,1.5,146.0,general,veg
 5675,vegetable stew without meat,vegetable stew without meat,9.62,2.68,0.98,1.8,58.019999999999996,weight_loss,non_veg
-5676,chow mein or chop suey,"chow mein or chop suey, meatless, no noodles",5.74,1.34,1.68,1.2,43.44,weight_loss,non_veg
+5676,chow mein or chop suey,"chow mein or chop suey, meatless, no noodles",5.74,1.34,1.68,1.2,43.44,weight_loss,veg
 5677,vegetable tempura,vegetable tempura,20.26,3.7,15.63,1.6,236.51000000000002,general,veg
 5678,pakora,pakora,16.24,4.92,4.77,3.2,127.56999999999998,general,veg
 5679,vegetable curry,vegetable curry,8.72,1.59,5.23,1.8,88.31,general,veg
 5680,vegetable curry with rice,vegetable curry with rice,16.43,2.02,3.25,1.3,103.05,weight_loss,veg
-5681,chow mein or chop suey,"chow mein or chop suey, meatless, with noodles",15.72,2.98,5.05,2.1,120.25,general,non_veg
+5681,chow mein or chop suey,"chow mein or chop suey, meatless, with noodles",15.72,2.98,5.05,2.1,120.25,general,veg
 5682,green beans,"green beans, pickled",10.64,1.52,0.2,2.2,50.44,weight_loss,veg
 5683,beets,"beets, pickled",16.28,0.8,0.08,0.8,69.04,weight_loss,veg
 5684,celery,"celery, pickled",7.32,0.57,0.16,1.3,33.0,weight_loss,veg
@@ -5731,7 +5731,7 @@
 5729,mushroom soup,"mushroom soup, nfs",3.33,0.66,2.59,0.3,39.269999999999996,weight_loss,veg
 5730,mushroom soup,"mushroom soup, cream of, prepared with milk",5.83,2.35,3.64,0.3,65.47999999999999,weight_loss,veg
 5731,mushroom soup,"mushroom soup, cream of, prepared with water",3.44,0.68,2.68,0.4,40.6,weight_loss,veg
-5732,mushroom soup,"mushroom soup, with meat broth, prepared with water",3.76,1.27,1.63,0.1,34.78999999999999,weight_loss,non_veg
+5732,mushroom soup,"mushroom soup, with meat broth, prepared with water",3.76,1.27,1.63,0.1,34.78999999999999,weight_loss,veg
 5733,mushroom soup,"mushroom soup, cream of, low sodium, prepared with water",4.53,1.0,3.7,0.2,55.42,weight_loss,veg
 5734,mushroom soup,"mushroom soup, cream of, ns as to made with milk or water",5.83,2.35,3.64,0.3,65.47999999999999,weight_loss,veg
 5735,mushroom with chicken soup,"mushroom with chicken soup, cream of, prepared with milk",8.41,2.47,3.42,1.6,74.30000000000001,weight_loss,non_veg
@@ -5765,35 +5765,35 @@
 5763,vegetable soup,"vegetable soup, with pasta, chunky style",8.64,2.13,1.17,2.4,53.61,weight_loss,veg
 5764,vegetable broth,"vegetable broth, bouillon",0.93,0.24,0.07,0.0,5.31,weight_loss,veg
 5765,spinach,"spinach, creamed, baby food, strained",5.7,2.5,1.3,1.8,44.5,weight_loss,veg
-5766,broccoli,"broccoli, carrots and cheese, baby food, junior",8.84,2.77,2.18,1.8,66.06,weight_loss,non_veg
-5767,carrots,"carrots, baby food, ns as to strained or junior",6.6,0.8,0.15,1.7,30.95,weight_loss,non_veg
+5766,broccoli,"broccoli, carrots and cheese, baby food, junior",8.84,2.77,2.18,1.8,66.06,weight_loss,veg
+5767,carrots,"carrots, baby food, ns as to strained or junior",6.6,0.8,0.15,1.7,30.95,weight_loss,veg
 5768,carrots,"carrots, baby food, strained",6.0,0.8,0.1,1.7,28.099999999999998,weight_loss,veg
-5769,carrots,"carrots, baby food, junior",7.2,0.8,0.2,1.7,33.8,weight_loss,non_veg
+5769,carrots,"carrots, baby food, junior",7.2,0.8,0.2,1.7,33.8,weight_loss,veg
 5770,carrots,"carrots, baby food, toddler",5.23,0.6,0.3,2.3,26.02,weight_loss,veg
 5771,carrots and peas,"carrots and peas, baby food, strained",7.18,2.04,0.26,1.8,39.22,weight_loss,veg
-5772,squash,"squash, baby food, ns as to strained or junior",5.73,0.81,0.2,0.9,27.960000000000004,weight_loss,non_veg
+5772,squash,"squash, baby food, ns as to strained or junior",5.73,0.81,0.2,0.9,27.960000000000004,weight_loss,veg
 5773,squash,"squash, baby food, strained",5.73,0.81,0.2,0.9,27.960000000000004,weight_loss,veg
-5774,squash,"squash, baby food, junior",5.73,0.81,0.2,0.9,27.960000000000004,weight_loss,non_veg
+5774,squash,"squash, baby food, junior",5.73,0.81,0.2,0.9,27.960000000000004,weight_loss,veg
 5775,squash and corn,"squash and corn, baby food, strained",9.26,2.0,0.6,2.0,50.44,weight_loss,veg
 5776,corn and sweet potatoes,"corn and sweet potatoes, baby food, strained",15.23,1.26,0.28,1.8,68.48,weight_loss,veg
-5777,sweet potatoes,"sweet potatoes, baby food, ns as to strained or junior",13.6,1.1,0.1,1.5,59.699999999999996,weight_loss,non_veg
+5777,sweet potatoes,"sweet potatoes, baby food, ns as to strained or junior",13.6,1.1,0.1,1.5,59.699999999999996,weight_loss,veg
 5778,sweet potatoes,"sweet potatoes, baby food, strained",13.2,1.1,0.1,1.5,58.099999999999994,weight_loss,veg
-5779,sweet potatoes,"sweet potatoes, baby food, junior",14.0,1.1,0.1,1.5,61.3,weight_loss,non_veg
-5780,beans,"beans, green string, baby food, ns as to strained or junior",6.04,1.2,0.14,2.0,30.220000000000002,weight_loss,non_veg
+5779,sweet potatoes,"sweet potatoes, baby food, junior",14.0,1.1,0.1,1.5,61.3,weight_loss,veg
+5780,beans,"beans, green string, baby food, ns as to strained or junior",6.04,1.2,0.14,2.0,30.220000000000002,weight_loss,veg
 5781,beans,"beans, green string, baby food, strained",6.29,1.2,0.17,2.2,31.490000000000002,weight_loss,veg
-5782,beans,"beans, green string, baby food, junior",5.8,1.2,0.1,1.9,28.9,weight_loss,non_veg
+5782,beans,"beans, green string, baby food, junior",5.8,1.2,0.1,1.9,28.9,weight_loss,veg
 5783,beans,"beans, green string, baby food, toddler",5.7,1.2,0.2,1.3,29.400000000000002,weight_loss,veg
 5784,green beans and potatoes,"green beans and potatoes, baby food, strained",9.0,2.2,1.9,1.4,61.89999999999999,weight_loss,veg
 5785,beets,"beets, baby food, strained",7.7,1.3,0.1,1.9,36.9,weight_loss,veg
-5786,corn,"corn, creamed, baby food, ns as to strained or junior",15.18,1.4,0.4,2.1,69.91999999999999,weight_loss,non_veg
+5786,corn,"corn, creamed, baby food, ns as to strained or junior",15.18,1.4,0.4,2.1,69.91999999999999,weight_loss,veg
 5787,corn,"corn, creamed, baby food, strained",14.1,1.4,0.4,2.1,65.6,weight_loss,veg
-5788,corn,"corn, creamed, baby food, junior",16.25,1.4,0.4,2.1,74.19999999999999,weight_loss,non_veg
-5789,mixed vegetables,"mixed vegetables, garden vegetables, baby food, ns as to strained or junior",7.5,1.85,0.3,1.5,40.1,weight_loss,non_veg
+5788,corn,"corn, creamed, baby food, junior",16.25,1.4,0.4,2.1,74.19999999999999,weight_loss,veg
+5789,mixed vegetables,"mixed vegetables, garden vegetables, baby food, ns as to strained or junior",7.5,1.85,0.3,1.5,40.1,weight_loss,veg
 5790,mixed vegetables,"mixed vegetables, garden vegetables, baby food, strained",7.88,1.01,0.11,1.0,36.550000000000004,weight_loss,veg
-5791,mixed vegetables,"mixed vegetables, garden vegetables, baby food, junior",8.2,1.4,0.4,1.5,42.0,weight_loss,non_veg
-5792,peas,"peas, baby food, ns as to strained or junior",8.36,3.27,0.43,2.0,50.38999999999999,weight_loss,non_veg
+5791,mixed vegetables,"mixed vegetables, garden vegetables, baby food, junior",8.2,1.4,0.4,1.5,42.0,weight_loss,veg
+5792,peas,"peas, baby food, ns as to strained or junior",8.36,3.27,0.43,2.0,50.38999999999999,weight_loss,veg
 5793,peas,"peas, baby food, strained",8.36,3.27,0.43,2.0,50.38999999999999,weight_loss,veg
-5794,peas,"peas, baby food, junior",8.36,3.27,0.43,2.0,50.38999999999999,weight_loss,non_veg
+5794,peas,"peas, baby food, junior",8.36,3.27,0.43,2.0,50.38999999999999,weight_loss,veg
 5795,peas,"peas, baby food, toddler",10.3,3.9,0.8,3.9,64.0,weight_loss,veg
 5796,potatoes,"potatoes, baby food, toddler",11.73,1.0,0.1,0.9,51.82,weight_loss,veg
 5797,vegetables and rice,"vegetables and rice, baby food, strained",12.1,1.9,1.5,1.1,69.5,weight_loss,veg
@@ -5817,8 +5817,8 @@
 5815,cassava fritter stuffed with crab meat,"cassava fritter stuffed with crab meat, puerto rican style",30.21,8.99,12.48,1.7,269.12,maintenance,non_veg
 5816,stuffed tannier fritters,"stuffed tannier fritters, puerto rican style",19.67,11.62,29.17,2.4,387.69000000000005,general,veg
 5817,puerto rican pasteles,puerto rican pasteles,17.44,7.09,13.2,2.3,216.92000000000002,general,veg
-5818,stuffed cabbage,"stuffed cabbage, with meat, puerto rican style",8.2,9.51,15.86,2.4,213.58,general,non_veg
-5819,stuffed cabbage,"stuffed cabbage, with meat and rice, syrian dish, puerto rican style",10.81,3.23,3.29,1.8,85.77000000000001,weight_loss,non_veg
+5818,stuffed cabbage,"stuffed cabbage, with meat, puerto rican style",8.2,9.51,15.86,2.4,213.58,general,veg
+5819,stuffed cabbage,"stuffed cabbage, with meat and rice, syrian dish, puerto rican style",10.81,3.23,3.29,1.8,85.77000000000001,weight_loss,veg
 5820,eggplant and meat casserole,eggplant and meat casserole,4.66,7.13,5.49,1.5,96.57,general,non_veg
 5821,spanish stew,spanish stew,8.04,6.48,2.76,1.6,82.91999999999999,weight_loss,veg
 5822,puerto rican stew,puerto rican stew,14.15,7.75,6.61,1.7,147.09,general,veg
@@ -6285,7 +6285,7 @@
 6283,tea,"tea, hot, herbal",0.2,0.0,0.0,0.0,0.8,weight_loss,veg
 6284,tea,"tea, hot, hibiscus",0.0,0.0,0.0,0.0,0.0,weight_loss,veg
 6285,corn beverage,corn beverage,9.4,0.84,0.21,0.5,42.85,weight_loss,veg
-6286,tea,"tea, hot, chamomile",0.2,0.0,0.0,0.0,0.8,weight_loss,non_veg
+6286,tea,"tea, hot, chamomile",0.2,0.0,0.0,0.0,0.8,weight_loss,veg
 6287,tea,"tea, hot, chai, with milk",8.97,1.58,0.98,0.1,51.02,weight_loss,veg
 6288,tea,"tea, iced, instant, black, unsweetened, dry",58.66,20.21,0.0,8.5,315.48,gain,veg
 6289,tea,"tea, iced, instant, black, pre-sweetened, dry",98.55,0.12,0.73,0.7,401.25,general,veg

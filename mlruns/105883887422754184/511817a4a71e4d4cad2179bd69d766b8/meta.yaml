@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/105883887422754184/511817a4a71e4d4cad2179bd69d766b8/artifacts
+end_time: 1752238478755
+entry_point_name: ''
+experiment_id: '105883887422754184'
+lifecycle_stage: active
+run_id: 511817a4a71e4d4cad2179bd69d766b8
+run_name: bittersweet-crow-307
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752238475468
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

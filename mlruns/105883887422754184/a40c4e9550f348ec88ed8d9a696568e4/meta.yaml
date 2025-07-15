@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/105883887422754184/a40c4e9550f348ec88ed8d9a696568e4/artifacts
+end_time: 1752238488098
+entry_point_name: ''
+experiment_id: '105883887422754184'
+lifecycle_stage: active
+run_id: a40c4e9550f348ec88ed8d9a696568e4
+run_name: clumsy-fish-417
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752238483473
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

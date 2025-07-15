@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/105883887422754184/b1572a4d49f749938adafc2e4e139a2b/artifacts
+deleted_time: 1752238445085
 end_time: 1752234862152
 entry_point_name: ''
 experiment_id: '105883887422754184'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b1572a4d49f749938adafc2e4e139a2b
 run_name: peaceful-foal-242
 source_name: ''

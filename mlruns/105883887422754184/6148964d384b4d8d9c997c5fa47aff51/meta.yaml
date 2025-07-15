@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/105883887422754184/6148964d384b4d8d9c997c5fa47aff51/artifacts
+deleted_time: 1752238445108
 end_time: 1752234848592
 entry_point_name: ''
 experiment_id: '105883887422754184'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6148964d384b4d8d9c997c5fa47aff51
 run_name: clumsy-grub-237
 source_name: ''

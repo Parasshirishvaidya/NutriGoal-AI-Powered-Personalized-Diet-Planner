@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/105883887422754184/ebf32d11e7214afba45913f570580e6b/artifacts
+deleted_time: 1752238445100
 end_time: 1752234854788
 entry_point_name: ''
 experiment_id: '105883887422754184'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ebf32d11e7214afba45913f570580e6b
 run_name: traveling-kit-215
 source_name: ''

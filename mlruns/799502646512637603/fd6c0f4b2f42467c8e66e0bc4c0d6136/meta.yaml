@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/799502646512637603/fd6c0f4b2f42467c8e66e0bc4c0d6136/artifacts
+deleted_time: 1752238439117
 end_time: 1752234896198
 entry_point_name: ''
 experiment_id: '799502646512637603'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: fd6c0f4b2f42467c8e66e0bc4c0d6136
 run_name: Random Forest Regressor
 source_name: ''

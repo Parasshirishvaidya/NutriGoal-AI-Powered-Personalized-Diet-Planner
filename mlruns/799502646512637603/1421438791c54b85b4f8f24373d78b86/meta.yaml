@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/799502646512637603/1421438791c54b85b4f8f24373d78b86/artifacts
+deleted_time: 1752238439118
 end_time: 1752234900154
 entry_point_name: ''
 experiment_id: '799502646512637603'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1421438791c54b85b4f8f24373d78b86
 run_name: XGBRegressor
 source_name: ''

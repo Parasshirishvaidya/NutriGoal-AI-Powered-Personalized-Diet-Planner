@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/799502646512637603/dee3fc7b1cd145b38cd8f87ce883ae30/artifacts
+deleted_time: 1752238439116
 end_time: 1752234908061
 entry_point_name: ''
 experiment_id: '799502646512637603'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: dee3fc7b1cd145b38cd8f87ce883ae30
 run_name: AdaBoost Regressor
 source_name: ''

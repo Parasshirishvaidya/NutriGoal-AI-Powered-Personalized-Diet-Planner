@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/799502646512637603/39be2cc579964b7e88a78ce50bc22bc8/artifacts
+end_time: 1752238503582
+entry_point_name: ''
+experiment_id: '799502646512637603'
+lifecycle_stage: active
+run_id: 39be2cc579964b7e88a78ce50bc22bc8
+run_name: Lasso
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752238500456
+status: 3
+tags: []
+user_id: Paras Shirish Vaidya

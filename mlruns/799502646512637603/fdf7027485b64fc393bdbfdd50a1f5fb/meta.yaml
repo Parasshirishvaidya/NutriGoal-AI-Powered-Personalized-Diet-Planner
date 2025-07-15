@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/799502646512637603/fdf7027485b64fc393bdbfdd50a1f5fb/artifacts
+deleted_time: 1752238439116
 end_time: 1752234904685
 entry_point_name: ''
 experiment_id: '799502646512637603'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: fdf7027485b64fc393bdbfdd50a1f5fb
 run_name: CatBoosting Regressor
 source_name: ''

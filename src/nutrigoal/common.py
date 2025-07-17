@@ -52,3 +52,103 @@ def evaluate_models(X_train,y_train,X_test,y_test,models,params):
         return report,best_model_param,best_model
     except Exception as e:
         raise CustomException(e,sys)
+
+def load_object(file_path):
+    try:
+        with open(file_path,"rb") as file_obj:
+            return pickle.load(file_obj)
+    except Exception as e:
+        raise CustomException(e,sys)
+    
+def calculate_macros(weight,height,goal,diet_type,age,gender,activity_level):
+
+    """
+    Calculate daily calorie and macronutrient requirements based on user profile and goal.
+
+    Scientific Basis:
+    - BMR (Basal Metabolic Rate) is calculated using the Mifflin-St Jeor Equation.
+    - TDEE (Total Daily Energy Expenditure) is derived from BMR and activity level.
+    - Calories are adjusted based on fitness goal.
+    - Protein and fat requirements are goal-specific (in g/kg body weight).
+    - Remaining calories are allotted to carbohydrates.
+    - Fiber is fixed to a general healthy intake.
+
+    Parameters:
+        weight (float): Weight in kilograms.
+        height (float): Height in centimeters.
+        goal (str): One of ['gain', 'weight_loss', 'lean_protein', 'maintenance', 'general'].
+        diet_type (str): User's diet preference (currently unused, placeholder for future).
+        age (int): Age in years.
+        gender (str): 'male' or 'female'.
+        activity_level (str): One of ['sedentary', 'light', 'moderate', 'active', 'very_active'].
+
+    Returns:
+        dict: {
+            "calories": Total daily calories,
+            "protein": Grams of protein per day,
+            "fat": Grams of fat per day,
+            "carbs": Grams of carbs per day,
+            "fiber": Grams of fiber (fixed at 25g)
+        }
+    """
+    
+    if gender.lower() == "male":
+        bmr = 10 * weight + 6.25 * height - 5 * age +5
+    else:
+        bmr = 10 * weight + 6.25 * height - 5 * age - 161
+
+    # Apply activity Multiplier to get TDEE
+    activity_multipliers = {
+         "sedentary": 1.2,
+        "light": 1.375,
+        "moderate": 1.55,
+        "active": 1.725,
+        "very_active": 1.9
+    } 
+    tdee = bmr * activity_multipliers.get(activity_level.lower(), 1.2)
+
+    # Adjust Calories based on goal
+    if goal == "gain":
+        calories = tdee + 300
+        protein = 1.8 * weight
+        fat = 1.0 * weight
+    elif goal == "weight_loss":
+        calories = tdee - 500
+        protein = 2.2 * weight
+        fat = 0.6 * weight
+    elif goal == "lean_protein":
+        calories = tdee + 100
+        protein = 2.5 * weight
+        fat = 0.6 * weight
+    elif goal == "maintenance":
+        calories = tdee
+        protein = 1.6 * weight
+        fat = 0.8 * weight 
+    else:
+        calories = tdee
+        protein = 1.6 * weight
+        fat = 0.8 * weight
+    
+    protein_cals = protein * 4
+    fat_cals = fat * 9
+
+    # Remaining Calories go to carbs
+    carbs = (calories-(protein_cals+fat_cals))/4
+
+    fiber = 25
+
+    return {
+        "calories": round(calories, 2),
+        "protein": round(protein, 2),
+        "fat": round(fat, 2),
+        "carbs": round(carbs, 2),
+        "fiber": fiber
+    }
+
+
+
+def compute_serving(food,target_macro,macro_key):
+    if food[macro_key] <= 0:
+        return 0
+    grams_needed = (target_macro/food[macro_key]) * 100
+    return round(grams_needed,1)

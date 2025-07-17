@@ -29,12 +29,13 @@ class DataTransformation:
             scaler = StandardScaler()
             num_cols = ["carbs","protein","fat","fiber","calories"]
             df[num_cols] = scaler.fit_transform(df[num_cols])
-
+            save_object(file_path="artifacts/scaler.pkl",obj=scaler)
             le_goal = LabelEncoder()
             le_diet = LabelEncoder()
             df["goal_tag"] = le_goal.fit_transform(df["goal_tag"])
             df["diet_type"] = le_diet.fit_transform(df["diet_type"])
-
+            save_object(file_path="artifacts/le_goal.pkl",obj=le_goal)
+            save_object(file_path="artifacts/le_diet.pkl",obj=le_diet)
             df["match_score"] = df.apply(simulate_match_score, axis=1)
             X = df[["carbs","protein","fat","fiber","calories","goal_tag","diet_type"]]
             y = df["match_score"]

@@ -1,0 +1,101 @@
+import os
+import sys
+import pandas as pd
+import numpy as np
+
+from src.nutrigoal.exception import CustomException
+from src.nutrigoal.logger import logging
+from src.nutrigoal.common import load_object
+from src.nutrigoal.common import calculate_macros
+from predict_pipeline    
+
+class PredictPipeline:
+    def __init__(self):
+        self.scaler = load_object("artifacts/scaler.pkl")
+        self.le_diet = load_object("artifacts/le_diet.pkl")
+        self.le_goal = load_object("artifacts/le_goal.pkl")
+        self.model = load_object("artifacts/model.pkl")
+        self.df = pd.read_csv("src/nutrigoal/datasets/transformed_dataset.csv")
+
+    def predict(self,data:dict):
+        try:
+            weight = data["weight"]
+            height = data["height"]
+            age = data["age"]
+            gender = data["gender"]
+            goal = data["goal"]
+            diet_type = data["diet_type"]
+            activity_level = data["activity_level"]  
+
+            user_macros = calculate_macros(
+                weight=weight,height=height,goal=goal,diet_type=diet_type,age=age,gender=gender,activity_level=activity_level
+            )
+
+            num_features = ["carbs","protein","fat","fiber","calories"]
+            X_user = pd.DataFrame([user_macros])[num_features]
+            X_scaled = self.scaler.transform(X_user)
+
+            goal_encoded = self.le_goal.transform([goal])[0]
+            diet_encoded = self.le_diet.transform([diet_type])[0]
+
+            X_final = np.hstack([X_scaled[0],goal_encoded,diet_encoded]).reshape(1,-1)
+            
+            df_features = self.df[["carbs","protein","fat","fiber","calories","goal_tag","diet_type"]]
+            X_all_final = df_features.to_numpy()
+            predictions = self.model.predict(X_all_final)
+            self.df["predicted_score"] = predictions
+
+            filtered_df = self.df[
+                (self.df["goal_tag"] == goal_encoded) &
+                (self.df["diet_type"] == diet_encoded)
+            ]
+
+            top_carbs_raw = (
+                filtered_df.sort_values(["carbs","predicted_score"], ascending=[False, False])
+                .head(10)
+                .copy()
+                )
+            carb_scaled_features = top_carbs_raw[["carbs","protein","fat","fiber","calories"]]
+            carb_unscaled = self.scaler.inverse_transform(carb_scaled_features)
+            carbs_unscaled_df = pd.DataFrame(carb_unscaled,columns=["carbs","protein","fat","fiber","calories"])
+            top_carbs = pd.concat(
+                [top_carbs_raw[["Description","predicted_score"]].reset_index(drop=True),carbs_unscaled_df[["carbs","calories"]]],axis=1
+            )
+            
+
+            top_protein_raw = (
+                filtered_df.sort_values(["protein","predicted_score"], ascending=[False,False])
+                .head(10)
+                .copy()
+            )
+            protein_scaled_features = top_protein_raw[["carbs", "protein", "fat", "fiber", "calories"]]
+            protein_unscaled = self.scaler.inverse_transform(protein_scaled_features)
+            protein_unscaled_df = pd.DataFrame(protein_unscaled, columns=["carbs", "protein","fat","fiber", "calories"])
+            top_protein = pd.concat(
+                [top_protein_raw[["Description", "predicted_score"]].reset_index(drop=True), protein_unscaled_df[["protein","calories"]]],
+                axis=1
+                )
+
+
+            top_fat_raw = (
+                filtered_df.sort_values(["fat","predicted_score"],ascending=[False,False])
+                .head(10)
+                .copy()
+            )
+            fat_scaled_features = top_fat_raw[["carbs", "protein", "fat", "fiber", "calories"]]      
+            fat_unscaled = self.scaler.inverse_transform(fat_scaled_features)
+            fat_unscaled_df = pd.DataFrame(fat_unscaled, columns=["carbs", "protein", "fat", "fiber", "calories"])
+            top_fat = pd.concat(
+                [top_fat_raw[["Description", "predicted_score"]].reset_index(drop=True), fat_unscaled_df[["fat","calories"]]],
+                axis=1
+                )
+
+            return {
+                "User Calories" : user_macros["calories"],
+                "Top Carbs Sources" : top_carbs.reset_index(drop=True),
+                "Top Protein Sources" : top_protein.reset_index(drop=True),
+                "Top Fat Sources" : top_fat.reset_index(drop=True) 
+            }
+        except Exception as e:
+            raise CustomException(e,sys)
+        

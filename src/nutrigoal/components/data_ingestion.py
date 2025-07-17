@@ -50,7 +50,7 @@ class DataIngestion:
             df_new["goal_tag"] = df_new.apply(assign_goal,axis=1)
              
             #adding veg or non_veg tag
-            df_new["diet_type"] = df_new["Category"].apply(get_food_type)
+            df_new["diet_type"] = df_new.apply(lambda row: get_food_type(row["Category"],row["Description"]),axis=1)
 
             #Entering new records
             veg_proteins = [
@@ -136,22 +136,24 @@ def assign_goal(row):
         return "general"
     
 #assiging VEG or NON-VEG type
-def get_food_type(desc):
-    desc = desc.lower()
-    if any(x in desc for x in [
-        "chicken","meat","pork","fish","squid","tuna",'whiting',"tilapia",'fish', 'salmon', 'tuna',
+def get_food_type(category,description):
+    category = str(category).lower()
+    description = str(description).lower()
+    
+    non_veg_keywords = [
+    "chicken","meat","pork","fish","squid","tuna",'whiting',"tilapia",'fish', 'salmon', 'tuna',
     'cod', 'haddock', 'mackerel', 'halibut', 'snapper', 'sardine', 'anchovy',
     'tilapia', 'bass', 'catfish', 'swordfish', 'trout', 'pollock', 'grouper', 'barramundi', 'bluefish',
     'herring', 'flounder', 'sole', 'shrimp', 'prawn', 'lobster', 'crab', 'crayfish', 'clam', 'mussel',
     'oyster', 'scallop', 'cockle', 'whelk', 'abalone', 'squid', 'octopus', 'cuttlefish', 'eel', 'uni',
     'sea urchin', 'sea cucumber', 'jellyfish',"turtle","ocean perch","perch","pike","porgy","mullet",
     "frog legs","goat","ham","bison","moose","turkey","croaker","canadian bacon","frankfurter or hot dog",
-    " venison/deer steak","wild pig","cornish game hen","kidney","venison or deer with tomato-based sauce",
-    "venison or deer with gravy","venison/deer steak","gizzard"
-    ]):
-        return 'non_veg'
-    
+    " venison/deer steak","wild pig","cornish game hen","kidney","venison or deer with tomato-based sauce","venison or deer with gravy","venison/deer steak","gizzard","steak","beef","egg"
+    ]
+
+    combined_text = category+" "+description
+
+    if any(word in combined_text for word in non_veg_keywords):
+        return "non_veg"
     else:
         return "veg"
-
-

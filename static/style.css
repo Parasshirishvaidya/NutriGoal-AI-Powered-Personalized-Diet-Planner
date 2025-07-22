@@ -1,0 +1,75 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.calories {
+  text-align: center;
+  font-size: 1.4em;
+  margin-bottom: 40px;
+  color: #34495e;
+}
+
+.calories span {
+  font-weight: bold;
+  color: #e67e22;
+}
+
+.meals-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.meal-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  width: 280px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.meal-card:hover {
+  transform: scale(1.03);
+}
+
+.meal-card h3 {
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.meal-card ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.meal-card li {
+  margin-bottom: 15px;
+  font-size: 0.95em;
+}
+
+.details {
+  display: block;
+  color: #555;
+  font-size: 0.85em;
+  margin-top: 4px;
+  line-height: 1.5;
+}

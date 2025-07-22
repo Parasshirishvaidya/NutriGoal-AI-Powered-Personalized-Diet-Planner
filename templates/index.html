@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NutriGoal - AI Diet Planner</title>
+  <style>
+    .popup {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    .popup-content {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      text-align: center;
+    }
+    .popup-btn {
+      margin-top: 15px;
+      padding: 8px 20px;
+      background-color: #2ecc71;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .container {
+      padding: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+    .btn {
+      padding: 10px 15px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Welcome Popup -->
+  <div class="popup" id="welcomePopup">
+    <div class="popup-content">
+      <p class="popup-text">
+        Welcome to NutriGoal! Please fill out all fields accurately for the best personalized diet plan.
+      </p>
+      <button class="popup-btn" id="closePopupBtn">OK</button>
+    </div>
+  </div>
+
+  <!-- Main Form -->
+  <div class="container">
+    <header>
+      <h1>NutriGoal - AI-Powered Personalized Diet Planner</h1>
+      <p class="description">
+        Customize your perfect diet plan with AI-powered precision tailored to your unique needs and goals.
+      </p>
+    </header>
+
+    <div class="form-container">
+      <form id="dietPlanForm" action="/" method ="POST">
+        <div class="form-group">
+          <label for="weight">Body Weight (kg)</label>
+          <input type="number" id="weight" name="weight" step="0.1" min="30" max="200" step="0.01" required>
+        </div>
+
+        <div class="form-group">
+          <label for="height">Height (cm)</label>
+          <input type="number" id="height" name="height" min="100" max="250" step="0.01" required>
+        </div>
+
+        <div class="form-group">
+          <label for="age">Age (years)</label>
+          <input type="number" id="age" name="age" min="10" max="120" required>
+        </div>
+
+        <div class="form-group">
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender" required>
+            <option value="" disabled selected>Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="goal">Your Goal</label>
+          <select id="goal" name="goal" required>
+            <option value="" disabled selected>Select your goal</option>
+            <option value="gain">Weight Gain</option>
+            <option value="weight_loss">Weight Loss</option>
+            <option value="lean_protein">Lean Muscle  Gain</option>
+            <option value="maintenance">Maintain weight</option>
+            <option value="general">General Fitness</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="diet">Diet Type</label>
+          <select id="diet" name="diet_type" required>
+            <option value="" disabled selected>Select your diet type</option>
+            <option value="veg">Vegetarian</option>
+            <option value="non_veg">Non-Vegetarian</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="activity">Activity Level</label>
+          <select id="activity" name="activity_level" required>
+            <option value="" disabled selected>Select your activity level</option>
+            <option value="sedentary">Sedentary (little or no exercise)</option>
+            <option value="light">Light (exercise 1-3 days/week)</option>
+            <option value="moderate">Moderate (exercise 3-5 days/week)</option>
+            <option value="active">Active (exercise 6-7 days/week)</option>
+            <option value="very_active">Very Active (hard exercise 6-7 days/week)</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn">Generate Diet Plan</button>
+      </form>
+    </div>
+  </div>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const popup = document.getElementById('welcomePopup');
+    const closeBtn = document.getElementById('closePopupBtn');
+    const form = document.getElementById('dietPlanForm');
+
+    // Show welcome popup once on page load
+    popup.style.display = 'flex';
+
+    // Close popup when button is clicked
+    closeBtn.addEventListener('click', function () {
+      popup.style.display = 'none';
+    });
+
+    // Let form submit normally — no JS blocking
+  });
+</script>
+
+</body>
+</html>

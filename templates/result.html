@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Personalized Diet Plan</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Your Personalized Diet Plan</h1>
+    <h2 class="calories">Recommended Calorie Intake: <span>{{ calories }}</span></h2>
+
+    <div class="meals-container">
+      {% for meal in recommendation %}
+        <div class="meal-card">
+          <h3>Meal {{ meal['meal_number'] }}</h3>
+          <ul>
+            {% for item in meal['items'] %}
+              <li>
+                <strong>{{ item['Target'] }}:</strong> {{ item['Name'] }}<br>
+                <span class="details">
+                  Serving Size: {{ item['Serving Size'] }}g<br>
+                  Calories: {{ item.get('per_100g_macros', {}).get('calories', item.get('per 100gm macros', {}).get('calories', 'N/A')) }} |
+                  Carbs: {{ item.get('per_100g_macros', {}).get('carbs', item.get('per 100gm macros', {}).get('carbs', 'N/A')) }}g |
+                  Protein: {{ item.get('per_100g_macros', {}).get('protein', item.get('per 100gm macros', {}).get('protein', 'N/A')) }}g |
+                  Fat: {{ item.get('per_100g_macros', {}).get('fat', item.get('per 100gm macros', {}).get('fat', 'N/A')) }}g
+                </span>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</body>
+</html>
